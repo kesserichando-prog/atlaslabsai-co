@@ -1,0 +1,161 @@
+{
+  "prospect": "Precision Metal Products LLC",
+  "slug": "precision-metal-products",
+  "website": "https://precisionmetalproductsllc.com/",
+  "trustScoreBreakdown": {
+    "totalScore": 58,
+    "components": {
+      "websiteQuality": {
+        "score": 6,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Basic website structure, functional but outdated appearance",
+          "Simple navigation with core sections (Home, About, Services, Contact)",
+          "Mobile responsive but basic design",
+          "Forms available for quotes but minimal interactivity",
+          "No modern features (chat, dynamic pricing, customer portal)",
+          "Clean but generic design lacking brand personality",
+          "Fast page loads (simple site)",
+          "Photo gallery shows equipment and work",
+          "No blog or content marketing",
+          "No social media links prominently displayed"
+        ],
+        "sources": ["https://precisionmetalproductsllc.com/"],
+        "notes": "Functional but basic website indicates limited investment in digital presence. This is typical for small fab shops and presents an opportunity - they're not heavily invested in tech yet."
+      },
+      "reviews": {
+        "score": 5,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "No Google reviews visible in search results",
+          "No Yelp listing prominently found",
+          "No review count available on website",
+          "No testimonials section on main pages",
+          "Limited social proof online",
+          "Business likely exists (established 2012 with equipment and location)",
+          "No negative reviews visible either"
+        ],
+        "sources": ["Google search, website exploration"],
+        "notes": "Very limited review visibility. This is concerning as it suggests either few customers or poor online reputation management. However, small B2B fabrication shops often rely on word-of-mouth and repeat business rather than online reviews."
+      },
+      "socialPresence": {
+        "score": 3,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "No social media links visible on website",
+          "No LinkedIn page easily found",
+          "No Facebook or Instagram presence visible",
+          "No content or thought leadership online",
+          "Limited digital footprint beyond website",
+          "No company videos or media",
+          "B2B nature of business reduces social media importance"
+        ],
+        "sources": ["Website and search exploration"],
+        "notes": "Very weak social presence. For B2B manufacturing, this is less critical but still an opportunity. They're not building brand awareness online, which limits new customer acquisition."
+      },
+      "industryConversionRate": {
+        "score": 15,
+        "maxScore": 25,
+        "weight": "25%",
+        "evidence": [
+          "Manufacturing/custom fabrication has medium conversion rates",
+          "B2B sales typically 10-20% conversion from qualified leads",
+          "High lifetime value per customer (repeat orders common)",
+          "Longer sales cycles for custom work but higher deal values",
+          "Technical nature requires consultative approach (human + automation)",
+          "Fabrication customers often reorder annually or quarterly",
+          "Custom jobs have high value but require relationship building",
+          "Industry fragmentation creates opportunity for specialized automation"
+        ],
+        "sources": ["Industry knowledge: B2B manufacturing conversion patterns"],
+        "notes": "Medium conversion rate is typical for this industry. The key is customer lifetime value - once you win a customer, they often order repeatedly. Automation helps maintain those relationships."
+      },
+      "competitorSaturation": {
+        "score": 12,
+        "maxScore": 15,
+        "weight": "15%",
+        "evidence": [
+          "Several large fab shops in Phoenix with advanced systems",
+          "National chains (FabTech) compete on scale",
+          "Some automation consultants target manufacturing",
+          "Most small shops remain underserved by automation",
+          "Shop management software vendors (JobBOSS, E2) exist but are expensive for small shops",
+          "Local competition for automation services is moderate",
+          "Large competitors have IT departments but serve larger accounts",
+          "Many small shops still entirely manual - untapped market"
+        ],
+        "sources": ["Market analysis of Phoenix fabrication automation landscape"],
+        "notes": "Good opportunity. Large shops are automated, small shops aren't. Medium competition means you have room to differentiate with right-sized solutions for 10-20 employee shops."
+      },
+      "clearPositioning": {
+        "score": 10,
+        "maxScore": 20,
+        "weight": "20%",
+        "evidence": [
+          "Veteran-owned business (Marine Corps connection)",
+          "Family-owned and operated",
+          "Mission of 'Made in America' products",
+          "70+ years combined experience message",
+          "Core values referenced (excellence, quality)",
+          "Target customers aren't explicitly defined",
+          "Value prop is generic: 'one stop shop for precision sheet metal'",
+          "No clear differentiation from other fab shops",
+          "Website doesn't communicate unique advantages strongly",
+          "Positioning is traditional craftsmanship focused, not modern/efficient"
+        ],
+        "sources": [
+          "https://precisionmetalproductsllc.com/",
+          "https://precisionmetalproductsllc.com/about-us/"
+        ],
+        "notes": "Weak positioning. Veteran and family-owned are good stories but not unique. They don't clearly communicate why a customer should choose them over competitors. Automation could be part of a stronger positioning (quality + efficiency)."
+      },
+      "effortScore": {
+        "score": 7,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Public phone number available: (480) 699-5037",
+          "Physical address listed on website",
+          "Small family business - owner likely accessible",
+          "Decision-maker appears to be Thomas P. Grady (owner)",
+          "No automated gatekeepers visible",
+          "Contact form on website for inquiries",
+          "Small shop size means direct access to owner",
+          "No evidence of middle management layers"
+        ],
+        "sources": [
+          "https://precisionmetalproductsllc.com/",
+          "https://precisionmetalproductsllc.com/about-us/"
+        ],
+        "notes": "Good accessibility. Owner is likely directly involved in operations. Public contact info available. Small company means short decision chain."
+      }
+    }
+  },
+  "minimumThreshold": 50,
+  "assessment": "Prospect meets minimum Trust Score threshold (58 > 50). Recommended for outreach.",
+  "strengths": [
+    "Family-owned, short decision chain",
+    "Owner directly involved (feels pain of inefficiencies)",
+    "Industry has clear automation benefits",
+    "Publicly accessible",
+    " Veteran-owned may value efficiency and quality"
+  ],
+  "weaknesses": [
+    "Very limited online presence and social proof",
+    "No reviews visible",
+    "Basic website suggests limited tech investment",
+    "Generic positioning",
+    "Tight margins in manufacturing may limit budget"
+  ],
+  "redFlags": [
+    "No online reviews at all (no visibility into reputation)",
+    "Website is very basic (may not prioritize technology)",
+    "B2B nature may mean longer sales cycle",
+    "Possible resistance to change in small shop"
+  ],
+  "calculatedOn": "2026-02-25T12:15:00Z",
+  "methodology": "Trust Score formula: Website Quality (10) + Reviews (10) + Social Presence (10) + Industry Conversion Rate (25) + Competitor Saturation (15) + Clear Positioning (20) + Effort Score (10) = 100 points maximum"
+}

@@ -1,0 +1,169 @@
+{
+  "prospect": "Arizona Same Day Trucking",
+  "slug": "arizona-same-day-trucking",
+  "website": "https://arizonasamedaytrucking.com/",
+  "trustScoreBreakdown": {
+    "totalScore": 73,
+    "components": {
+      "websiteQuality": {
+        "score": 7,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Professional, clean design",
+          "Clear value proposition upfront (2-hour dispatch)",
+          "Well-organized service descriptions",
+          "Customer testimonials prominently displayed",
+          "Mobile responsive",
+          "Phone number prominently displayed (602) 557-0722",
+          "Clear calls to action (Call for 2-Hour Pickup)",
+          "Service area clearly defined",
+          "Fast page loads",
+          "Navigation is straightforward",
+          "No broken links or issues",
+          "Professional imagery and layout"
+        ],
+        "sources": ["https://arizonasamedaytrucking.com/"],
+        "notes": "Good website quality for this size company. Professional, clear, and functional. Indicates they value professional presentation which correlates with willingness to operational improvements."
+      },
+      "reviews": {
+        "score": 7,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "4 detailed customer testimonials on website (Melissa, Jim, Bob, Sam)",
+          "All testimonials are 5-star positive",
+          "Specific praise mentioned: professionalism, reliability, communication, on-time delivery",
+          "Melissa: 'outstanding experience from dispatch to delivery'",
+          "Jim: 'incredibly responsive, professional'",
+          "Bob: 'great team, owner is very hands on'",
+          "Sam: 'fast, efficient, incredibly reliable'",
+          "Mentions of tracking system (though may be manual)",
+          "No negative reviews visible",
+          "Testimonials appear genuine and detailed",
+          "Google/Yelp reviews not prominently linked"
+        ],
+        "sources": ["https://arizonasamedaytrucking.com/"],
+        "notes": "Strong testimonials on the website. The fact they publish detailed testimonials indicates pride in customer service. Focus on communication and reliability is a perfect foundation for automation."
+      },
+      "socialPresence": {
+        "score": 4,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "No social media links visible on website",
+          "No LinkedIn company page clearly linked",
+          "No Facebook, Instagram, Twitter presence visible",
+          "No evidence of active social media marketing",
+          "Focus appears to be on reputation through testimonials",
+          "Industry (trucking) typically has lower social presence",
+          "No blog or content marketing visible",
+          "No YouTube videos or media"
+        ],
+        "sources": ["Website exploration, search results"],
+        "notes": "Weak social presence, which is typical for regional trucking companies. However, they're not building brand awareness through social channels. Opportunity for automation-assisted social media or review automation."
+      },
+      "industryConversionRate": {
+        "score": 20,
+        "maxScore": 25,
+        "weight": "25%",
+        "evidence": [
+          "Logistics and transportation has high conversion rates for qualified leads",
+          "Customers need immediate service (urgent freight)",
+          "Once proven, shippers stay loyal to carriers (high retention)",
+          "High transaction frequency for commercial accounts",
+          "Decision making is operational/functional (not subjective)",
+          "Contract rates in trucking typically annual (long customer lifetime value)",
+          "Industry trend toward digital booking and tracking",
+          "Commoditized service at commodity level but customized at service level",
+          "Regional carriers need to compete on service, not just price"
+        ],
+        "sources": ["Industry knowledge: logistics sales conversion patterns"],
+        "notes": "High conversion opportunity. Customers in urgent freight need help now, not later. Once they find a reliable carrier, they keep using them. High lifetime value per customer."
+      },
+      "competitorSaturation": {
+        "score": 13,
+        "maxScore": 15,
+        "weight": "15%",
+        "evidence": [
+          "Several regional same-day carriers in Phoenix area",
+          "Phoenix Cargo LLC offers similar services",
+          "Northland Trucking (larger, multi-state)",
+          "National carriers (FedEx Custom Critical, UPS Freight) have advanced tech",
+          "Some logistics software vendors target small fleets (Samsara, KeepTruckin)",
+          "Local competition for automation services is moderate",
+          "Large carriers have in-house IT; small carriers underserved",
+          "Few automation consultants specifically targeting regional trucking",
+          "Fleet management software market has many options but is fragmented"
+        ],
+        "sources": ["Market analysis of Phoenix logistics automation landscape"],
+        "notes": "Good opportunity. Regional same-day carriers are an underserved market. Large carriers have advanced tech but higher prices, small carriers have low prices but manual service. Middle ground opportunity."
+      },
+      "clearPositioning": {
+        "score": 16,
+        "maxScore": 20,
+        "weight": "20%",
+        "evidence": [
+          "Clear value proposition: 'truck dispatched within 2 hours'",
+          "Focused on urgent freight and same-day delivery",
+          "24/7 service clearly communicated",
+          "TSA Certification mentioned for air cargo capabilities",
+          "Specific services defined (same-day, dedicated, dock freight)",
+          "Service area clearly defined (6+ states)",
+          "Target customer: businesses with urgent freight needs",
+          "Differentiation: speed + communication + reliability",
+          "Professional testimonials reinforce positioning",
+          "Website headline: 'When time is critical, trust our urgent freight delivery services'",
+          "Promise of 'on-time, every time'",
+          "Focus on customer experience (testimonials emphasize this)"
+        ],
+        "sources": ["https://arizonasamedaytrucking.com/"],
+        "notes": "Excellent positioning. Clear, specific, and focused on a specific need (urgent freight). Speed, reliability, and communication clearly positioned as differentiators. Automation enhances all of these."
+      },
+      "effortScore": {
+        "score": 6,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Public phone number: (602) 557-0722",
+          "Website has contact functionality",
+          "No clear decision-maker identified on website",
+          "Testimonials mention 'owner' and 'dispatchers' but no names",
+          "Small to mid-sized company (likely family-owned or small business)",
+          "24/7 operations may make initial contact harder",
+          "No automated gatekeepers visible",
+          "Contact form available for inquiries"
+        ],
+        "sources": ["https://arizonasamedaytrucking.com/"],
+        "notes": "Moderate accessibility. Public contact info available, but decision-maker not identified. 24/7 operations means they may not have regular office hours. Need to identify owner/operations manager."
+      }
+    }
+  },
+  "minimumThreshold": 50,
+  "assessment": "Prospect exceeds minimum Trust Score threshold (73 > 50). Strong candidate for outreach.",
+  "strengths": [
+    "Excellent customer testimonials (reputation to protect)",
+    "Clear value proposition (2-hour dispatch)",
+    "Professional website and presentation",
+    "Service-focused culture (communication emphasis)",
+    "Multi-state operations creates complexity to solve",
+    "Logistics industry understands operational efficiency",
+    "Focused positioning (urgent freight)"
+  ],
+  "weaknesses": [
+    "No social media presence",
+    "Decision-maker not publicly identified",
+    "May be busy with operations (24/7)",
+    "Limited online reputation beyond own testimonials",
+    "Tight margins in trucking industry may limit budget"
+  ],
+  "redFlags": [
+    "Tight industry margins (budget concerns)",
+    "24/7 operations may make implementation challenging",
+    "No decision-maker identified requires more research",
+    "Possible driver resistance to new systems",
+    "Implementation risk to live operations"
+  ],
+  "calculatedOn": "2026-02-25T12:25:00Z",
+  "methodology": "Trust Score formula: Website Quality (10) + Reviews (10) + Social Presence (10) + Industry Conversion Rate (25) + Competitor Saturation (15) + Clear Positioning (20) + Effort Score (10) = 100 points maximum"
+}

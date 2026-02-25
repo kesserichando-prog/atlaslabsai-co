@@ -1,0 +1,102 @@
+{
+  "company": "Precision Metal Products LLC",
+  "slug": "precision-metal-products",
+  "website": "https://precisionmetalproductsllc.com/",
+  "industry": "Manufacturing",
+  "subIndustry": "Metal Fabrication / Sheet Metal",
+  "location": {
+    "address": "1606 E. University Dr. Suite 104, Phoenix, AZ 85034",
+    "phone": "(480) 699-5037"
+  },
+  "size": {
+    "employeeRange": "5-15",
+    "estimatedEmployees": 8-12,
+    "estimatedRevenue": "$1M - $3M"
+  },
+  "founded": 2012,
+  "ownership": "Family-owned, Veteran-owned",
+  "services": [
+    "Sheet Metal Fabrication",
+    "CNC Press Brake Forming",
+    "Fiber Laser Cutting",
+    "Turret Punch Press",
+    "TIG & MIG Welding",
+    "Deburring & Edge Rounding",
+    "Drilling & Tapping",
+    "Design & Programming",
+    "Assembly Services"
+  ],
+  "industriesServed": [
+    "Lighting",
+    "Medical",
+    "Consumer",
+    "Aerospace",
+    "Various custom industries"
+  ],
+  "equipment": [
+    "State of the art fiber laser cutting",
+    "CNC press brake machines",
+    "Turret punch press",
+    "Certified welders (TIG, MIG)",
+    "CAD/CAM design capabilities"
+  ],
+  "painPoints": [
+    "Manual quoting for custom projects",
+    "Inventory tracking likely manual or Excel-based",
+    "Job scheduling and shop floor management",
+    "Design-to-production workflow",
+    "Customer communication and project updates",
+    "Quality control documentation",
+    "Materials procurement and inventory"
+  ],
+  "automationAngles": [
+    "Automated quoting system for standard fabrications",
+    "Shop floor management software with job tracking",
+    "Inventory management system for materials",
+    "Customer portal for project status updates",
+    "Automated design file processing (DXF/CAD to machine)",
+    "Quality control digital documentation",
+    "Procurement automation with suppliers",
+    "Sales CRM for follow-ups and repeat business"
+  ],
+  "trustScore": {
+    "websiteQuality": 6,
+    "websiteQualityNotes": "Basic website, functional but outdated, minimal interactivity",
+    "reviews": 5,
+    "reviewsNotes": "No public review volume found, limited social proof",
+    "socialPresence": 3,
+    "socialPresenceNotes": "Very limited online presence, no active social media",
+    "industryConversionRate": 15,
+    "industryConversionRateNotes": "Manufacturing - medium conversion, high lifetime value",
+    "competitorSaturation": 12,
+    "competitorSaturationNotes": "Medium competition for small shop automation",
+    "clearPositioning": 10,
+    "clearPositioningNotes": "Family-owned veteran business, but positioning is generic",
+    "effortScore": 7,
+    "effortScoreNotes": "Small family business, decision-maker likely owner, public contact info",
+    "totalScore": 58
+  },
+  "opportunityScore": 72,
+  "opportunityNotes": "Custom fabrication businesses have high complexity that benefits from automation. Family-owned shop likely has manual processes everywhere. Strong operational efficiency potential.",
+  "decisionMaker": {
+    "name": "Thomas P. Grady",
+    "role": "Owner",
+    "notes": "Patrick P. Grady founded in 2012, Thomas took over after Patrick's passing in 2020"
+  },
+  "contactInfo": {
+    "phone": "(480) 699-5037",
+    "address": "1606 E. University Dr. Suite 104, Phoenix, AZ 85034",
+    "website": "https://precisionmetalproductsllc.com/",
+    "email": "Not publicly listed on website"
+  },
+  "techStack": {
+    "website": "Static/basic CMS",
+    "crm": "Likely none or basic spreadsheet",
+    "design": "CAD/CAM for production, likely manual integration"
+  },
+  "researchDate": "2026-02-25",
+  "sources": [
+    "https://precisionmetalproductsllc.com/",
+    "https://precisionmetalproductsllc.com/about-us/"
+  ]
+}

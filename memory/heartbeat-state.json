@@ -20,10 +20,10 @@
   },
   "metrics": {
     "heartbeatsToday": 7,
-    "tasksCompleted": 12,
+    "tasksCompleted": 13,
     "alertCount": 0,
-    "scoutRuns": 5,
-    "prospectsFound": 6,
+    "scoutRuns": 6,
+    "prospectsFound": 10,
     "demosBuilt": 3,
     "contentCreated": 2,
     "skillsDiscovered": 10,
@@ -31,43 +31,93 @@
     "demosInProgress": 1
   },
   "scoutActivity": {
-    "lastRun": "2026-02-25T05:05:00Z",
+    "lastRun": "2026-02-25T05:10:00Z",
     "runId": "scout-2026-02-25-002",
-    "subagentSession": "agent:atlas:subagent:bb1806b5-9be3-49e1-9b05-e85280903328",
-    "status": "in_progress",
-    "focusIndustries": ["healthcare", "legal", "insurance", "manufacturing", "logistics"],
-    "previousRun": {
-      "runId": "scout-2026-02-25-001",
-      "status": "completed",
-      "runtime": "8m43s",
-      "prospectsFound": 4,
-      " prospects": [
-        {
-          "company": "Riggs Companies",
-          "industry": "Commercial Construction",
-          "trustScore": 72,
-          "uploaded": true
-        },
-        {
-          "company": "City Property Management",
-          "industry": "HOA Management",
-          "trustScore": 64,
-          "uploaded": true
-        },
-        {
-          "company": "BASC Expertise",
-          "industry": "Accounting/Tax",
-          "trustScore": 68,
-          "uploaded": true
-        },
-        {
-          "company": "The Mint Cannabis",
-          "industry": "Cannabis Dispensary",
-          "trustScore": 78,
-          "uploaded": true
-        }
-      ]
-    }
+    "subagentSession": "agent:atlas:subagent:07ed8daa-5504-49aa-a0a5-74712f7d920d",
+    "status": "completed",
+    "runtime": "10m8s",
+    "prospects": [
+      {
+        "company": "Riggs Companies",
+        "industry": "Commercial Construction",
+        "employees": "~57",
+        "trustScore": 72,
+        "opportunityScore": 80,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "City Property Management",
+        "industry": "HOA Management",
+        "employees": "150+",
+        "trustScore": 64,
+        "opportunityScore": 75,
+        "priority": "medium",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "BASC Expertise",
+        "industry": "Accounting/Tax",
+        "employees": 8,
+        "trustScore": 68,
+        "opportunityScore": 72,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "The Mint Cannabis",
+        "industry": "Cannabis Dispensary",
+        "employees": "201-500",
+        "trustScore": 78,
+        "opportunityScore": 85,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "Arizona Same Day Trucking",
+        "industry": "Logistics/Transportation",
+        "employees": "15-20",
+        "trustScore": 73,
+        "opportunityScore": 82,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "AZ Insurance Team",
+        "industry": "Insurance",
+        "employees": "5-10",
+        "trustScore": 71,
+        "opportunityScore": 78,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "MetzFab Industries",
+        "industry": "Manufacturing (Metal Fabrication)",
+        "employees": "20-25",
+        "trustScore": 66,
+        "opportunityScore": 76,
+        "priority": "medium",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "Precision Metal Products LLC",
+        "industry": "Manufacturing (Sheet Metal)",
+        "employees": "8-12",
+        "trustScore": 58,
+        "opportunityScore": 72,
+        "priority": "low",
+        "artifacts": 4,
+        "uploaded": true
+      }
+    ]
   },
   "skillsDiscovery": {
     "lastRun": "2026-02-25T05:08:00Z",

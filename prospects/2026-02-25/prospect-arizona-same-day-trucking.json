@@ -1,0 +1,94 @@
+{
+  "company": "Arizona Same Day Trucking",
+  "slug": "arizona-same-day-trucking",
+  "website": "https://arizonasamedaytrucking.com/",
+  "industry": "Logistics / Transportation",
+  "subIndustry": "Freight Dispatch / Courier Services",
+  "location": {
+    "address": "Phoenix/Scottsdale, AZ",
+    "phone": "(602) 557-0722",
+    "serviceArea": "Arizona, California, Utah, Colorado, Nevada, New Mexico, Texas"
+  },
+  "size": {
+    "employeeRange": "10-25",
+    "estimatedEmployees": 15-20,
+    "estimatedRevenue": "$1M - $2M"
+  },
+  "services": [
+    "Same Day Truckload",
+    "Dedicated Truck Service (non-stop)",
+    "Dock Freight Service",
+    "TSA Certified Freight",
+    "Urgent Freight Delivery",
+    "Palletized Freight",
+    "Time-Sensitive Shipments",
+    "24/7 Dispatch"
+  ],
+  "certifications": [
+    "TSA Certified",
+    "DOT Compliant",
+    "FAA Compliant (for air cargo)"
+  ],
+  "painPoints": [
+    "Manual dispatch coordination",
+    "Real-time tracking and customer updates",
+    "Driver scheduling and route optimization",
+    "Load booking and documentation",
+    "Customer communication during transit",
+    "Fleet management and maintenance scheduling",
+    "Invoicing and billing automation",
+    "Driver onboarding and paperwork"
+  ],
+  "automationAngles": [
+    "Automated dispatch software with GPS tracking",
+    "Customer portal for real-time shipment tracking",
+    "Automated load booking and confirmations",
+    "Route optimization software",
+    "Automated customer status notifications",
+    "Digitized proof of delivery",
+    "Automated invoicing and payment processing",
+    "Driver communication platform",
+    "Electronic logbook integration (ELD)",
+    "Fleet maintenance scheduling automation",
+    "Customer follow-up and request automation"
+  ],
+  "trustScore": {
+    "websiteQuality": 7,
+    "websiteQualityNotes": "Clean, informative website with clear value prop, professional design",
+    "reviews": 7,
+    "reviewsNotes": "Excellent customer testimonials on website (Melissa, Jim, Bob, Sam) - all highly positive",
+    "socialPresence": 4,
+    "socialPresenceNotes": "Limited social presence, focuses on reputation through testimonials",
+    "industryConversionRate": 20,
+    "industryConversionRateNotes": "Logistics - high conversion, customers need immediate service",
+    "competitorSaturation": 13,
+    "competitorSaturationNotes": "Medium competition for regional trucking automation",
+    "clearPositioning": 16,
+    "clearPositioningNotes": "Clear: urgent freight, 2-hour dispatch promise, 24/7 service",
+    "effortScore": 6,
+    "effortScoreNotes": "Public contact but no clear decision-maker identified",
+    "totalScore": 73
+  },
+  "opportunityScore": 82,
+  "opportunityNotes": "Excellent fit for automation. Dispatch-heavy operations with real-time service needs. Strong customer reputation but likely manual dispatch processes. Logistics industry understands operational efficiency.",
+  "decisionMaker": {
+    "name": "Not publicly identified",
+    "role": "Owner/Operations Manager",
+    "notes": "Testimonials mention specific dispatchers and drivers but not company leadership"
+  },
+  "contactInfo": {
+    "phone": "(602) 557-0722",
+    "address": "Phoenix/Scottsdale area",
+    "website": "https://arizonasamedaytrucking.com/",
+    "email": "Not publicly listed on website"
+  },
+  "techStack": {
+    "website": "Professional custom design",
+    "dispatch": "Likely manual phone-based",
+    "tracking": "No customer portal visible, likely manual status updates"
+  },
+  "researchDate": "2026-02-25",
+  "sources": [
+    "https://arizonasamedaytrucking.com/"
+  ]
+}

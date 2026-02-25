@@ -1,0 +1,125 @@
+{
+  "company": "MetzFab Industries",
+  "slug": "metzfab-industries",
+  "website": "https://metzfabindustries.com/",
+  "industry": "Manufacturing",
+  "subIndustry": "Custom Metal Fabrication / CNC Machining",
+  "location": {
+    "address": "23012 N 15th Ave, Phoenix, AZ 85027",
+    "phone": "(602) 539-9591",
+    "email": "sales@metzfab.com"
+  },
+  "size": {
+    "employeeRange": "15-30",
+    "estimatedEmployees": 20-25,
+    "estimatedRevenue": "$3M - $8M"
+  },
+  "services": [
+    "CNC Forming - Press Brake",
+    "CNC Mandrel Tube Bending",
+    "Deburring Services",
+    "CNC Saw Cutting",
+    "Laser Cutting Services",
+    "Tube Laser Cutting",
+    "Standard and 5-Axis Waterjet Cutting",
+    "CNC Machining",
+    "3D CAD CAM Design and Assemblies",
+    "TIG, MIG, ARC Welding and Fixturing",
+    "General Metal Fabrication",
+    "Precision Sheet Metal Work",
+    "Product Manufacturing and Assembly",
+    "Stainless Steel Fabrication",
+    "3D Scanning Arm",
+    "Laser Welding",
+    "Welding Robotic Cell"
+  ],
+  "industriesServed": [
+    "Aerospace (non-critical)",
+    "Oilfield",
+    "Military",
+    "Medical (non-internal)",
+    "Automotive and Motorcycle",
+    "Industrial",
+    "Utility companies",
+    "Truck and auto industry",
+    "Real estate companies"
+  ],
+  "equipment": [
+    "CNC Press Brake",
+    "CNC Mandrel Tube Benders",
+    "Deburring Systems",
+    "CNC Saws",
+    "Laser Cutters",
+    "Tube Laser Cutters",
+    "5-Axis Waterjet Cutting",
+    "CNC Machines",
+    "3D CAD/CAM Software",
+    "Various Welding Systems",
+    "3D Scanning Arm",
+    "Robotic Welding Cell"
+  ],
+  "painPoints": [
+    "Job scheduling across multiple advanced machines",
+    "Complex quoting for varied fabrication services",
+    "Shop floor coordination across diverse operations",
+    "Customer communication on multi-step projects",
+    "Inventory management for diverse materials",
+    "Equipment utilization and maintenance scheduling",
+    "Project management for complex assemblies",
+    "Document control for design revisions"
+  ],
+  "automationAngles": [
+    "Advanced shop management system with job tracking",
+    "Automated quoting engine for fabrication services",
+    "Real-time shop floor scheduling and optimization",
+    "Equipment utilization monitoring and scheduling",
+    "Project management for complex assemblies",
+    "Customer portal for project status and documents",
+    "Design workflow automation (CAD to production)",
+    "Inventory management for materials",
+    "Automated quality control documentation",
+    "Sales CRM for follow-ups and repeat business"
+  ],
+  "trustScore": {
+    "websiteQuality": 8,
+    "websiteQualityNotes": "Professional, modern website with excellent navigation, detailed services, portfolio, and testimonials",
+    "reviews": 6,
+    "reviewsNotes": "Yelp listing with 5-star reviews, testimonials on website showing customer satisfaction",
+    "socialPresence": 5,
+    "socialPresenceNotes": "Moderate presence but not highly active on social platforms",
+    "industryConversionRate": 14,
+    "industryConversionRateNotes": "Manufacturing - medium conversion, complex B2B sales cycle",
+    "competitorSaturation": 10,
+    "competitorSaturationNotes": "Lower competition for advanced fabrication shop automation",
+    "clearPositioning": 15,
+    "clearPositioningNotes": "Clear position as advanced custom fabrication with state-of-the-art equipment",
+    "effortScore": 8,
+    "effortScoreNotes": "Public email and phone, decision-maker likely VP of Sales or Operations",
+    "totalScore": 66
+  },
+  "opportunityScore": 76,
+  "opportunityNotes": "Strong candidate - advanced equipment with complex operations that benefit significantly from automation. Larger than typical target but still accessible. Multi-industry focus with complex projects.",
+  "decisionMaker": {
+    "name": "Not publicly identified",
+    "role": "VP of Sales, Operations Manager, or Owner",
+    "notes": "Sales email is public (sales@metzfab.com), structure suggests sales team exists"
+  },
+  "contactInfo": {
+    "phone": "(602) 539-9591",
+    "email": "sales@metzfab.com",
+    "address": "23012 N 15th Ave, Phoenix, AZ 85027",
+    "website": "https://metzfabindustries.com/"
+  },
+  "techStack": {
+    "website": "Professional custom design",
+    "crm": "May have basic CRM given sales email",
+    "shopManagement": "Not visible, likely manual or basic system"
+  },
+  "researchDate": "2026-02-25",
+  "sources": [
+    "https://metzfabindustries.com/",
+    "https://metzfabindustries.com/about/",
+    "https://metzfabindustries.com/contact/",
+    "https://www.yelp.com/biz/metzfab-industries-phoenix"
+  ]
+}

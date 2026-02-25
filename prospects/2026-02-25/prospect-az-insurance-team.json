@@ -1,0 +1,101 @@
+{
+  "company": "AZ Insurance Team",
+  "slug": "az-insurance-team",
+  "website": "https://www.azinsuranceteam.com/",
+  "industry": "Insurance",
+  "subIndustry": "Independent Insurance Brokerage",
+  "locations": [
+    {
+      "address": "430 W Warner Rd Ste 108, Tempe, AZ 85284",
+      "phone": "(480) 419-9200"
+    },
+    {
+      "address": "442 E Southern Ave, Tempe, AZ 85282",
+      "phone": "Multiple locations mentioned"
+    }
+  ],
+  "size": {
+    "employeeRange": "5-10",
+    "estimatedEmployees": 6,
+    "estimatedRevenue": "$500K - $1M"
+  },
+  "services": [
+    "Homeowners Insurance",
+    "Auto Insurance",
+    "Commercial Insurance",
+    "General Liability",
+    "Workers Compensation",
+    "Life Insurance",
+    "Property Insurance",
+    "Mexico Insurance",
+    "Flood Insurance"
+  ],
+  "serviceArea": [
+    "Arizona",
+    "Washington",
+    "Oregon",
+    "Nevada",
+    "Colorado",
+    "Tennessee",
+    "Georgia",
+    "Kansas",
+    "Kentucky",
+    "Texas"
+  ],
+  "painPoints": [
+    "Manual 'shopping around' for rates with multiple carriers",
+    "Phone-based quoting process",
+    "Manual appointment scheduling",
+    "Multi-location coordination challenges",
+    "Manual policyholder communication",
+    "Spam email issues mentioned in reviews (automation quality control needed)"
+  ],
+  "automationAngles": [
+    "Carrier rate comparison automation",
+    "Automated quoting engine for standard policies",
+    "Online quote request forms with automated follow-up",
+    "Policy renewal reminder system",
+    "Email marketing automation (to fix spam issues)",
+    "CRM integration for multi-location client management"
+  ],
+  "trustScore": {
+    "websiteQuality": 7,
+    "websiteQualityNotes": "Professional but basic WordPress site, mobile-responsive but could be more functional",
+    "reviews": 8,
+    "reviewsNotes": "4.8 stars with 224 reviews on Birdeye. Good reputation. Some minor complaints about spam email frequency.",
+    "socialPresence": 5,
+    "socialPresenceNotes": "Limited social media presence found",
+    "industryConversionRate": 18,
+    "industryConversionRateNotes": "Insurance - medium conversion history",
+    "competitorSaturation": 11,
+    "competitorSaturationNotes": "Low-medium competition for small agency automation",
+    "clearPositioning": 14,
+    "clearPositioningNotes": "Clear value prop 'We shop around to get the best rates', targeted at personal and business insurance",
+    "effortScore": 8,
+    "effortScoreNotes": "Easy outreach - public contact info, small team, decision-maker likely accessible",
+    "totalScore": 71
+  },
+  "opportunityScore": 78,
+  "opportunityNotes": "Strong automation opportunity in quoting process, multi-state operations create complexity, reputation is good but operations appear manual",
+  "decisionMaker": {
+    "name": "Charlotte (Principal Agent)",
+    "role": "Founder/Principal Agent",
+    "notes": "Charlotte mentioned prominently in reviews as key decision-maker"
+  },
+  "contactInfo": {
+    "phone": "(480) 419-9200",
+    "address": "430 W Warner Rd Ste 108, Tempe, AZ 85284",
+    "website": "https://www.azinsuranceteam.com/",
+    "hours": "Mon-Fri 9:00 AM - 6:00 PM, Sat-Sun Closed"
+  },
+  "techStack": {
+    "website": "WordPress",
+    "cms": "Likely no advanced CRM mentioned"
+  },
+  "researchDate": "2026-02-25",
+  "sources": [
+    "https://www.azinsuranceteam.com/",
+    "https://www.azinsuranceteam.com/about-us-1",
+    "https://reviews.birdeye.com/az-insurance-team-148721534409370"
+  ]
+}

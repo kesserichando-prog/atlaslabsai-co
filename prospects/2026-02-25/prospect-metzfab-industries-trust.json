@@ -1,0 +1,59 @@
+{
+  "prospect": "MetzFab Industries",
+  "slug": "metzfab-industries",
+  "website": "https://metzfabindustries.com/",
+  "trustScoreBreakdown": {
+    "totalScore": 66,
+    "components": {
+      "websiteQuality": {
+        "score": 8,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": ["Professional modern design", "Detailed service descriptions", "Portfolio gallery", "Testimonials section", "Good mobile responsive", "Calls to action prominent", "No technical issues", "Professional branding"]
+      },
+      "reviews": {
+        "score": 6,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": ["Yelp listing exists", "5-star rating", "Customer testimonials on website", "Specific praise for work quality", "Mentions of owner being hands-on", "Limited review volume"]
+      },
+      "socialPresence": {
+        "score": 5,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": ["Limited social media", "No prominent social feeds", "Industry-focused presence", "LinkedIn may exist for business"]
+      },
+      "industryConversionRate": {
+        "score": 14,
+        "maxScore": 25,
+        "weight": "25%",
+        "evidence": ["Complex B2B manufacturing sales", "Longer sales cycle", "High lifetime value", "Technical consultations required", "Repeat business common", "Complex projects increase conversion value"]
+      },
+      "competitorSaturation": {
+        "score": 10,
+        "maxScore": 15,
+        "weight": "15%",
+        "evidence": ["Few automation consultants targeting this segment", "Enterprise software too expensive for mid-sized shops", "Large shops have IT teams", "Small shops underserved by automation vendors", "Regional competitor analysis shows opportunity"]
+      },
+      "clearPositioning": {
+        "score": 15,
+        "maxScore": 20,
+        "weight": "20%",
+        "evidence": ["Clear advanced fabrication position", "State-of-the-art Technology focus", "Diverse industries served", "Comprehensive services listed", "Quality and accuracy emphasis", "On-time delivery promise"]
+      },
+      "effortScore": {
+        "score": 8,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": ["Public email: sales@metzfab.com", "Public phone: (602) 539-9591", "Address clearly listed", "Sales team implied", "No automated gatekeepers", "Accessible for outreach"]
+      }
+    }
+  },
+  "minimumThreshold": 50,
+  "assessment": "Prospect meets minimum Trust Score threshold (66 > 50). Recommended for outreach.",
+  "strengths": ["Advanced equipment investment shows tech readiness", "Complex operations with clear automation benefits", "Professional presentation", "Public sales contact", "Multi-industry expertise"],
+  "weaknesses": ["Larger than ideal target (20-25 employees)", "Limited reviews for validation", "Moderate competition from similar sized shops"],
+  "redFlags": ["Size may mean longer sales cycle", "Possible existing software investments", "Decision-making may involve multiple stakeholders"],
+  "calculatedOn": "2026-02-25T12:30:00Z",
+  "methodology": "Trust Score formula: Website Quality (10) + Reviews (10) + Social Presence (10) + Industry Conversion Rate (25) + Competitor Saturation (15) + Clear Positioning (20) + Effort Score (10) = 100 points maximum"
+}

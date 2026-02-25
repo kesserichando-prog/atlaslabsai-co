@@ -1,0 +1,104 @@
+{
+  "prospects": [
+    {
+      "company": "AZ Insurance Team",
+      "website": "https://www.azinsuranceteam.com/",
+      "industry": "Insurance",
+      "employees": "5-10",
+      "trustScore": 71,
+      "opportunityScore": 78,
+      "painPoints": [
+        "Manual 'shopping around' for rates with multiple carriers",
+        "Phone-based quoting process",
+        "Manual appointment scheduling",
+        "Multi-location coordination challenges",
+        "Manual policyholder communication",
+        "Spam email issues (poor automation execution)"
+      ],
+      "automationAngle": "Carrier rate comparison automation, automated quoting engine, online quote request forms, policy renewal reminder system, email marketing automation, CRM integration",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-az-insurance-team.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-az-insurance-team.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-az-insurance-team-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-az-insurance-team-research.md"
+      ]
+    },
+    {
+      "company": "Arizona Same Day Trucking",
+      "website": "https://arizonasamedaytrucking.com/",
+      "industry": "Logistics / Transportation",
+      "employees": "15-20",
+      "trustScore": 73,
+      "opportunityScore": 82,
+      "painPoints": [
+        "Manual dispatch coordination",
+        "Real-time tracking and customer updates",
+        "Driver scheduling and route optimization",
+        "Load booking and documentation",
+        "Customer communication during transit",
+        "Invoicing and billing automation"
+      ],
+      "automationAngle": "Automated dispatch software with GPS tracking, customer portal for real-time shipment tracking, route optimization software, automated customer status notifications, digitized proof of delivery, automated invoicing",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-arizona-same-day-trucking.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-arizona-same-day-trucking.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-arizona-same-day-trucking-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-arizona-same-day-trucking-research.md"
+      ]
+    },
+    {
+      "company": "MetzFab Industries",
+      "website": "https://metzfabindustries.com/",
+      "industry": "Manufacturing / Metal Fabrication",
+      "employees": "20-25",
+      "trustScore": 66,
+      "opportunityScore": 76,
+      "painPoints": [
+        "Complex job scheduling across multiple advanced machines",
+        "Complex quoting for varied fabrication services",
+        "Shop floor coordination across diverse operations",
+        "Customer communication on multi-step projects",
+        "Project management for complex assemblies",
+        "Equipment utilization and maintenance scheduling"
+      ],
+      "automationAngle": "Advanced shop management system with job tracking, automated quoting engine for fabrication services, real-time shop floor scheduling, customer portal for project status, design workflow automation, equipment management system",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-metzfab-industries.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-metzfab-industries.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-metzfab-industries-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-metzfab-industries-research.md"
+      ]
+    },
+    {
+      "company": "Precision Metal Products LLC",
+      "website": "https://precisionmetalproductsllc.com/",
+      "industry": "Manufacturing",
+      "employees": "8-12",
+      "trustScore": 58,
+      "opportunityScore": 72,
+      "painPoints": [
+        "Manual quoting for custom projects",
+        "Inventory tracking likely manual or Excel-based",
+        "Job scheduling and shop floor management",
+        "Design-to-production workflow",
+        "Customer communication and project updates",
+        "Quality control documentation"
+      ],
+      "automationAngle": "Automated quoting system for standard fabrications, shop floor management software, inventory management system, customer portal for project status, automated design file processing, quality control digital documentation",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-precision-metal-products.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-precision-metal-products.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-precision-metal-products-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-precision-metal-products-research.md"
+      ]
+    }
+  ],
+  "runId": "scout-2026-02-25-002",
+  "timestamp": "2026-02-25T12:35:00Z",
+  "searchesAttempted": 7,
+  "prospectsFound": 4,
+  "timeSpent": "4 hours",
+  "industriesCovered": ["Insurance", "Logistics/Transportation", "Manufacturing/Metal Fabrication"],
+  "summary": "Found 4 qualified prospects in Phoenix area with clear automation gaps. Top priority: Arizona Same Day Trucking (Trust Score: 73, Opportunity: 82) - dispatch-heavy operations with strong customer reputation. AZ Insurance Team (Trust Score: 71, Opportunity: 78) - manual multi-carrier quoting with immediate email automation fix needed. MetzFab Industries (Trust Score: 66, Opportunity: 76) - advanced fabrication shop with complex scheduling needs. Precision Metal Products LLC (Trust Score: 58, Opportunity: 72) - smaller family-owned shop with manual processes. All prospects meet the minimum 50-point Trust Score threshold. Different industries explored: Insurance, Logistics, Manufacturing - avoiding previously researched construction, HOA, accounting, cannabis segments.",
+  "recommendation": "Prioritize Arizona Same Day Trucking ( highest opportunity score, dispatch automation has clear ROI) and AZ Insurance Team (immediate email automation opportunity + quoting efficiency). Manufacturing prospects are solid but may have longer sales cycles. Recommend phased approach with pilot projects starting with obvious wins (dispatch, quoting, email automation)."
+}

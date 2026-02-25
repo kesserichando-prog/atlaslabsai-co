@@ -1,0 +1,155 @@
+{
+  "prospect": "AZ Insurance Team",
+  "slug": "az-insurance-team",
+  "website": "https://www.azinsuranceteam.com/",
+  "trustScoreBreakdown": {
+    "totalScore": 71,
+    "components": {
+      "websiteQuality": {
+        "score": 7,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "WordPress-based site with professional branding",
+          "Mobile responsive design",
+          "Clear service offerings and navigation",
+          "Basic but functional contact forms",
+          "No advanced features like online booking or quoting",
+          "Clean, readable design with good hierarchy",
+          "Fast loading pages"
+        ],
+        "sources": ["https://www.azinsuranceteam.com/"],
+        "notes": "Website is functional and professional but lacks modern automation features. Good enough for trust but indicates room for improvement."
+      },
+      "reviews": {
+        "score": 8,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "4.8 star rating on Birdeye (224 reviews)",
+          "High praise for customer service and responsiveness",
+          "Positive mentions of Charlotte's expertise and education focus",
+          "Some complaints about email spam frequency (4-5 per day)",
+          "Generally good reputation for customer care",
+          "Recent reviews show ongoing activity",
+          "Mention of 'barrage of spam emails' suggests automation problems"
+        ],
+        "sources": [
+          "https://reviews.birdeye.com/az-insurance-team-148721534409370",
+          "Yelp: 10 reviews with 4+ star average",
+          "MapQuest reviews note excellent rates but spam issue"
+        ],
+        "notes": "Strong overall reputation with high rating. The spam issue is actually an opportunity - indicates they're trying to communicate but need better automation."
+      },
+      "socialPresence": {
+        "score": 5,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "LinkedIn not prominently featured on website",
+          "No clear social media links or feeds visible",
+          "Limited online engagement beyond reviews",
+          "Google My Business likely active (reviews visible)",
+          "No evidence of regular content marketing",
+          "Website doesn't show social proof elements"
+        ],
+        "sources": ["https://www.azinsuranceteam.com/"],
+        "notes": "Weak social presence. This is actually an automation opportunity - implementing social media automation could boost their visibility and lead generation."
+      },
+      "industryConversionRate": {
+        "score": 18,
+        "maxScore": 25,
+        "weight": "25%",
+        "evidence": [
+          "Insurance industry has medium-high historical conversion rates",
+          "Independent agencies often convert at 15-25% for qualified leads",
+          "Multi-line insurance products increase cross-sell opportunities",
+          "Insurance sales typically involve consultative process (good for human + automation)",
+          "Regulatory environment favors licensed agents (competitive moat)",
+          "Customers increasingly expect digital self-service but still value expert guidance"
+        ],
+        "sources": ["Industry knowledge: Insurance sales conversion historical data"],
+        "notes": "Insurance is a good industry for automation investment. Customers need personal advice but the process can be largely automated. High lifetime value per customer."
+      },
+      "competitorSaturation": {
+        "score": 11,
+        "maxScore": 15,
+        "weight": "15%",
+        "evidence": [
+          "Few automation consultants specifically targeting small insurance agencies",
+          "Large agencies (State Farm, Allstate) have large IT teams but serve larger accounts",
+          "Digital-first insurers (Lemonade, Geico) compete on tech but lack personal service",
+          "Arizona has many small independent agencies underserved by automation providers",
+          "CRM vendors (HubSpot, Salesforce) serve this market indirectly",
+          "Specialized insurance tech (AgencyBloc, Vertafore) is expensive for small agencies",
+          "Local competition for automation services is moderate"
+        ],
+        "sources": ["Market analysis of Phoenix insurance automation landscape"],
+        "notes": "Good positioning. Small agencies are hungry for automation but lack budget for enterprise solutions. Medium competition means good opportunity for right-sized solutions."
+      },
+      "clearPositioning": {
+        "score": 14,
+        "maxScore": 20,
+        "weight": "20%",
+        "evidence": [
+          "Clear value proposition: 'We shop around to get the best rates for you'",
+          "Specific target markets identified (personal, business, real estate investors)",
+          "Differentiates from big insurers through personal service and education",
+          "Multi-state expansion shows ambition but indicates growth opportunities",
+          "Target customer clearly defined: people and businesses needing insurance",
+          "Website clearly communicates services offered",
+          "Mission focuses on customer education and protection"
+        ],
+        "sources": [
+          "https://www.azinsuranceteam.com/",
+          "https://www.azinsuranceteam.com/about-us-1"
+        ],
+        "notes": "Well-positioned but positioning is labor-intensive ('shopping around' manually). Automation can enhance their positioning without losing personal touch."
+      },
+      "effortScore": {
+        "score": 8,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Public contact information readily available",
+          "Small team implies shorter decision chain",
+          "Charlotte identified as key decision-maker in reviews",
+          "Two local offices accessible for meetings",
+          "Responsive customer service suggests they value communication",
+          "Phone and address public on multiple platforms",
+          "Website has contact forms for outreach",
+          "Small agency size means owner involvement likely"
+        ],
+        "sources": [
+          "https://www.azinsuranceteam.com/",
+          "https://reviews.birdeye.com/az-insurance-team-148721534409370",
+          "MapQuest listings show contact info"
+        ],
+        "notes": "Good accessibility. Small team, identified decision-maker, public contact info. Should be able to reach Charlotte directly."
+      }
+    }
+  },
+  "minimumThreshold": 50,
+  "assessment": "Prospect meets minimum Trust Score threshold (71 > 50). Recommended for outreach.",
+  "strengths": [
+    "Strong customer reputation (4.8 stars)",
+    "Clear pain points in manual processes",
+    "Small team makes implementation easier",
+    "Identified decision-maker",
+    "Multi-state operations create complexity to solve",
+    "Low-medium competition for their segment"
+  ],
+  "weaknesses": [
+    "Weak social presence",
+    "Small budget constraints likely",
+    "May be resistant to technology change",
+    "Past bad automation experience (spam emails issue)"
+  ],
+  "redFlags": [
+    "Customer complaints about spam emails indicate they tried automation poorly before",
+    "Very small team may not have internal technical capability",
+    "Budget constraints typical for <10 person agency"
+  ],
+  "calculatedOn": "2026-02-25T12:00:00Z",
+  "methodology": "Trust Score formula: Website Quality (10) + Reviews (10) + Social Presence (10) + Industry Conversion Rate (25) + Competitor Saturation (15) + Clear Positioning (20) + Effort Score (10) = 100 points maximum"
+}
