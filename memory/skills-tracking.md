@@ -21,6 +21,9 @@ This file tracks what skills we're discovering, creating, and installing to make
 | **sales-pipeline-tracker** | ClawHub 1kalin | Track deals through stages, forecast revenue, identify bottlenecks | 🔍 Discovered (2026-02-25) | Medium: Pipeline management automation |
 | **abm-outbound** | ClawHub dru-ca | Multi-channel ABM: LinkedIn scrape → Apollo → Skip Trace → email/LinkedIn/handwritten letters | 🔍 Discovered (2026-02-25) | Critical: Full-stack outreach automation |
 | **weekly-report-generator** | ClawHub 1kalin | Auto-generate structured weekly KPI/accomplishment/blocker/plans reports | 🔍 Discovered (2026-02-25) | Medium: Save 1-2 hrs/week on reporting |
+| **notion-api-integration** | ClawHub | Notion API integration and workflow automation | 🔍 Discovered (2026-02-25) | Medium: Document management + knowledge base |
+| **pdf-to-structured** | ClawHub | Convert PDF to structured data | 🔍 Discovered (2026-02-25) | High: Automate document processing and data extraction |
+| **paperless** | ClawHub | Document management and OCR automation | 🔍 Discovered (2026-02-25) | Medium: Document archive + search automation |
 | trust-score-calculator | Local | Automates Trust Score calculation | ✅ Built | Active |
 | prospect-enrichment | Local | Auto-enrich company research | ✅ Ready | Active |
 

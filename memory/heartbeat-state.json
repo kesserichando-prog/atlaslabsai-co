@@ -1,12 +1,12 @@
 {
   "lastChecks": {
     "pipeline": 1708783800,
-    "scout": 1740457500,
-    "skills": 1740459000,
+    "scout": 1740461000,
+    "skills": 1740461300,
     "pipeline_check": 1708789800,
     "demos": 1708795200,
     "demo_build": 1738127700,
-    "git": 1740458400,
+    "git": 1740460800,
     "memory": 1740459900
   },
   "lastAlert": {
@@ -19,70 +19,66 @@
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 6,
-    "tasksCompleted": 10,
+    "heartbeatsToday": 7,
+    "tasksCompleted": 12,
     "alertCount": 0,
-    "scoutRuns": 4,
+    "scoutRuns": 5,
     "prospectsFound": 6,
     "demosBuilt": 3,
     "contentCreated": 2,
-    "skillsDiscovered": 9,
+    "skillsDiscovered": 10,
     "verificationsCompleted": 1,
     "demosInProgress": 1
   },
   "scoutActivity": {
-    "lastRun": "2026-02-25T04:05:00Z",
-    "runId": "scout-2026-02-25-001",
-    "subagentSession": "agent:atlas:subagent:d7602036-da37-4bd6-b258-a29211c7e490",
-    "status": "completed",
-    "runtime": "8m43s",
-    "prospects": [
-      {
-        "company": "Riggs Companies",
-        "industry": "Commercial Construction",
-        "employees": "~57",
-        "trustScore": 72,
-        "opportunityScore": 80,
-        "priority": "high",
-        "artifacts": 4,
-        "uploaded": true
-      },
-      {
-        "company": "City Property Management",
-        "industry": "HOA Management",
-        "employees": "150+",
-        "trustScore": 64,
-        "opportunityScore": 75,
-        "priority": "medium",
-        "artifacts": 4,
-        "uploaded": true
-      },
-      {
-        "company": "BASC Expertise",
-        "industry": "Accounting/Tax",
-        "employees": 8,
-        "trustScore": 68,
-        "opportunityScore": 72,
-        "priority": "high",
-        "artifacts": 4,
-        "uploaded": true
-      },
-      {
-        "company": "The Mint Cannabis",
-        "industry": "Cannabis Dispensary",
-        "employees": "201-500",
-        "trustScore": 78,
-        "opportunityScore": 85,
-        "priority": "high",
-        "artifacts": 4,
-        "uploaded": true
-      }
-    ]
+    "lastRun": "2026-02-25T05:05:00Z",
+    "runId": "scout-2026-02-25-002",
+    "subagentSession": "agent:atlas:subagent:bb1806b5-9be3-49e1-9b05-e85280903328",
+    "status": "in_progress",
+    "focusIndustries": ["healthcare", "legal", "insurance", "manufacturing", "logistics"],
+    "previousRun": {
+      "runId": "scout-2026-02-25-001",
+      "status": "completed",
+      "runtime": "8m43s",
+      "prospectsFound": 4,
+      " prospects": [
+        {
+          "company": "Riggs Companies",
+          "industry": "Commercial Construction",
+          "trustScore": 72,
+          "uploaded": true
+        },
+        {
+          "company": "City Property Management",
+          "industry": "HOA Management",
+          "trustScore": 64,
+          "uploaded": true
+        },
+        {
+          "company": "BASC Expertise",
+          "industry": "Accounting/Tax",
+          "trustScore": 68,
+          "uploaded": true
+        },
+        {
+          "company": "The Mint Cannabis",
+          "industry": "Cannabis Dispensary",
+          "trustScore": 78,
+          "uploaded": true
+        }
+      ]
+    }
   },
   "skillsDiscovery": {
-    "lastRun": "2026-02-25T04:10:00Z",
-    "skillsFound": 5,
-    "highPriorityForInstall": 1,
+    "lastRun": "2026-02-25T05:08:00Z",
+    "skillsFound": 1,
+    "newCandidates": [
+      "notion-api-integration",
+      "api-gateway",
+      "pdf-to-structured",
+      "paperless",
+      "upstage-document-parse"
+    ],
     "candidates": [
       "abm-outbound",
       "n8n-workflow-automation",
@@ -91,7 +87,10 @@
       "lead-enrichment",
       "lead-hunter",
       "lead-generation",
-      "deep-research-pro"
+      "deep-research-pro",
+      "notion-api-integration",
+      "api-gateway",
+      "pdf-to-structured"
     ]
   },
   "demoBuild": {
