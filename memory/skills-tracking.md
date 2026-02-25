@@ -21,6 +21,9 @@ This file tracks what skills we're discovering, creating, and installing to make
 | **sales-pipeline-tracker** | ClawHub 1kalin | Track deals through stages, forecast revenue, identify bottlenecks | 🔍 Discovered (2026-02-25) | Medium: Pipeline management automation |
 | **abm-outbound** | ClawHub dru-ca | Multi-channel ABM: LinkedIn scrape → Apollo → Skip Trace → email/LinkedIn/handwritten letters | 🔍 Discovered (2026-02-25) | Critical: Full-stack outreach automation |
 | **weekly-report-generator** | ClawHub 1kalin | Auto-generate structured weekly KPI/accomplishment/blocker/plans reports | 🔍 Discovered (2026-02-25) | Medium: Save 1-2 hrs/week on reporting |
+| **task-decomposer** | ClawHub 10e9928a | Decompose complex requests into subtasks, search skills.sh, create new skills when needed | 🔍 Discovered (2026-02-25) | Medium: Automate workflow breakdown for complex requests |
+| **lead-scorer** | ClawHub 1kalin | Score and qualify leads with customizable criteria (fit, intent, engagement) | 🔍 Discovered (2026-02-25) | Medium: Could integrate with Trust Score for dual-scoring |
+| **daily-report** | ClawHub | Automated daily reports (complement to weekly-report-generator) | 🔍 Discovered (2026-02-25) | Low: Could automate daily brief creation |
 | **notion-api-integration** | ClawHub | Notion API integration and workflow automation | 🔍 Discovered (2026-02-25) | Medium: Document management + knowledge base |
 | **pdf-to-structured** | ClawHub | Convert PDF to structured data | 🔍 Discovered (2026-02-25) | High: Automate document processing and data extraction |
 | **paperless** | ClawHub | Document management and OCR automation | 🔍 Discovered (2026-02-25) | Medium: Document archive + search automation |
@@ -157,6 +160,90 @@ Time reduction: ~15 min/prospect → automated (no labor)
 - Effort: Medium install, test run 1, validate against our scoring methodology
 
 **Recommendation:** Start with lead-enrichment (lower risk, clear wins), then evaluate lead-hunter after testing.
+
+---
+
+## Latest Scout Discovery: 2026-02-25 06:00 AM
+
+### 🎯 Three More Skills for Automation and Workflow
+
+**1. task-decomposer (MEDIUM PRIORITY)**
+- **Owner:** 10e9928a
+- **Rating:** 1.027
+- **Last updated:** 2026-02-25
+- **What it does:**
+  - Decomposes complex user requests into executable subtasks
+  - Identifies required capabilities
+  - Searches skills.sh for existing skills
+  - Creates new skills when no solution exists
+  - "Use when user submits complex multi-step request, wants to automate workflows"
+
+**Impact on Current Work:**
+- Could automate: Breaking down complex automation projects into manageable steps
+- Would integrate with: skill-creator workflow (already have)
+- **Use case:** When prospect submits "automate our entire dispatch system", task-decomposer breaks it down
+- **Recommendation:** Test with 2-3 complex automation scenarios
+
+**2. lead-scorer (MEDIUM PRIORITY)**
+- **Owner:** 1kalin
+- **Rating:** 0.921
+- **Last updated:** 2026-02-25
+- **What it does:**
+  - Score and qualify leads using customizable criteria
+  - Prioritize pipeline by: fit, intent, engagement
+  - Focus on deals most likely to close
+
+**Impact on Current Work:**
+- We have Trust Score for prospect qualification
+- lead-scorer adds: fit, intent, engagement scoring
+- **Potential integration:** Dual-scoring system
+  - Trust Score (0-100): Company quality, fit for automation
+  - Lead Score (0-100): Intent, engagement, deal likelihood
+- **Use case:** Score prospects after initial outreach to prioritize follow-ups
+- **Recommendation:** Medium - evaluate if dual-scoring adds value or creates complexity
+
+**3. daily-report (LOW PRIORITY)**
+- **Owner:** Unknown
+- **Rating:** 0.961
+- **Last updated:** 2026-02-02
+- **What it does:**
+  - Automated daily reports
+  - Complement to weekly-report-generator
+
+**Impact on Current Work:**
+- Could automate: Daily brief generation (morning/afternoon progress)
+- We already create: briefs/morning-brief-YYYY-MM-DD.md
+- **Use case:** Automate parts of morning brief creation
+- **Recommendation:** Low - evaluate after testing weekly-report-generator
+
+### 💡 Integration Opportunities
+
+**Workflow Automation with task-decomposer:**
+
+**Current Process:**
+```
+Prospect identified → Contact → Discovery call → Manual scope → Manual breakdown → Quote
+```
+
+**Powered by task-decomposer:**
+```
+Prospect identified → Contact → Discovery call → Automated scope → AI-breakdown → Quote faster
+```
+
+**Lead Qualification Pipeline:**
+```
+Prospect → Trust Score (Atlas) → Outreach → Engagement → Lead Score (lead-scorer) → Follow-up priority
+```
+
+### ⚠️ Dependencies to Check
+
+**task-decomposer:**
+- Needs access to skills.sh API (we have clawhub integration)
+- Tested on complex automation scenarios?
+
+**lead-scorer:**
+- Customizable criteria mapping?
+- How does scoring criteria compare to our Trust Score methodology?
 
 ---
 

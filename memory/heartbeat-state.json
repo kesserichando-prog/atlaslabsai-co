@@ -19,14 +19,14 @@
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 8,
-    "tasksCompleted": 15,
+    "heartbeatsToday": 9,
+    "tasksCompleted": 16,
     "alertCount": 0,
     "scoutRuns": 8,
     "prospectsFound": 13,
     "demosBuilt": 3,
     "contentCreated": 2,
-    "skillsDiscovered": 10,
+    "skillsDiscovered": 13,
     "verificationsCompleted": 1,
     "demosInProgress": 1
   },
@@ -170,14 +170,12 @@
     ]
   },
   "skillsDiscovery": {
-    "lastRun": "2026-02-25T05:08:00Z",
-    "skillsFound": 1,
+    "lastRun": "2026-02-25T07:00:00Z",
+    "skillsFound": 3,
     "newCandidates": [
-      "notion-api-integration",
-      "api-gateway",
-      "pdf-to-structured",
-      "paperless",
-      "upstage-document-parse"
+      "task-decomposer",
+      "lead-scorer",
+      "daily-report"
     ],
     "candidates": [
       "abm-outbound",
@@ -190,7 +188,10 @@
       "deep-research-pro",
       "notion-api-integration",
       "api-gateway",
-      "pdf-to-structured"
+      "pdf-to-structured",
+      "task-decomposer",
+      "lead-scorer",
+      "daily-report"
     ]
   },
   "demoBuild": {
