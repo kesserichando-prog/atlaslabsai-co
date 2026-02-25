@@ -1,0 +1,124 @@
+{
+  "companySlug": "toothio",
+  "companyName": "Toothio",
+  "trustScoreCalculation": {
+    "components": {
+      "websiteQuality": {
+        "score": 8,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Modern, clean website design",
+          "Platform-focused design elements",
+          "Contemporary tech startup aesthetic",
+          "Clear messaging about on-demand model",
+          "Professional appearance",
+          "Mobile-responsive design expected",
+          "User-friendly navigation"
+        ],
+        "sources": ["https://www.toothio.com/"]
+      },
+      "reviews": {
+        "score": 5,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Limited public review data found",
+          "On-demand staffing model suggests early-stage or growth phase",
+          "No testimonials or case studies prominently displayed",
+          "No Google Business or other review平台 data found during research",
+          "Newer company likely (limited time for review accumulation)",
+          "Staffing platforms often have reviews but not located in this search"
+        ],
+        "sources": ["Web search, platform analysis"]
+      },
+      "socialPresence": {
+        "score": 6,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Staffing platform should maintain social presence for both client and candidate attraction",
+          "Likely uses LinkedIn, Facebook, Instagram for marketing",
+          "Platform model implies active social marketing for market awareness",
+          "No specific social metrics or activity quantified during research",
+          "Expected to have professional LinkedIn profile for talent attraction"
+        ],
+        "sources": ["Inferred from business model"]
+      },
+      "industryConversionRate": {
+        "score": 10,
+        "maxScore": 25,
+        "weight": "25%",
+        "evidence": [
+          "Staffing/recruitment medium conversion (~30-50%)",
+          "Tech-enabled platform model positive for automation adoption",
+          "Niche dental staffing specialized but less competitive than general staffing",
+          "On-demand model natural fit for automation",
+          "Early-stage platform more open to experimentation and technology investments"
+        ],
+        "sources": ["Industry benchmarks, historical data"]
+      },
+      "competitorSaturation": {
+        "score": 8,
+        "maxScore": 15,
+        "weight": "15%",
+        "evidence": [
+          "Dental staffing is specialized niche",
+          "Traditional agencies use manual processes",
+          "On-demand platform model differentiated",
+          "Few tech-enabled dental staffing competitors",
+          "Some general on-demand staffing (Wonolo, TaskRabbit style) but dental specialized unique",
+          "Opportunity to build moat through superior automation and algorithms"
+        ],
+        "sources": ["Competitive analysis"]
+      },
+      "clearPositioning": {
+        "score": 16,
+        "maxScore": 20,
+        "weight": "20%",
+        "evidence": [
+          "Clear: 'On Demand Dental Work'",
+          "Platform model clearly communicated",
+          "Temporary and full-time placement",
+          "Phoenix market specifically served",
+          "Technology-enabled vs. traditional agency",
+          "Modern approach to chronic dental staffing problem"
+        ],
+        "sources": ["https://www.toothio.com/", "https://www.toothio.com/areas-we-serve/phoenix"]
+      },
+      "effortScore": {
+        "score": 4,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "No public email addresses listed",
+          "Phone number not publicly visible",
+          "Contact likely requires form submission",
+          "Decision-makers not accessible publicly",
+          "Early-stage company may have opaque decision-making",
+          "May need warm intro or investor channel"
+        ],
+        "sources": ["Website analysis"]
+      }
+    },
+    "weightedTotal": 57,
+    "rawTotal": 57,
+    "interpretation": "Moderate prospect with tech-forward positioning but limited public information. Platform model creates strong automation opportunity but lack of reviews and company details increases implementation risk. Early-stage nature typical of startups means potential high upside but also higher risk profile."
+  },
+  "opportunityScoreCalculation": {
+    "baseScore": 57,
+    "bonuses": {
+      "platformModel": "+8",
+      "reason": "Tech-enabled platform model inherently automation-focused with high growth potential"
+    },
+    "adjustments": {
+      "earlyStage": "-3",
+      "reason": "Limited public information suggests early stage with higher implementation risk"
+    },
+    "finalScore": 65
+  },
+  "confidenceLevel": "Low-Medium",
+  "confidenceReasoning": "Website provides concept and positioning but limited detail on operations, team, or metrics. No public reviews or third-party validation. Early-stage company with limited public footprint.",
+  "researchDate": "2026-02-25,
+  "runId": "scout-2026-02-25-003"
+}

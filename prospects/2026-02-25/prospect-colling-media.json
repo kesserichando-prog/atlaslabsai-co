@@ -1,0 +1,130 @@
+{
+  "companyName": "Colling Media",
+  "slug": "colling-media",
+  "website": "https://collingmedia.com/",
+  "industry": "Marketing & Advertising Agency",
+  "employeeCount": "Estimated 10-50 employees. Phoenix-based advertising agency serving diverse clients across multiple industries",
+  "location": "Phoenix, Arizona",
+  "contact": {
+    "phone": "Not directly visible on homepage",
+    "email": "Not publicly listed",
+    "address": "Phoenix, AZ (specific address requires site navigation)"
+  },
+  "decisionMakers": {
+    "ownership": "Not publicly specified (likely privately owned)",
+    "keyContacts": "Contact through website form or deeper site exploration"
+  },
+  "companyOverview": {
+    "founded": "Unknown, but appears well-established with client portfolio and case studies",
+    "specialization": "Data-driven marketing strategies, advertising campaigns, digital marketing, paid search, media strategy, analytics, and full-service campaign execution",
+    "keyDifferentiators": [
+      "Phoenix-based with focus on results and data-driven strategies",
+      "Serves growth-minded brands across diverse industries",
+      "Focuses on measurable results and proven marketing works",
+      "Helps fill pipeline and hit goals that matter",
+      "Turns ad spend into real customers",
+      "Partners rather than vendors",
+      "Client success in education, automotive, home services, packaged goods"
+    ],
+    "awards": [],
+    "notableClients": [
+      "Knight Trans",
+      "MI.edu (Miami International University of Art & Design)",
+      "Southwest Building Solutions",
+      "Discount Tire",
+      "TWS.edu (Technical Schools)",
+      "Midwest Tech",
+      "Rent Progress",
+      "USA Showers"
+    ]
+  },
+  "painPoints": {
+    "manualProcesses": [
+      "Client reporting and analytics (likely manual, time-consuming)",
+      "Campaign performance tracking and optimization",
+      "Client communication and status updates",
+      "Lead tracking and qualification for clients",
+      "Ad spend management and ROI reporting",
+      "Content creation and social media scheduling",
+      "Campaign deployment across multiple platforms (Facebook, Google, etc.)",
+      "Invoice generation and client billing",
+      "New client onboarding processes"
+    ],
+    "efficiencyIssues": [
+      "Marketing agency model requires managing multiple clients with different campaigns",
+      "Data-driven focus suggests significant time spent on analytics and reporting",
+      "Diverse client industries require different approaches (education, automotive, home services)",
+      "Managing ad spend across multiple platforms creates complexity",
+      "Client need for real-time results vs. manual reporting time lag",
+      "Growth requires more clients but manual processes create scaling limit"
+    ]
+  },
+  "trustScoreBreakdown": {
+    "websiteQuality": {
+      "score": 9,
+      "evidence": "Modern, professional website with strong messaging, client portfolio displayed, clear values, contemporary design patterns"
+    },
+    "reviews": {
+      "score": 7,
+      "evidence": "Notable client portfolio indicates successful relationships, but limited public review data found during research"
+    },
+    "socialPresence": {
+      "score": 7,
+      "evidence": "Active marketing agency presence expected; professional services typically maintain social media for agency marketing"
+    },
+    "industryConversionRate": {
+      "score": 12,
+      "evidence": "Marketing agencies have medium conversion rates (~25-45%). Tech-forward but process complexity creates opportunity. Understands automation value proposition."
+    },
+    "competitorSaturation": {
+      "score": 7,
+      "evidence": "Marketing automation tools exist but many agencies still use manual processes. Phoenix market has many agencies but differentiation through technology possible."
+    },
+    "clearPositioning": {
+      "score": 14,
+      "evidence": "Clear positioning: 'Demand better results from your advertising', data-driven strategies, focus on results not buzzwords. Clear value proposition and differentiation."
+    },
+    "effortScore": {
+      "score": 5,
+      "evidence": "No public email, phone requires site navigation. Agency contact forms typically available but no direct decision-maker access visible."
+    }
+  },
+  "trustScoreTotal": 61,
+  "opportunityScore": 68,
+  "opportunityFactors": [
+    "Marketing agency inherently tech-forward and understands automation value",
+    "Diverse client portfolio indicates growth and operational complexity",
+    "Data-driven focus suggests significant time on analytics and reporting (automation opportunity)",
+    "Notable clients (Discount Tire, educational institutions) show credibility and capacity",
+    "Agency model has clear ROI for automation: more clients with same team, better client retention",
+    "Phoenix-based with local focus but clients across industries - scalability important",
+    "Results-oriented culture likely values efficiency improvements"
+  ],
+  "automationAngle": "Marketing agencies operate with complex processes: client onboarding, campaign creation, cross-platform deployment, performance tracking, analytics reporting, and client communication. Colling Media's data-driven approach and diverse client portfolio create significant manual workload for reporting and optimization. Automation can streamline client onboarding, automate campaign reporting and dashboards, centralize cross-platform campaign management, automate client communication, and optimize ad spend through automated insights - allowing the agency to serve more clients with superior results while maintaining the personal attention they promise.",
+  "solutionFit": {
+    "primary": [
+      "Automated client onboarding and project setup workflows",
+      "Cross-platform campaign management and deployment automation",
+      "Automated client reporting and analytics dashboards",
+      "Campaign performance monitoring and automated optimization",
+      "Client communication and status update automation"
+    ],
+    "secondary": [
+      "Ad spend management and ROI tracking automation",
+      "Content calendar and social media scheduling",
+      "Lead qualification and tracking for client campaigns",
+      "Invoice generation and client billing automation",
+      "New business proposal and pitch automation"
+    ]
+  },
+  "growthSignals": {
+    "recentHiring": "Not specifically visible but diverse client portfolio indicates growth",
+    "expanding": "Serves clients across multiple industries and geographies",
+    "newServices": "Full-service campaign execution suggests comprehensive capabilities"
+  },
+  "researchSources": [
+    "https://collingmedia.com/"
+  ],
+  "createdAt": "2026-02-25T13:38:00Z",
+  "runId": "scout-2026-02-25-003"
+}

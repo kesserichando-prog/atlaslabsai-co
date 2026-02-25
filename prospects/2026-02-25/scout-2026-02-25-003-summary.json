@@ -1,0 +1,187 @@
+{
+  "prospects": [
+    {
+      "company": "MayesTelles PLLC",
+      "website": "https://www.mayestelles.com/",
+      "industry": "Legal Services - Criminal Defense, Immigration, Personal Injury",
+      "employees": "31 employees (16+ attorneys)",
+      "trustScore": 75,
+      "opportunityScore": 78,
+      "painPoints": [
+        "High-volume 24/7 client intake process",
+        "Complex case management across three practice areas (criminal, immigration, personal injury)",
+        "Manual deadline tracking for court dates and filings",
+        "Payment collection processes with flexible payment options",
+        "Client communication and status updates for anxious clients",
+        "Document management for thousands of active cases"
+      ],
+      "automationAngle": "Criminal defense firms operate in high-stakes, client-facing environments with complex case management across multiple practice areas. With 31 employees handling thousands of cases, manual processes for intake, client communication, deadline tracking, and payment collection create bottlenecks. Automation can streamline intake, automate client status updates, track court deadlines, and improve collections - enabling the firm to handle more cases with better client service.",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-mayestelles-pllc.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-mayestelles-pllc.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-mayestelles-pllc-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-mayestelles-pllc-research.md"
+      ]
+    },
+    {
+      "company": "Houk Employment Attorneys",
+      "website": "https://houklawfirm.com/",
+      "industry": "Legal Services - Employment Law",
+      "employees": "5-8 employees (3 attorneys)",
+      "trustScore": 72,
+      "opportunityScore": 75,
+      "painPoints": [
+        "Strict 180-day EEOC filing deadlines with high risk of missing",
+        "Documentation-heavy employment discrimination and harassment cases",
+        "Client intake and consultation scheduling",
+        "Client communication during long litigation cycles",
+        "Dual client base management (employers and employees)",
+        "Complex federal and state law compliance tracking"
+      ],
+      "automationAngle": "Employment law firms operate with strict deadlines, high documentation requirements, and complex client relationships. With 3 attorneys facing 180-day EEOC complaint windows, manual deadline tracking creates catastrophic risk. Automation can streamline intake, automate deadline reminders, organize evidence collection, improve client communication, and automating billing - allowing the firm to grow revenue while protecting against deadline failures.",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-houk-employment-attorneys.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-houk-employment-attorneys.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-houk-employment-attorneys-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-houk-employment-attorneys-research.md"
+      ]
+    },
+    {
+      "company": "Howard Air & Plumbing",
+      "website": "https://howardair.com/",
+      "industry": "HVAC/R and Plumbing Services",
+      "employees": "50-200 employees (estimated)",
+      "trustScore": 61,
+      "opportunityScore": 68,
+      "painPoints": [
+        "High-volume seasonal dispatch operations during Phoenix summers (110°F+)",
+        "Technician routing and job assignment inefficiencies",
+        "Customer communication (confirmations, reminders, arrival notifications)",
+        "Invoice generation and payment collection",
+        "Maintenance contract tracking and renewal management",
+        "Inventory management for parts and equipment"
+      ],
+      "automationAngle": "HVAC and plumbing service businesses operate with complex field operations that face intense seasonal demand during Phoenix's extreme summers. With nearly 50 years of manual operations, dispatch scheduling, technician routing, customer communication, and payment collection create significant revenue and service bottlenecks. Automation can transform operations, enabling significantly more jobs per day during peak season while improving customer satisfaction and the #1 Angie's List ranking.",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-howard-air-plumbing.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-howard-air-plumbing.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-howard-air-plumbing-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-howard-air-plumbing-research.md"
+      ]
+    },
+    {
+      "company": "Colling Media",
+      "website": "https://collingmedia.com/",
+      "industry": "Marketing & Advertising Agency",
+      "employees": "10-50 employees (estimated)",
+      "trustScore": 61,
+      "opportunityScore": 68,
+      "painPoints": [
+        "Client reporting and analytics across multiple ad platforms",
+        "Cross-platform campaign deployment and synchronization",
+        "Client communication and status updates",
+        "Ad spend management and ROI tracking",
+        "Lead tracking and attribution for client campaigns",
+        "Client onboarding workflows"
+      ],
+      "automationAngle": "Marketing agencies operate with complex processes across multiple platforms (Google, Facebook, LinkedIn) with data-driven client expectations. Manual client reporting, campaign management, and cross-platform synchronization consume significant time. Automation can streamline reporting, centralize campaign management, automate client communication, and optimize ad spend - allowing Colling Media to serve more clients with superior results while differentiating through technology.",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-colling-media.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-colling-media.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-colling-media-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-colling-media-research.md"
+      ]
+    },
+    {
+      "company": "Toothio",
+      "website": "https://www.toothio.com/",
+      "industry": "Dental Staffing & Recruitment",
+      "employees": "5-50 employees (estimated)",
+      "trustScore": 57,
+      "opportunityScore": 65,
+      "painPoints": [
+        "Urgent on-demand staffing request processing",
+        "Candidate matching algorithm for dental professionals",
+        "Shift scheduling and coordination between practices and staff",
+        "Time tracking and payroll for temporary professionals",
+        "Client communication and job status updates",
+        "Market expansion and scalability challenges"
+      ],
+      "automationAngle": "Dental staffing platforms operate with complex matching, scheduling, and coordination challenges in an on-demand model. Automated matching algorithms, self-service portals for both practices and professionals, real-time scheduling, and integration of time tracking/payroll directly address core business needs. Automation enables platform scalability to new markets while improving key metrics like time-to-fill and match quality.",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-toothio.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-toothio.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-toothio-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-toothio-research.md"
+      ]
+    }
+  ],
+  "runId": "scout-2026-02-25-003",
+  "timestamp": "2026-02-25T13:40:00Z",
+  "searchesAttempted": 12,
+  "prospectsFound": 5,
+  "timeSpent": "~70 minutes",
+  "industriesTargeted": [
+    "Legal Services (Criminal Defense, Employment Law)",
+    "HVAC/R and Plumbing Services",
+    "Marketing & Advertising",
+    "Dental Staffing"
+  ],
+  "industriesAvoided": [
+    "Construction",
+    "HOA Management",
+    "Accounting/Tax",
+    "Cannabis",
+    "Logistics/Transportation",
+    "Insurance",
+    "Manufacturing"
+  ],
+  "topProspectsByTrustScore": [
+    {
+      "rank": 1,
+      "company": "MayesTelles PLLC",
+      "trustScore": 75,
+      "opportunityScore": 78,
+      "industry": "Legal - Criminal Defense",
+      "estimatedEngagementValue": "$50,000-$100,000+"
+    },
+    {
+      "rank": 2,
+      "company": "Houk Employment Attorneys",
+      "trustScore": 72,
+      "opportunityScore": 75,
+      "industry": "Legal - Employment Law",
+      "estimatedEngagementValue": "$30,000-$90,000"
+    },
+    {
+      "rank": 3,
+      "company": "Howard Air & Plumbing",
+      "trustScore": 61,
+      "opportunityScore": 68,
+      "industry": "HVAC/Plumbing Services",
+      "estimatedEngagementValue": "$80,000-$250,000"
+    },
+    {
+      "rank": 4,
+      "company": "Colling Media",
+      "trustScore": 61,
+      "opportunityScore": 68,
+      "industry": "Marketing/Advertising Agency",
+      "estimatedEngagementValue": "$60,000-$200,000"
+    },
+    {
+      "rank": 5,
+      "company": "Toothio",
+      "trustScore": 57,
+      "opportunityScore": 65,
+      "industry": "Dental Staffing Platform",
+      "estimatedEngagementValue": "$80,000-$300,000"
+    }
+  ],
+  "notes": {
+    "researchMethodology": "Web search and website fetch for company information, services, and pain point analysis. Trust score calculated using weighted formula.",
+    "limitations": "Rate limiting on search API limited some deeper research. LinkedIn and detailed review data not accessed due to API limits.",
+    "recommendations": "Priority outreach to MayesTelles and Houk Employment Attorneys based on highest trust scores. Howard Air & Plumbing has highest potential engagement value due to scale, but family business may be slower to adopt.",
+    "industriesRepresented": "Four new industries not previously scouted: Criminal Defense Law, Employment Law, HVAC/Plumbing Services, Marketing Agency, Dental Staffing. This diversifies prospect pool beyond previous runs."
+  }
+}

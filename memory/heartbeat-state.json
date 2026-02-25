@@ -19,11 +19,11 @@
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 7,
-    "tasksCompleted": 13,
+    "heartbeatsToday": 8,
+    "tasksCompleted": 15,
     "alertCount": 0,
-    "scoutRuns": 6,
-    "prospectsFound": 10,
+    "scoutRuns": 8,
+    "prospectsFound": 13,
     "demosBuilt": 3,
     "contentCreated": 2,
     "skillsDiscovered": 10,
@@ -31,11 +31,11 @@
     "demosInProgress": 1
   },
   "scoutActivity": {
-    "lastRun": "2026-02-25T05:10:00Z",
-    "runId": "scout-2026-02-25-002",
-    "subagentSession": "agent:atlas:subagent:07ed8daa-5504-49aa-a0a5-74712f7d920d",
+    "lastRun": "2026-02-25T06:33:00Z",
+    "runId": "scout-2026-02-25-003",
+    "subagentSession": "agent:atlas:subagent:1edda921-11ca-466d-99f3-1571726a9332",
     "status": "completed",
-    "runtime": "10m8s",
+    "runtime": "8m6s",
     "prospects": [
       {
         "company": "Riggs Companies",
@@ -114,6 +114,56 @@
         "trustScore": 58,
         "opportunityScore": 72,
         "priority": "low",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "MayesTelles PLLC",
+        "industry": "Criminal Defense Law",
+        "employees": 31,
+        "trustScore": 75,
+        "opportunityScore": 78,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "Houk Employment Attorneys",
+        "industry": "Employment Law",
+        "employees": "5-8",
+        "trustScore": 72,
+        "opportunityScore": 75,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "Howard Air & Plumbing",
+        "industry": "HVAC/Plumbing",
+        "employees": "50-200",
+        "trustScore": 61,
+        "opportunityScore": 68,
+        "priority": "medium",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "Colling Media",
+        "industry": "Marketing Agency",
+        "employees": "10-50",
+        "trustScore": 61,
+        "opportunityScore": 68,
+        "priority": "medium",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "Toothio",
+        "industry": "Dental Staffing",
+        "employees": "5-50",
+        "trustScore": 57,
+        "opportunityScore": 65,
+        "priority": "medium",
         "artifacts": 4,
         "uploaded": true
       }

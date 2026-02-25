@@ -1,0 +1,127 @@
+{
+  "companyName": "Houk Employment Attorneys",
+  "slug": "houk-employment-attorneys",
+  "website": "https://houklawfirm.com/",
+  "industry": "Legal Services - Employment Law",
+  "employeeCount": "3 attorneys, 45 years combined experience. Total estimated employees: 5-8",
+  "location": "Phoenix, AZ (serving Phoenix, Scottsdale, Glendale, Tempe, Mesa, Gilbert, and surrounding areas)",
+  "contact": {
+    "phone": "(480) 569-2377",
+    "email": "Not publicly listed",
+    "address": "Not publicly listed on main website",
+    "form": "Available at /contact-us/"
+  },
+  "decisionMakers": {
+    "founders": "Christopher Houk (founding attorney based on firm name)",
+    "partners": [
+      "Christopher Houk - Managing attorney",
+      "Marina Kovacevic",
+      "Jenny Jansch"
+    ]
+  },
+  "companyOverview": {
+    "founded": "Unknown, but 45 years combined experience",
+    "specialization": "Employment law exclusively - wrongful termination, discrimination, sexual harassment, unpaid wages, breach of contract",
+    "keyDifferentiators": [
+      "45 years combined experience",
+      "Represents employers, executives, and employees (versatile)",
+      "Millions of dollars recovered for clients",
+      "Super Lawyers recognition",
+      "Member of National Employment Lawyers Association (NELA)",
+      "Member of Arizona Employment Lawyers Association (AZELA)"
+    ],
+    "awards": [
+      "Super Lawyers recognition",
+      "National Employment Lawyers Association (NELA) member",
+      "Arizona Employment Lawyers Association (AZELA) member",
+      "American Bar Association, Labor and Employment Section (ABA-LEL) member"
+    ]
+  },
+  "painPoints": {
+    "manualProcesses": [
+      "Client intake - consultations and case evaluation process",
+      "Case documentation and evidence collection",
+      "Employment law deadline tracking (180-day EEOC complaints)",
+      "Client communication throughout litigation",
+      "Settlement negotiation tracking",
+      "Billing and collection",
+      "Document management for employment discrimination cases",
+      "Multiple federal and state law compliance tracking (ACRA, ADA, Civil Rights Act, etc.)"
+    ],
+    "efficiencyIssues": [
+      "Small team (3 attorneys) with high caseload mentioned",
+      "Handles diverse client types (employers, employees, executives)",
+      "Multiple employment law practice areas requiring different workflows",
+      "Strict deadlines (180 days for EEOC complaints) create pressure",
+      "Manual documentation of workplace incidents and harassment claims"
+    ]
+  },
+  "trustScoreBreakdown": {
+    "websiteQuality": {
+      "score": 8,
+      "evidence": "Professional website with clear value proposition, case results displayed, FAQ section, modern design"
+    },
+    "reviews": {
+      "score": 8,
+      "evidence": "4.5/5 rating based on lawyers.com listing with 27 reviews, successful case results showcased on website"
+    },
+    "socialPresence": {
+      "score": 5,
+      "evidence": "Limited social presence found during research; professional associations membership noted"
+    },
+    "industryConversionRate": {
+      "score": 15,
+      "evidence": "Employment law firms have medium conversion rates for automation, specialized practice area sees value in efficiency"
+    },
+    "competitorSaturation": {
+      "score": 12,
+      "evidence": "Employment law is specialized but Phoenix has many firms; moderate competition in automation space"
+    },
+    "clearPositioning": {
+      "score": 19,
+      "evidence": "Very clear positioning - employment law exclusively, represents multiple client types, 'Righting wrongs - one case at a time' messaging"
+    },
+    "effortScore": {
+      "score": 5,
+      "evidence": "Phone available, no direct email, online contact form. Address not prominently displayed. Small decision maker pool."
+    }
+  },
+  "trustScoreTotal": 72,
+  "opportunityScore": 75,
+  "opportunityFactors": [
+    "Small firm (5-8 employees) ready for automation implementation",
+    "Specialized practice area with clear automation opportunities",
+    "Strict legal deadlines create automation value proposition",
+    "Serves both employers and employees (dual marketing angle)",
+    "Millions recovered indicates financial capacity",
+    "Super Lawyers recognition suggests quality orientation",
+    "Arizona Employment Lawyers Association membership shows industry involvement"
+  ],
+  "automationAngle": "Employment law firms operate with strict deadlines (180-day complaint windows), high documentation requirements for discrimination/harassment claims, and complex client relationships. With 3 attorneys handling everything from intake to settlements, manual processes create bottlenecks in client acquisition, case management, deadline tracking, and compliance. Automation can streamline the consultation intake, automate deadline reminders for EEOC filings, organize evidence collection, improve client communication, and automate billing - allowing the firm to grow revenue without proportional staff increases.",
+  "solutionFit": {
+    "primary": [
+      "Automated client intake and consultation scheduling",
+      "Employment law deadline tracking (EEOC, CRD, etc.)",
+      "Evidence collection and organization automation",
+      "Client communication and status updates",
+      "Automated billing and invoicing"
+    ],
+    "secondary": [
+      "Case document workflow automation",
+      "Settlement negotiation tracking",
+      "Compliance reminder systems for federal/state laws",
+      "Marketing automation for both employment lawyers and employers"
+    ]
+  },
+  "growthSignals": {
+    "recentHiring": "3 attorneys team actively handling cases",
+    "expanding": "Case results in 2024 shown on website",
+    "newServices": "Handles multiple employment law areas but no expansion signals visible"
+  },
+  "researchSources": [
+    "https://houklawfirm.com/",
+    "Lawyers.com directory listing"
+  ],
+  "createdAt": "2026-02-25T13:36:00Z",
+  "runId": "scout-2026-02-25-003"
+}

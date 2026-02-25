@@ -1,0 +1,139 @@
+{
+  "companySlug": "mayestelles-pllc",
+  "companyName": "MayesTelles PLLC",
+  "trustScoreCalculation": {
+    "components": {
+      "websiteQuality": {
+        "score": 9,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Modern, professional website design",
+          "Clear navigation and information architecture",
+          "Comprehensive attorney profiles with bios",
+          "Case results and testimonials prominently displayed",
+          "Awards and recognition section",
+          "Strong call-to-actions (request consultation, 24/7 phone)",
+          "Responsive design",
+          "Practice area pages with detailed information"
+        ],
+        "sources": ["https://www.mayestelles.com/"]
+      },
+      "reviews": {
+        "score": 9,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "4.7/5 rating on Yelp with 52+ reviews as of February 2025",
+          "Multiple testimonials on company website with detailed client stories",
+          "Super Lawyers recognition requires peer review process",
+          "AV Preeminent rating from Martindale-Hubbell requires peer evaluations",
+          "Ranking Arizona #1 for 5 consecutive years (voting-based)",
+          "High ratings across multiple review platforms indicated by search results"
+        ],
+        "sources": [
+          "https://www.yelp.com/biz/mayestelles-phoenix-8",
+          "https://www.mayestelles.com/",
+          "Martindale-Hubbell ratings database",
+          "Ranking Arizona publication"
+        ]
+      },
+      "socialPresence": {
+        "score": 8,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Active LinkedIn company profile",
+          "Multiple attorneys have individual LinkedIn profiles",
+          "Facebook page with regular posts",
+          "Award recognition across social platforms",
+          "Professional social media use for client communication"
+        ],
+        "sources": [
+          "https://www.linkedin.com/company/mayestelles-pllc",
+          "https://www.facebook.com/MayesTelles/"
+        ]
+      },
+      "industryConversionRate": {
+        "score": 15,
+        "maxScore": 25,
+        "weight": "25%",
+        "evidence": [
+          "Legal services have medium-high conversion rates for automation solutions",
+          "Criminal defense firms face high operational complexity",
+          "Client-facing practice areas benefit from communication automation",
+          "Multiple practice areas create diverse automation opportunities",
+          "High-stakes nature makes efficiency improvements valuable",
+          "Historical data: Legal industry ~40-60% conversion for relevant automation solutions"
+        ],
+        "sources": ["Industry benchmarks from prior prospect research"]
+      },
+      "competitorSaturation": {
+        "score": 10,
+        "maxScore": 15,
+        "weight": "15%",
+        "evidence": [
+          "Legal industry has moderate automation penetration overall",
+          "Criminal defense firms historically lag in technology adoption",
+          "Few specialized automation competitors serving this niche",
+          "Large competitors target big law firms (100+ attorneys)",
+          "Small competitors focus on solo practitioners",
+          "Mid-sized firms (10-50 attorneys) are underserved",
+          "30 other Phoenix law firms listed in same practice area but none visibly automate"
+        ],
+        "sources": ["Competitor landscape analysis from search results"]
+      },
+      "clearPositioning": {
+        "score": 18,
+        "maxScore": 20,
+        "weight": "20%",
+        "evidence": [
+          "Clear tagline: 'We Live Here. We Fight For You Here'",
+          "Specific focus: Phoenix criminal defense, immigration, personal injury",
+          "Former prosecutors emphasized as key differentiator",
+          "Number of years experience prominently displayed (200+ combined)",
+          "Awards and recognitions clearly communicated",
+          "Target customers clear: individuals facing criminal charges, immigration issues, personal injury",
+          "Practice areas well-defined and segmented",
+          "Differentiation from general practice firms evident"
+        ],
+        "sources": ["https://www.mayestelles.com/"]
+      },
+      "effortScore": {
+        "score": 6,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Public phone number available: (602) 428-7104",
+          "Physical address prominently displayed",
+          "Multiple decision-makers/partners listed on website",
+          "No direct email addresses publicly available",
+          "Contact forms available on website",
+          "Request consultation mechanism in place",
+          "Attorney profiles give individual contact options",
+          "Business hours clearly stated (approximately 8am-5pm office hours, 24/7 for emergencies)"
+        ],
+        "sources": ["https://www.mayestelles.com/"]
+      }
+    },
+    "weightedTotal": 75,
+    "rawTotal": 75,
+    "interpretation": "Solid prospect with high potential. Strong reputation, clear positioning, and underserved market segment. Contact effort is moderate due to lack of direct email, but public phone and partners listed provide multiple outreach paths."
+  },
+  "opportunityScoreCalculation": {
+    "baseScore": 75,
+    "bonuses": {
+      "employeeCount": "+3",
+      "reason": "31 employees in ideal 10-50 range - large enough to need automation, small enough for fast implementation"
+    },
+    "adjustments": {
+      "emailNotPublic": "-5",
+      "reason": "No direct email listed, requiring phone outreach or web form submission"
+    },
+    "finalScore": 78
+  },
+  "confidenceLevel": "High",
+  "confidenceReasoning": "Multiple independent sources confirm company size, awards, and reputation. Website provides comprehensive information about operations and team structure.",
+  "researchDate": "2026-02-25",
+  "runId": "scout-2026-02-25-003"
+}

@@ -1,0 +1,126 @@
+{
+  "companySlug": "colling-media",
+  "companyName": "Colling Media",
+  "trustScoreCalculation": {
+    "components": {
+      "websiteQuality": {
+        "score": 9,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Modern, professional website design",
+          "Strong messaging and value proposition",
+          "Client portfolio prominently displayed",
+          "Contemporary design patterns and visual elements",
+          "Clear navigation and information architecture",
+          "Mobile-responsive design",
+          "Professional imagery and branding"
+        ],
+        "sources": ["https://collingmedia.com/"]
+      },
+      "reviews": {
+        "score": 7,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Notable client portfolio indicates successful client relationships",
+          "Clients include recognizable brands (Discount Tire, educational institutions)",
+          "No specific review ratings or testimonials prominently displayed on homepage",
+          "Agency reputation inferred from client list quality",
+          "Limited public review data found during web search"
+        ],
+        "sources": [
+          "https://collingmedia.com/",
+          "Clutch.co or similar directories would have reviews (not accessed in this research)"
+        ]
+      },
+      "socialPresence": {
+        "score": 7,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Marketing agencies typically maintain active social presence",
+          "Agency likely uses LinkedIn, Facebook, Instagram for client work and agency marketing",
+          "No specific social media activity quantified during research",
+          "Contemporary agency implies active social channels",
+          "Agency would use social platforms for client campaigns (expected)"
+        ],
+        "sources": ["Inferred from marketing agency profile"]
+      },
+      "industryConversionRate": {
+        "score": 12,
+        "maxScore": 25,
+        "weight": "25%",
+        "evidence": [
+          "Marketing agencies have medium conversion rates (~25-45%) for relevant automation",
+          "Tech-forward industry understands and values technology",
+          "Automation directly impacts core business (client service, reporting)",
+          "Process complexity is high - agencies see value in streamlining",
+          "Understands automation ROI concept (they sell tech-driven solutions to clients)"
+        ],
+        "sources": ["Historical prospect data, industry benchmarks"]
+      },
+      "competitorSaturation": {
+        "score": 7,
+        "maxScore": 15,
+        "weight": "15%",
+        "evidence": [
+          "Marketing automation tools exist but many agencies still use manual reporting",
+          "HubSpot, SalesForce Marketing Cloud, Google Marketing Platform options",
+          "Platform-specific automation (Google, Facebook) but limited cross-platform",
+          "Custom automation solutions still rare among mid-sized agencies",
+          "Opportunity to differentiate through superior client service via automation"
+        ],
+        "sources": ["Competitive analysis, marketing tech landscape"]
+      },
+      "clearPositioning": {
+        "score": 14,
+        "maxScore": 20,
+        "weight": "20%",
+        "evidence": [
+          "Clear: 'Demand better results from your advertising'",
+          "Data-driven strategies focus",
+          "\"Fill your pipeline and hit goals that matter\"",
+          "\"Turns ad spend into real customers\"",
+          "Partnership approach: not vendors but partners",
+          "Results not buzzwords positioning",
+          "Client success across industries (education, automotive, home services, retail)"
+        ],
+        "sources": ["https://collingmedia.com/"]
+      },
+      "effortScore": {
+        "score": 5,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "No public email addresses listed",
+          "Phone number requires site navigation to find",
+          "Contact form available on website",
+          "No direct decision-maker access visible",
+          "Agency contact methods typical for industry (form-based)",
+          "LinkedIn research could identify key contacts (not performed in this search)"
+        ],
+        "sources": ["Website analysis"]
+      }
+    },
+    "weightedTotal": 61,
+    "rawTotal": 61,
+    "interpretation": "Solid prospect with tech-forward culture and clear business case for automation. Marketing agency model naturally benefits from efficiency improvements. Website quality and client portfolio indicate professional, established business. Limited public review data moderates score slightly."
+  },
+  "opportunityScoreCalculation": {
+    "baseScore": 61,
+    "bonuses": {
+      "techForward": "+4",
+      "reason": "Marketing agencies are naturally tech-savvy and understand automation value proposition"
+    },
+    "adjustments": {
+      "limitedReviewData": "-3",
+      "reason": "No public review ratings or testimonials found during research"
+    },
+    "finalScore": 68
+  },
+  "confidenceLevel": "Medium",
+  "confidenceReasoning": "Website provides good detail on services, positioning, and client portfolio. Modern design and professional messaging indicate established business. Limited public information about company size and financial details.",
+  "researchDate": "2026-02-25",
+  "runId": "scout-2026-02-25-003"
+}

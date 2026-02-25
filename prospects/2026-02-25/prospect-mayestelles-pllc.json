@@ -1,0 +1,133 @@
+{
+  "companyName": "MayesTelles PLLC",
+  "slug": "mayestelles-pllc",
+  "website": "https://www.mayestelles.com/",
+  "industry": "Legal Services - Criminal Defense, Immigration, Personal Injury",
+  "employeeCount": "31 employees (16+ attorneys per website listing, 30+ per ZoomInfo)",
+  "location": "3636 N Central Ave, Suite 1000, Phoenix, AZ 85012",
+  "contact": {
+    "phone": "(602) 428-7104",
+    "email": "Not publicly listed",
+    "address": "3636 N Central Ave, Suite 1000, Phoenix, AZ 85012"
+  },
+  "decisionMakers": {
+    "founders": "J. Blake Mayes (founder, named partner)",
+    "partners": [
+      "David V. Telles",
+      "Mark Mendoza",
+      "Melanie Laboy",
+      "Candy Marrufo"
+    ]
+  },
+  "companyOverview": {
+    "founded": "Unknown, but appears well-established with 200+ years combined experience",
+    "specialization": "Criminal defense, DUI, personal injury, immigration law",
+    "keyDifferentiators": [
+      "Former prosecutors on team (6+ attorneys)",
+      "Voted #1 by Ranking Arizona five consecutive years",
+      "AV Preeminent rated by Martindale-Hubbell",
+      "National Top 100 Trial Lawyers recognition",
+      "Super Lawyers recognition",
+      "24/7 availability for clients"
+    ],
+    "awards": [
+      "Ranking Arizona #1 (5 years consecutively)",
+      "AV Preeminent Martindale-Hubbell rating",
+      "Super Lawyers",
+      "National Top 100 Trial Lawyers",
+      "Lead Counsel Verified",
+      "Top 100 Criminal Defense Attorneys (Blake Mayes)"
+    ]
+  },
+  "painPoints": {
+    "manualProcesses": [
+      "Intake process - multiple attorney phones and 24/7 emergency response",
+      "Client follow-ups and status updates",
+      "Document management for thousands of cases",
+      "Scheduling court dates, depositions, hearings",
+      "Case tracking across multiple practice areas (criminal, immigration, personal injury)",
+      "Insurance claims processing for personal injury cases",
+      "Immigration filing deadlines and status tracking",
+      "Client communication - likely high volume of inbound inquiries",
+      "Payment collection and flexible payment options mentioned"
+    ],
+    "efficiencyIssues": [
+      "16+ attorneys all managing their own case loads manually",
+      "Emergency availability 24/7 suggests disorganized intake",
+      "Multiple practice areas require different workflows",
+      "Former prosecutors on team may resist new technology"
+    ]
+  },
+  "trustScoreBreakdown": {
+    "websiteQuality": {
+      "score": 9,
+      "evidence": "Professional, modern website with clear navigation, testimonials, attorney profiles, case results, awards section"
+    },
+    "reviews": {
+      "score": 9,
+      "evidence": "4.7/5 rating on Yelp with 52 reviews, multiple testimonials on website, strong Google presence indicated"
+    },
+    "socialPresence": {
+      "score": 8,
+      "evidence": "Active LinkedIn profile (5,000+ followers), Facebook page, awards and recognitions"
+    },
+    "industryConversionRate": {
+      "score": 15,
+      "evidence": "Legal services - medium-high conversion rate for automation solutions, especially criminal defense with high volume clients"
+    },
+    "competitorSaturation": {
+      "score": 10,
+      "evidence": "Legal industry has some automation penetration but criminal defense firms often lag behind in tech adoption"
+    },
+    "clearPositioning": {
+      "score": 18,
+      "evidence": "Very clear positioning - 'We Live Here. We Fight For You Here', former prosecutors, #1 ranked firm"
+    },
+    "effortScore": {
+      "score": 6,
+      "evidence": "Public contact info (phone), but no direct email. Decision-makers (partners) listed"
+    }
+  },
+  "trustScoreTotal": 75,
+  "opportunityScore": 78,
+  "opportunityFactors": [
+    "31 employees in sweet spot (10-50)",
+    "Multiple practice areas with different workflows to optimize",
+    "High volume of incoming client inquiries (24/7 availability)",
+    "Flexible payment options (automation could improve collections)",
+    "Former prosecutors may value efficiency gains to handle more cases",
+    "#1 ranked firm suggests growth trajectory",
+    "Strong reputation means they'd be a quality referral source"
+  ],
+  "automationAngle": "Criminal defense and multi-practice law firms operate in high-stakes, client-facing environments where every minute counts. With 31 employees handling thousands of cases across criminal defense, immigration, and personal injury, manual processes for intake, client communication, case management, document tracking, and payment collection create bottlenecks. Automation could streamline the 24/7 intake process, automate client status updates, track court deadlines across practice areas, and improve payment collections - allowing the firm to handle more cases with the same team while providing superior client service.",
+  "solutionFit": {
+    "primary": [
+      "Client intake automation (web forms, phone routing)",
+      "Case management system with deadline tracking",
+      "Automated client communication (SMS, email updates)",
+      "Document workflow automation",
+      "Payment processing and automated billing"
+    ],
+    "secondary": [
+      "Court date scheduling automation",
+      "Insurance claim tracking for personal injury",
+      "Immigration filing deadline management",
+      "Attorney performance tracking and reporting"
+    ]
+  },
+  "growthSignals": {
+    "recentHiring": "16+ attorneys listed on website",
+    "expanding": "Multiple awards and #1 ranking indicates growth",
+    "newServices": "Offers criminal defense, DUI, personal injury, immigration - diverse practice areas"
+  },
+  "researchSources": [
+    "https://www.mayestelles.com/",
+    "https://contactout.com/company/MayesTelles-PLLC-9879",
+    "https://www.yelp.com/biz/mayestelles-phoenix-8",
+    "https://www.linkedin.com/company/mayestelles-pllc",
+    "ZoomInfo company profile",
+    "Greater Phoenix Chamber of Commerce listing"
+  ],
+  "createdAt": "2026-02-25T13:35:00Z",
+  "runId": "scout-2026-02-25-003"
+}

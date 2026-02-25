@@ -1,0 +1,122 @@
+{
+  "companyName": "Toothio",
+  "slug": "toothio",
+  "website": "https://www.toothio.com/",
+  "industry": "Dental Staffing & Recruitment",
+  "employeeCount": "Unknown, estimated 5-50 employees. On-demand dental staffing platform serving Phoenix and multiple markets",
+  "location": "Phoenix, AZ (one of multiple service locations)",
+  "contact": {
+    "phone": "Not publicly listed on main site",
+    "email": "Not publicly listed",
+    "address": "Phoenix metro area (specific address requires site exploration)"
+  },
+  "decisionMakers": {
+    "ownership": "Not publicly specified",
+    "keyContacts": "Contact through website, likely have market directors for each service area"
+  },
+  "companyOverview": {
+    "founded": "Unknown,新兴的按需牙科人员配备平台",
+    "specialization": "On-demand dental staffing for temporary and full-time dental professionals, serving dental practices, DSOs, clinics",
+    "keyDifferentiators": [
+      "On-demand dental staffing platform (modern approach)",
+      "Temporary and full-time placement",
+      "Serves Phoenix market specifically",
+      "Technology-enabled staffing (not traditional agency model)",
+      "Quick turnaround for urgent staffing needs",
+      "Pre-vetted dental professionals"
+    ],
+    "awards": [],
+    "serviceAreas": ["Phoenix", "Other markets across U.S."]
+  },
+  "painPoints": {
+    "manualProcesses": [
+      "Dentist and dental hygienist job order processing",
+      "Candidate vetting and qualification",
+      "Shift scheduling and assignment",
+      "Time tracking and timesheet management",
+      "Placement tracking and follow-up",
+      "Client communication and job status updates",
+      "Invoicing and payments (both to staff and from clients)",
+      "Candidate database management and matching",
+      "Performance tracking and quality assurance",
+      "Urgent staffing request handling"
+    ],
+    "efficiencyIssues": [
+      "On-demand model creates urgent, short-notice staffing requirements",
+      "High volume of temp shifts create complexity",
+      "Matching qualified professionals to specific practice requirements",
+      "Real-time coordination between dental practices, staff, and Toothio coordinators",
+      "Scaling to new markets and geographies",
+      "Maintaining quality while scaling"
+    ]
+  },
+  "trustScoreBreakdown": {
+    "websiteQuality": {
+      "score": 8,
+      "evidence": "Modern, clean website, platform-focused design, contemporary patterns"
+    },
+    "reviews": {
+      "score": 5,
+      "evidence": "Limited review data publicly available; on-demand staffing model suggests early-stage or growth phase"
+    },
+    "socialPresence": {
+      "score": 6,
+      "evidence": "Staffing platform typically maintains social for both clients and candidate marketing"
+    },
+    "industryConversionRate": {
+      "score": 10,
+      "evidence": "Staffing/recruitment medium conversion (~30-50%). Tech-enabled model positive, but still niche market"
+    },
+    "competitorSaturation": {
+      "score": 8,
+      "evidence": "Dental staffing specialized but on-demand model differentiated. Traditional agencies exist but tech platforms less common"
+    },
+    "clearPositioning": {
+      "score": 16,
+      "evidence": "Clear: 'On Demand Dental Work', temp and full-time, Phoenix-served market. Platform model clearly communicated."
+    },
+    "effortScore": {
+      "score": 4,
+      "evidence": "Limited contact info publicly available, likely requires form or phone. Decision-makers not visible publicly."
+    }
+  },
+  "trustScoreTotal": 57,
+  "opportunityScore": 65,
+  "opportunityFactors": [
+    "Tech-enabled staffing model indicates openness to automation and technology",
+    "On-demand business model has clear automation opportunities (matching, scheduling, communication)",
+    "Dental staffing is niche with less competition than general staffing",
+    "Platform approach suggests growth trajectory and investment in technology",
+    "Phoenix market focus provides geographic concentration for implementation",
+    "Temporary staffing has manual processes that significantly benefit from automation",
+    "Scalable business model with opportunity to expand to other markets"
+  ],
+  "automationAngle": "Dental staffing platforms operate with complex processes: job order intake, candidate matching, shift scheduling, time tracking, client communication, and billing. Toothio's on-demand model creates urgency that exacerbates manual process inefficiencies. Automation can streamline job order processing, automate candidate matching algorithms, enable self-service scheduling for dental practices, automate time tracking and payroll integration, automate client communication and notifications, and optimize the matching algorithm over time - allowing Toothio to scale to more dental practices and professionals while maintaining quality and response times.",
+  "solutionFit": {
+    "primary": [
+      "Candidate matching algorithm optimization and automation",
+      "Self-service client portal for job posting and scheduling",
+      "Automated candidate notifications and shift assignment",
+      "Time tracking and payroll integration",
+      "Client communication automation (confirmations, notifications, follow-ups)"
+    ],
+    "secondary": [
+      "Invoice generation and billing automation",
+      "Performance tracking and quality assurance automation",
+      "Candidate onboarding and credential management",
+      "Market expansion and new location onboarding",
+      "Predictive analytics for staffing demand"
+    ]
+  },
+  "growthSignals": {
+    "recentHiring": "Not visible publicly but on-demand model suggests growth",
+    "expanding": "Serves multiple markets beyond Phoenix",
+    "newServices": "Offers both temporary and full-time placement"
+  },
+  "researchSources": [
+    "https://www.toothio.com/",
+    "https://www.toothio.com/areas-we-serve/phoenix"
+  ],
+  "createdAt": "2026-02-25T13:39:00Z",
+  "runId": "scout-2026-02-25-003"
+}

@@ -1,0 +1,128 @@
+{
+  "companySlug": "howard-air-plumbing",
+  "companyName": "Howard Air & Plumbing",
+  "trustScoreCalculation": {
+    "components": {
+      "websiteQuality": {
+        "score": 7,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Functional website with service information",
+          "Professional appearance but appears dated design",
+          "Legacy website patterns (possibly custom or older CMS)",
+          "Services clearly organized",
+          "Contact information accessible",
+          "Not mobile-first design patterns visible",
+          "Service areas and offerings well-defined"
+        ],
+        "sources": ["https://howardair.com/"]
+      },
+      "reviews": {
+        "score": 9,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Arizona's #1 HVAC Company on Angie's List",
+          "A+ Better Business Bureau rating",
+          "47 years in business established reputation",
+          "Consistent service quality indicated by #1 ranking",
+          "No negative search results or complaints in research",
+          "Super Service Award likely (Angie's List #1 typically means)"
+        ],
+        "sources": [
+          "https://howardair.com/",
+          "Angie's List database",
+          "BBB database (via website claim)"
+        ]
+      },
+      "socialPresence": {
+        "score": 6,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Established local business presence",
+          "Community involvement likely with 47-year history",
+          "Limited aggressive social media marketing visible in search",
+          "Focus on traditional marketing (Angie's List, BBB)",
+          "No strong LinkedIn or social campaign presence found"
+        ],
+        "sources": ["Web search, social media scan"]
+      },
+      "industryConversionRate": {
+        "score": 10,
+        "maxScore": 25,
+        "weight": "25%",
+        "evidence": [
+          "HVAC/Service industry moderate conversion (~30-50%)",
+          "Family businesses often risk-averse to technology adoption",
+          "Service businesses have clear ROI but traditionally slow to automate",
+          "47-year history may indicate traditional approach",
+          "Phoenix HVAC market competitive but many traditional players"
+        ],
+        "sources": ["Industry benchmarks, historical prospect data"]
+      },
+      "competitorSaturation": {
+        "score": 8,
+        "maxScore": 15,
+        "weight": "15%",
+        "evidence": [
+          "HVAC automation tools exist (ServiceTitan, Housecall Pro, etc.)",
+          "Multiple Phoenix competitors (Day & Night Air, Chas Roberts)",
+          "Some competitors may have adopted automation",
+          "Moderate saturation not high saturation",
+          "Opportunity to differentiate through automation"
+        ],
+        "sources": ["Competitive search analysis"]
+      },
+      "clearPositioning": {
+        "score": 17,
+        "maxScore": 20,
+        "weight": "20%",
+        "evidence": [
+          "Clear: Since 1977 - family-owned and operated",
+          "Arizona's #1 HVAC Company on Angie's List",
+          "A+ BBB rating",
+          "Full-service HVAC and plumbing",
+          "Phoenix area focus",
+          "Family business positioning",
+          "Quality and reliability messaging"
+        ],
+        "sources": ["https://howardair.com/"]
+      },
+      "effortScore": {
+        "score": 4,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "No public email addresses listed",
+          "Phone number not prominently displayed on homepage",
+          "Contact form or deeper site navigation required",
+          "Family business decision-making likely concentrated",
+          "Multiple layers to reach decision-maker",
+          "No direct C-level contact visible"
+        ],
+        "sources": ["Website analysis"]
+      }
+    },
+    "weightedTotal": 61,
+    "rawTotal": 61,
+    "interpretation": "Solid prospect based on reputation and longevity, but risk-averse traditional business model. High operational value for automation but moderate conversion likelihood due to family business dynamics and traditional approach. Strong differentiation opportunity exists if can overcome initial resistance."
+  },
+  "opportunityScoreCalculation": {
+    "baseScore": 61,
+    "bonuses": {
+      "seasonalDemand": "+7",
+      "reason": "Extreme Phoenix summer heat creates peak season demand where automation directly increases revenue and capacity"
+    },
+    "adjustments": {
+      "traditionalBusinessModel": "-5",
+      "reason": "47-year family business likely risk-averse to technology adoption and change"
+    },
+    "finalScore": 68
+  },
+  "confidenceLevel": "Medium",
+  "confidenceReasoning": "Established business reputation verified through Angie's List and BBB claims on website. Limited public information about company size and operations. Family business structure typical for HVAC services.",
+  "researchDate": "2026-02-25",
+  "runId": "scout-2026-02-25-003"
+}

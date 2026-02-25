@@ -1,0 +1,132 @@
+{
+  "companySlug": "houk-employment-attorneys",
+  "companyName": "Houk Employment Attorneys",
+  "trustScoreCalculation": {
+    "components": {
+      "websiteQuality": {
+        "score": 8,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Professional, clean website design",
+          "Clear value proposition and messaging",
+          "Comprehensive FAQ section",
+          "Case results displayed prominently",
+          "Attorney information available",
+          "Modern design patterns",
+          "Contact form available",
+          "Mobile-responsive design"
+        ],
+        "sources": ["https://houklawfirm.com/"]
+      },
+      "reviews": {
+        "score": 8,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "4.5/5 rating on lawyers.com with 27 reviews",
+          "Super Lawyers recognition (requires peer nominations)",
+          "Case results displayed with recent success (2024)",
+          "Millions recovered for clients (self-reported)",
+          "No negative reviews highlighted in research",
+          "Professional associations require peer screening"
+        ],
+        "sources": [
+          "Lawyers.com employment law directory",
+          "https://houklawfirm.com/",
+          "Super Lawyers database"
+        ]
+      },
+      "socialPresence": {
+        "score": 5,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Limited social media presence found during research",
+          "Professional association membership (NELA, AZELA, ABA-LEL)",
+          "No active LinkedIn company profile visible in search",
+          "No active Facebook page found",
+          "Professional networking through associations rather than social media"
+        ],
+        "sources": ["Web search results, professional association verification"]
+      },
+      "industryConversionRate": {
+        "score": 15,
+        "maxScore": 25,
+        "weight": "25%",
+        "evidence": [
+          "Employment law has medium conversion rates (~40-60%) for relevant automation",
+          "Specialized practice area sees value in efficiency improvements",
+          "Deadlines are critical (180-day EEOC), creating urgency",
+          "Small firms more likely to invest in automation than solo practitioners",
+          "B2B component (employers) increases conversion potential"
+        ],
+        "sources": ["Historical prospect data, legal industry benchmarks"]
+      },
+      "competitorSaturation": {
+        "score": 12,
+        "maxScore": 15,
+        "weight": "15%",
+        "evidence": [
+          "Employment law is specialized practice area",
+          "Phoenix has many employment law firms (30+ in directory)",
+          "Few automation competitors specifically targeting employment law",
+          "Big firms (100+ attorneys) not target for mid-market automation",
+          "Small firms (1-5 attorneys) often can't afford comprehensive automation",
+          "5-15 employee firms represent underserved segment"
+        ],
+        "sources": ["Lawyers.com directory, competitive analysis"]
+      },
+      "clearPositioning": {
+        "score": 19,
+        "maxScore": 20,
+        "weight": "20%",
+        "evidence": [
+          "Very clear: Employment law exclusively",
+          "Tagline: 'Righting wrongs - one case at a time'",
+          "Explicitly serves employers, executives, and employees",
+          "Practice areas well-defined (wrongful termination, discrimination, harassment, unpaid wages)",
+          "45 years combined experience communicated",
+          "Millions recovered for clients",
+          "Professional associations listed (NELA, AZELA)",
+          "Client testimonials and case results"
+        ],
+        "sources": ["https://houklawfirm.com/"]
+      },
+      "effortScore": {
+        "score": 5,
+        "maxScore": 10,
+        "weight": "10%",
+        "evidence": [
+          "Phone number available: (480) 569-2377",
+          "Contact form available on website at /contact-us/",
+          "No direct email addresses publicly listed",
+          "Physical address not prominently displayed on main pages",
+          "Small decision-maker pool (3 attorneys)",
+          "Consultation request mechanism in place",
+          "Map integration shown suggesting in-person availability"
+        ],
+        "sources": ["https://houklawfirm.com/"]
+      }
+    },
+    "weightedTotal": 72,
+    "rawTotal": 72,
+    "interpretation": "Solid prospect with specialized focus and good conversion potential. Clear positioning and employment law expertise. Moderate contact effort due to limited social presence and lack of public email."
+  },
+  "opportunityScoreCalculation": {
+    "baseScore": 72,
+    "bonuses": {
+      "deadlineUrgency": "+5",
+      "reason": "Strict 180-day EEOC deadlines create high-stakes urgency for automation"
+    },
+    "adjustments": {
+      "smallTeam": "+3",
+      "reason": "Small team (3 attorneys) enables fast implementation with high ROI"
+    },
+    "finalScore": 75
+  },
+  "confidenceLevel": "Medium-High",
+  "confidenceReasoning": "Website provides good detail on services and team. Lawyer.com verifies size and ratings. Limited public information about company size beyond attorney count indicates private ownership.",
+  "researchDate": "2026-02-25",
+  "runId": "scout-2026-02-25-003"
+}

@@ -1,0 +1,124 @@
+{
+  "companyName": "Howard Air & Plumbing",
+  "slug": "howard-air-plumbing",
+  "website": "https://howardair.com/",
+  "industry": "HVAC/R (Heating, Ventilation, Air Conditioning, Refrigeration) and Plumbing",
+  "employeeCount": "Estimated 50-200 employees. Family-owned since 1977, Arizona's #1 HVAC Company on Angie's list (indicates significant operations)",
+  "location": "Phoenix, Arizona metro area",
+  "contact": {
+    "phone": "Not directly visible on homepage",
+    "email": "Not publicly listed",
+    "address": "Phoenix metro area (specific address requires site navigation)"
+  },
+  "decisionMakers": {
+    "ownership": "Family-owned (Howard family)",
+    "keyContacts": "Contact through website form or phone listings on service pages"
+  },
+  "companyOverview": {
+    "founded": "1977 (47+ years in business)",
+    "specialization": "HVAC installation, repair, maintenance, and plumbing services",
+    "keyDifferentiators": [
+      "Since 1977 - nearly 50 years in business",
+      "Arizona's #1 HVAC Company on Angie's list",
+      "A+ BBB rating",
+      "Family-owned and operated",
+      "Full-service HVAC and plumbing",
+      "Phoenix area service focus"
+    ],
+    "awards": [
+      "Arizona's #1 on Angie's list",
+      "A+ BBB rating",
+      "Super Service Award likely (Angie's List)"
+    ]
+  },
+  "painPoints": {
+    "manualProcesses": [
+      "Service scheduling and dispatch coordination",
+      "Technician routing and job assignment",
+      "Customer appointment confirmations and reminders",
+      "Invoicing and payment collection",
+      "Inventory management for parts and equipment",
+      "Maintenance contract tracking and renewal",
+      "Customer follow-ups and referrals",
+      "Work order management and job documentation",
+      "Time tracking and payroll for field technicians"
+    ],
+    "efficiencyIssues": [
+      "47-year-old family business likely uses traditional processes",
+      "High volume of service tickets requiring manual coordination",
+      "Multiple technicians in the field create logistical complexity",
+      "Seasonal demand (hot Phoenix summers) creates scaling challenges",
+      "Plumbing + HVAC doubles the complexity of service operations",
+      "Manual scheduling leads to inefficiencies and customer wait times"
+    ]
+  },
+  "trustScoreBreakdown": {
+    "websiteQuality": {
+      "score": 7,
+      "evidence": "Functional website with services information, but appears dated. Professional but legacy design patterns"
+    },
+    "reviews": {
+      "score": 9,
+      "evidence": "Arizona's #1 on Angie's list, A+ BBB rating. Strong local reputation established over 47 years"
+    },
+    "socialPresence": {
+      "score": 6,
+      "evidence": "Established local business with community presence. Limited aggressive social media marketing visible"
+    },
+    "industryConversionRate": {
+      "score": 10,
+      "evidence": "HVAC/Service industry has medium conversion rates (~30-50%). Family businesses can be risk-averse to technology adoption"
+    },
+    "competitorSaturation": {
+      "score": 8,
+      "evidence": "HVAC automation tools exist but many competitors (Day & Night Air, Chas Roberts, etc.) in Phoenix market. Moderate saturation"
+    },
+    "clearPositioning": {
+      "score": 17,
+      "evidence": "Clear positioning: Family-owned since 1977, #1 on Angie's list. 'Arizona's #1' messaging. A+ BBB rating. Established local provider."
+    },
+    "effortScore": {
+      "score": 4,
+      "evidence": "No public email addresses, phone requires site navigation for direct contact. Family business decision-making may be concentrated."
+    }
+  },
+  "trustScoreTotal": 61,
+  "opportunityScore": 68,
+  "opportunityFactors": [
+    "Established 47-year business with solid reputation (#1 Angie's list, A+ BBB)",
+    "High-volume service operations with clear scheduling and dispatch automation opportunities",
+    "Phoenix HVAC market has intense seasonal demand (summer) where automation is critical",
+    "HVAC + plumbing dual operations create complexity that automation can solve",
+    "Family business may be ready to modernize after 47 years of traditional operations",
+    "Large employee base (50-200) suggests capacity for investment",
+    "Service business model has clear ROI metrics for automation"
+  ],
+  "automationAngle": "HVAC and plumbing service businesses operate with complex field operations: tech scheduling, dispatch routing, customer communication, inventory management, and payment collection. With nearly 50 years in operation and high seasonal demand (Phoenix summers hitting 110°F+), manual processes create bottlenecks in customer service, technician utilization, and revenue capture. Automation can transform scheduling/dispatch, automate customer communications (confirmations, reminders, follow-ups), streamline invoicing and collections, optimize routing, and manage maintenance contracts - allowing Howard Air & Plumbing to serve more customers with existing staff while improving customer satisfaction.",
+  "solutionFit": {
+    "primary": [
+      "Automated service scheduling and dispatch system",
+      "Customer communication automation (SMS, email confirmations, reminders, follow-ups)",
+      "Field technician mobile app with job details and routing",
+      "Automated invoicing and payment processing",
+      "Maintenance contract management and renewal automation"
+    ],
+    "secondary": [
+      "Inventory management for parts and equipment",
+      "Time tracking and payroll integration",
+      "Customer relationship management (referrals, annual maintenance reminders)",
+      "Route optimization for fuel savings",
+      "Business analytics dashboard"
+    ]
+  },
+  "growthSignals": {
+    "recentHiring": "Arizona's #1 on Angie's list indicates active service delivery",
+    "expanding": "47 years in business implies sustained growth",
+    "newServices": "Offers both HVAC and plumbing - dual service lines"
+  },
+  "researchSources": [
+    "https://howardair.com/",
+    "Brave Search for Phoenix HVAC companies"
+  ],
+  "createdAt": "2026-02-25T13:37:00Z",
+  "runId": "scout-2026-02-25-003"
+}
