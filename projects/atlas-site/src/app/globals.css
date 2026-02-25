@@ -1,22 +1,13 @@
-@import "tailwindcss";
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
   --gradient-x: 200%;
-}
-
-@theme {
-  --color-neutral-950: #0a0a0a;
-  --color-neutral-900: #141414;
-  --color-orange-500: #f97316;
-  --color-amber-500: #f59e0b;
-  --color-emerald-500: #10b981;
-  --color-blue-500: #3b82f6;
-  --color-cyan-500: #06b6d4;
-  --color-teal-500: #14b8a6;
 }
 
 html {
@@ -44,12 +35,8 @@ body {
 
 /* Smooth fade-in animations */
 @keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .animate-in.fade-in {
@@ -58,12 +45,8 @@ body {
 
 /* Bounce animation */
 @keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
 }
 
 .animate-bounce {
@@ -72,10 +55,7 @@ body {
 
 /* Ping animation */
 @keyframes ping {
-  75%, 100% {
-    transform: scale(1.1);
-    opacity: 0;
-  }
+  75%, 100% { transform: scale(1.1); opacity: 0; }
 }
 
 .animate-ping {
@@ -84,12 +64,8 @@ body {
 
 /* Pulse animation */
 @keyframes pulse {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.6;
-  }
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
 }
 
 .animate-pulse {
