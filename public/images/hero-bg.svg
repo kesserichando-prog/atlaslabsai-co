@@ -1,0 +1,41 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#141414;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#heroGradient)" />
+
+  <!-- Large gradient orbs -->
+  <circle cx="400" cy="200" r="400" fill="url(#orangeGlow)" opacity="0.6" />
+  <circle cx="1500" cy="800" r="350" fill="url(#blueGlow)" opacity="0.6" />
+  <circle cx="1000" cy="500" r="250" fill="url(#orangeGlow)" opacity="0.3" />
+
+  <!-- Geometric pattern -->
+  <g fill="#ffffff" fill-opacity="0.02">
+    <!-- Hexagonal pattern -->
+    <path d="M400 200 L440 230 L440 270 L400 300 L360 270 L360 230 Z" />
+    <path d="M480 250 L520 280 L520 320 L480 350 L440 320 L440 280 Z" />
+    <path d="M560 200 L600 230 L600 270 L560 300 L520 270 L520 230 Z" />
+    <path d="M640 250 L680 280 L680 320 L640 350 L600 320 L600 280 Z" />
+    <path d="M400 300 L440 330 L440 370 L400 400 L360 370 L360 330 Z" />
+    <path d="M480 350 L520 380 L520 420 L480 450 L440 420 L440 380 Z" />
+    <path d="M560 300 L600 330 L600 370 L560 400 L520 370 L520 330 Z" />
+    <path d="M640 350 L680 380 L680 420 L640 450 L600 420 L600 380 Z" />
+  </g>
+
+  <!-- Accent dots -->
+  <circle cx="960" cy="540" r="2" fill="#f97316" />
+  <circle cx="970" cy="520" r="1.5" fill="#f59e0b" opacity="0.5" />
+  <circle cx="950" cy="555" r="1.5" fill="#f97316" opacity="0.3" />
+</svg>
