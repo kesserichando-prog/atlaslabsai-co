@@ -1,0 +1,64 @@
+# Environment files
+.env
+.env.*
+*.env
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Cache and temp
+.cache/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Secrets
+*secret*
+*private*
+credentials/
+*.key
+*.pem
+
+# Database (keep structure, ignore data if sensitive)
+*.db-wal
+*.db-shm
+# Uncomment if mission-control.db has sensitive data:
+# mission-control/prisma/dev.db
+
+# Node modules
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# OpenClaw internal
+.openclaw/
+
+# ClawHub cache
+.clawhub/
+
+# Large generated files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+# Exclude avatar (tracked in git already though)
+# Exclude generated demos if too large

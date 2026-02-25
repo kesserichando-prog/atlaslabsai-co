@@ -1,0 +1,60 @@
+{
+  "lastChecks": {
+    "pipeline": 1708783800,
+    "scout": 1740457500,
+    "skills": 1708786800,
+    "pipeline_check": 1708789800,
+    "demos": 1708795200,
+    "demo_build": 1738127700,
+    "git": null,
+    "memory": null
+  },
+  "lastAlert": {
+    "type": null,
+    "timestamp": null,
+    "resolved": true
+  },
+  "quietMode": {
+    "active": false,
+    "until": null
+  },
+  "metrics": {
+    "heartbeatsToday": 6,
+    "tasksCompleted": 7,
+    "alertCount": 0,
+    "scoutRuns": 3,
+    "prospectsFound": 2,
+    "demosBuilt": 3,
+    "contentCreated": 2,
+    "skillsDiscovered": 4,
+    "verificationsCompleted": 1,
+    "demosInProgress": 1
+  },
+  "scoutActivity": {
+    "lastRun": "2026-02-25T04:05:00Z",
+    "runId": "scout-2026-02-25-001",
+    "subagentSession": "agent:atlas:subagent:d7602036-da37-4bd6-b258-a29211c7e490",
+    "status": "in_progress",
+    "prospects": []
+  },
+  "skillsDiscovery": {
+    "lastRun": "2026-02-24T04:40:00Z",
+    "skillsFound": 4,
+    "highPriorityForInstall": 2,
+    "candidates": [
+      "lead-enrichment",
+      "lead-hunter",
+      "lead-generation",
+      "deep-research-pro"
+    ]
+  },
+  "demoBuild": {
+    "lastBuild": "2026-02-24T21:55:00Z",
+    "subagentSession": "agent:atlas:subagent:4a25b4f5-0ae3-4f7f-ae36-5f1477bcf133",
+    "runId": "d41737ff-f3ac-44ff-9d13-9655d1819b07",
+    "prospect": "Phoenix Family Medical Clinic",
+    "trustScore": 88,
+    "file": "/Users/atlas/.openclaw/workspace/demos/phoenix-family-medical-demo.md",
+    "status": "in_progress"
+  }
+}
