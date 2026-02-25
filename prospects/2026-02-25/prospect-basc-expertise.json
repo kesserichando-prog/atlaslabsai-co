@@ -1,0 +1,57 @@
+{
+  "company": "BASC Expertise",
+  "slug": "basc-expertise",
+  "website": "https://bascexpertise.com",
+  "industry": "Accounting - Tax, Payroll & Bookkeeping",
+  "employees": "8",
+  "revenue": "Not publicly disclosed (small firm)",
+  "founded": "2004",
+  "location": "Gilbert, Arizona (Greater Phoenix area)",
+  "address": "3303 E Baseline Rd, Suite 107, Gilbert, AZ 85234",
+  "contact": {
+    "phone": "(480) 355-1398",
+    "email": "info@bascexpertise.com"
+  },
+  "services": [
+    "Tax preparation and planning",
+    "Business accounting and bookkeeping",
+    "Payroll processing",
+    "QuickBooks® training",
+    "IRS audit representation",
+    "Tax resolution services",
+    "Financial consulting"
+  ],
+  "awards": [
+    "Award-winning accounting firm (per website)"
+  ],
+  "targetMarket": "Small business owners and self-employed individuals",
+  "painPoints": [
+    "Client document collection and data entry",
+    "Tax preparation workflows (manual workpaper preparation)",
+    "Payroll processing (especially for clients without proper systems)",
+    "Client communication and document sharing",
+    "Recurring compliance deadlines (quarterly taxes, annual returns)",
+    "Bookkeeping data entry from bank statements",
+    "Practice growth and capacity constraints with 8 employees"
+  ],
+  "automationAngle": "As an established accounting firm with 8 employees serving small business clients, BASC Expertise likely spends significant time on manual data entry, document processing, and client communications—making them ideal for accounting automation including client portals, automated data extraction, streamlined tax workflows, and payroll integration.",
+  "growthSignals": [
+    "20+ years in business (founded 2004)",
+    "Award-winning firm",
+    "QuickBooks training indicates they help clients modernize",
+    "Gilbert office (Phoenix growth area)",
+    "Services both individuals and small businesses"
+  ],
+  "trustScore": 68,
+  "opportunityScore": 72,
+  "automationReadiness": "Medium - Accounting firms vary in tech adoption; QuickBooks expertise suggests openness to technology",
+  "decisionMakerLikely": "Owner/Principal",
+  "outreachDifficulty": "Low - Small firm, accessible contact info, direct access to owner likely",
+  "sources": [
+    "https://bascexpertise.com",
+    "https://bascexpertise.com/contact-us/",
+    "https://bascexpertise.com/meet-our-team/",
+    "https://www.yelp.com/biz/basc-expertise-gilbert-2",
+    "https://rocketreach.co/basc-expertise-profile_355703361"
+  ]
+}

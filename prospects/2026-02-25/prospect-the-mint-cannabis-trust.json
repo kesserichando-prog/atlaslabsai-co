@@ -1,0 +1,61 @@
+{
+  "company": "The Mint Cannabis",
+  "trustScore": 78,
+  "components": {
+    "websiteQuality": {
+      "score": 9,
+      "max": 10,
+      "evidence": "Modern, professional website with excellent UX. Clear locations, services, innovation showcase, and company story. Blog with industry content. Mobile-optimized. Strong branding with 'The Mint' identity. Locations page detailed with hours, services (medical/recreational, etc.).",
+      "url": "https://themintcannabis.com"
+    },
+    "reviews": {
+      "score": 7,
+      "max": 10,
+      "evidence": "Leafly, Weedmaps show active operation with customer reviews. Yelp shows 62 photos at Northern Ave location (indicates customer engagement). Facebook shows positive customer sentiment: '100% recommend'. Some Leafly reviews mention process issues but overall positive. Cannabis industry has polarized reviews (some negative due to regulations/product availability, not company quality).",
+      "sources": [
+        "https://www.yelp.com/biz/mint-cannabis-phoenix-2",
+        "https://www.facebook.com/TheMintArizona/",
+        "https://www.leafly.com/dispensary-info/the-mint-cannabis-75th-ave"
+      ]
+    },
+    "socialPresence": {
+      "score": 8,
+      "max": 10,
+      "evidence": "Active Facebook with community engagement, updates, and customer interactions. LinkedIn presence (201-500 employees listed). Instagram and Twitter mentioned as platforms The Mint 'loves connecting' with customers. Professional social media presence for national brand.",
+      "sources": [
+        "https://www.facebook.com/TheMintArizona/"
+      ]
+    },
+    "industryConversionRate": {
+      "score": 22,
+      "max": 25,
+      "evidence": "Cannabis industry has HIGH automation adoption rate due to complex seed-to-sale compliance requirements, multi-state operations, and heavy regulation. Multi-state operators (MSOs) like The Mint are investing heavily in technology for compliance, inventory, workforce, and customer experience. Clear automation need: seed-to-sale tracking, cross-state compliance, inventory optimization.",
+      "notes": "Cannabis: highest automation adoption among industries researched"
+    },
+    "competitorSaturation": {
+      "score": 12,
+      "max": 15,
+      "evidence": "Many cannabis tech providers (BioTrack, Flowhub, POS systems) but they serve basic operations. Advanced automation (AI-powered customer experience, predictive inventory, intelligent scheduling) less crowded. Multi-state operators willing to invest in competitive differentiation. Regional advantage in Phoenix market.",
+      "notes": "Opportunity in advanced automation beyond basic POS/compliance tools"
+    },
+    "clearPositioning": {
+      "score": 18,
+      "max": 20,
+      "evidence": "Clear positioning as innovative leader: 'First cannabis kitchen in US,' 'Nation's first 24/7 dispensary operation,' '3rd largest dispensary in US.' Strong differentiation through innovation (kitchen, drive-thru, online, shuttle, 24/7). Values-based positioning: Compassion, Community, Safety, Education, Transparency. Premium experience brand.",
+      "website": "https://themintcannabis.com"
+    },
+    "effortScore": {
+      "score": 2,
+      "max": 10,
+      "evidence": "Contact page may require navigation through website forms or multiple gateways. Public email (Info@themintdispensary.com) and phone (480-749-6468) exist but may route to departments. Larger organization with layers of decision-makers. Innovation angle may help bypass gatekeepers but still medium-high complexity.",
+      "contact": "Info@themintdispensary.com, (480) 749-6468"
+    }
+  },
+  "calculation": {
+    "sum": 78,
+    "maxPossible": 100,
+    "percentage": 78,
+    "notes": "High trust score. Clear innovation leader in cannabis industry with documented 'firsts': first cannabis kitchen, first 24/7 operation, drive-thru pioneer. Major multi-state operator with 201-500 employees, 3rd largest dispensary in US. Strong brand, technology-forward culture. Lower outreach offset due to organization size, but innovation history indicates openness to new ideas. Cannabis industry's high automation adoption makes this a prime candidate for sophisticated automation solutions."
+  },
+  "recommendation": "High-priority qualify for outreach with innovation angle. Company has demonstrated commitment to innovation (new concept annually 2018-2023) and capacity to invest (multi-state operation). Complex operations create clear automation needs: multi-state compliance, inventory optimization, workforce scheduling for 24/7 ops, customer experience automation. Use their innovation track record as door-opener: 'You pioneered first cannabis kitchen, 24/7 operation—let's pioneer intelligent automation together.' Expect medium-longer sales cycle but high-value deal and strong reference case if acquired."
+}

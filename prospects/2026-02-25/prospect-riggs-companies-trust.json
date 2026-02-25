@@ -1,0 +1,61 @@
+{
+  "company": "Riggs Companies",
+  "trustScore": 72,
+  "components": {
+    "websiteQuality": {
+      "score": 8,
+      "max": 10,
+      "evidence": "Professional, modern website with clear services, industries served, accolades, and case studies. Good navigation and information architecture.",
+      "url": "https://riggscompanies.com"
+    },
+    "reviews": {
+      "score": 4,
+      "max": 10,
+      "evidence": "Facebook page has 0 reviews. Glassdoor shows mixed reviews - some employees rate 5.0/5 praising management and growth, while some MapQuest reviews indicate pricing concerns. Limited public customer reviews available.",
+      "sources": [
+        "https://www.facebook.com/riggscompanies/",
+        "https://www.glassdoor.com/Reviews/Riggs-Companies-Reviews-E8845499.htm"
+      ]
+    },
+    "socialPresence": {
+      "score": 6,
+      "max": 10,
+      "evidence": "Active LinkedIn presence with 1,137 followers. Facebook page exists but minimal engagement. Professional reputation in construction industry.",
+      "sources": [
+        "https://www.linkedin.com/company/riggs-companies",
+        "https://www.facebook.com/riggscompanies/"
+      ]
+    },
+    "industryConversionRate": {
+      "score": 15,
+      "max": 25,
+      "evidence": "Construction industry has medium automation adoption rate. Commercial contractors increasingly adopting technology for project management, but many manual processes remain. ESOP structure suggests sophisticated business operations.",
+      "notes": "Construction traditionally slower to adopt automation, but larger firms are investing in construction tech"
+    },
+    "competitorSaturation": {
+      "score": 12,
+      "max": 15,
+      "evidence": "Moderate number of construction automation consultants serving Phoenix area. Local focus provides advantage. Large national players are less likely to compete for mid-market general contractors.",
+      "notes": "Niche construction automation opportunity with local expertise"
+    },
+    "clearPositioning": {
+      "score": 15,
+      "max": 20,
+      "evidence": "Riggs clearly positions as 'The Concrete Specialists' and 'fastest-growing commercial concrete contractor in the Southwest.' Strong value proposition around quality, service, and price. ESOP structure differentiates.",
+      "website": "https://riggscompanies.com"
+    },
+    "effortScore": {
+      "score": 12,
+      "max": 10,
+      "evidence": "Public estimating email available. Clear company structure. LinkedIn profiles of leadership visible. Direct phone line provided. Multiple contact channels available.",
+      "contact": "estimating@riggscompanies.com, (623) 565-5796"
+    }
+  },
+  "calculation": {
+    "sum": 72,
+    "maxPossible": 100,
+    "percentage": 72,
+    "notes": "Above-average trust score. Company is legitimate, growing, and has clear business needs. Lower review score is typical for construction contractors who don't actively solicit public reviews. ESOP structure and awards indicate stability and sophistication."
+  },
+  "recommendation": "Qualify for outreach. Strong growth signals awards and substantial revenue indicate capacity to invest in automation. Construction project management and ESOP tracking are high-value automation opportunities."
+}

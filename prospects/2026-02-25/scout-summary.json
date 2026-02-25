@@ -1,0 +1,123 @@
+{
+  "prospects": [
+    {
+      "company": "Riggs Companies",
+      "website": "https://riggscompanies.com",
+      "industry": "Commercial Construction - Concrete",
+      "employees": "~57",
+      "trustScore": 72,
+      "opportunityScore": 80,
+      "painPoints": [
+        "Project management across multiple job sites and phases",
+        "Estimating and bid preparation processes",
+        "Material ordering and tracking across projects",
+        "Scheduling and resource allocation for crews",
+        "Employee time tracking (ESOP calculations)",
+        "Safety compliance and reporting",
+        "Client communications and updates"
+      ],
+      "automationAngle": "As the fastest-growing commercial concrete contractor in the Southwest managing complex tilt-up and cast-in-place projects across multiple industries, Riggs Companies would benefit significantly from construction-specific automation for project management, resource scheduling, and ESOP time tracking to support their rapid scaling while maintaining their on-time, on-budget delivery reputation.",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-riggs-companies.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-riggs-companies.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-riggs-companies-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-riggs-companies-research.md"
+      ]
+    },
+    {
+      "company": "City Property Management",
+      "website": "https://cityproperty.com",
+      "industry": "HOA & Property Management",
+      "employees": "150+",
+      "trustScore": 64,
+      "opportunityScore": 75,
+      "painPoints": [
+        "Work order management and routing for 90,000+ units",
+        "Homeowner communication and complaint resolution bottlenecks",
+        "Financial reconciliation across thousands of accounts",
+        "Vendor coordination and performance tracking",
+        "Compliance reporting (CC&Rs, violations, collections)",
+        "Board meeting preparation and document management",
+        "Growth: Adding new communities and scaling operations"
+      ],
+      "automationAngle": "Despite proprietary CITYCYNC® technology, City Property Management's scale (90,000+ doors, 150+ employees) likely has gaps in vendor portal automation, intelligent work order routing, homeowner self-service escalation, automated compliance monitoring, and financial reconciliation across multiple communities—creating substantial efficiency opportunities.",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-city-property-management.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-city-property-management.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-city-property-management-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-city-property-management-research.md"
+      ]
+    },
+    {
+      "company": "BASC Expertise",
+      "website": "https://bascexpertise.com",
+      "industry": "Accounting - Tax, Payroll & Bookkeeping",
+      "employees": "8",
+      "trustScore": 68,
+      "opportunityScore": 72,
+      "painPoints": [
+        "Client document collection and data entry",
+        "Tax preparation workflows (manual workpaper preparation)",
+        "Payroll processing (especially for clients without proper systems)",
+        "Client communication and document sharing",
+        "Recurring compliance deadlines (quarterly taxes, annual returns)",
+        "Bookkeeping data entry from bank statements",
+        "Practice growth and capacity constraints with 8 employees"
+      ],
+      "automationAngle": "As an established accounting firm with 8 employees serving small business clients, BASC Expertise likely spends significant time on manual data entry, document processing, and client communications—making them ideal for accounting automation including client portals, automated data extraction, streamlined tax workflows, and payroll integration.",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-basc-expertise.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-basc-expertise.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-basc-expertise-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-basc-expertise-research.md"
+      ]
+    },
+    {
+      "company": "The Mint Cannabis",
+      "website": "https://themintcannabis.com",
+      "industry": "Cannabis Dispensary - Multi-State Operator",
+      "employees": "201-500",
+      "trustScore": 78,
+      "opportunityScore": 85,
+      "painPoints": [
+        "Seed-to-sale compliance tracking across multiple states with different regulations",
+        "Inventory management across 5+ locations and cultivation/manufacturing",
+        "Loyalty program management and redemption",
+        "Customer verification (medical cards, IDs) for thousands of customers",
+        "Order management: pickup, delivery, drive-thru coordination",
+        "Workforce scheduling and management across 24-hour operation",
+        "Financial reconciliation and reporting across states and locations",
+        "Compliance reporting to Arizona ADHS and other state regulators"
+      ],
+      "automationAngle": "As a rapidly expanding multi-state cannabis operator with demonstrated innovation history (first cannabis kitchen, drive-thru, 24/7 operation) and complex multi-location operations, The Mint Cannabis would benefit significantly from: automated compliance reporting across states, intelligent inventory optimization, loyalty program automation, workforce scheduling for 24/7 operations, and AI-powered customer experience enhancements.",
+      "artifacts": [
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-the-mint-cannabis.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-the-mint-cannabis.md",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-the-mint-cannabis-trust.json",
+        "/Users/atlas/.openclaw/workspace/prospects/2026-02-25/prospect-the-mint-cannabis-research.md"
+      ]
+    }
+  ],
+  "runId": "scout-2026-02-25-001",
+  "timestamp": "2026-02-25T11:10:00Z",
+  "searchesAttempted": 25,
+  "prospectsFound": 4,
+  "timeSpent": "90 minutes",
+  "summary": {
+    "totalArtifacts": 16,
+    "industriesCovered": ["Commercial Construction", "HOA/Property Management", "Accounting/Tax", "Cannabis Dispensary"],
+    "sizeRange": "8-500 employees",
+    "combinedAnnualRevenue": "$28M+ (disclosed portion)",
+    "averageTrustScore": 70.5,
+    "averageOpportunityScore": 78,
+    "quickWins": ["BASC Expertise (small firm, fast close)"],
+    "highValue": ["The Mint Cannabis (multi-state, innovation DNA)", "Riggs Companies (fastest-growing contractor)"],
+    "scalePlays": ["City Property Management (90,000+ doors, $8.5M revenue)", "The Mint Cannabis (multi-state operator)"]
+  },
+  "recommendations": [
+    "Priority 1: BASC Expertise - Smallest firm, fastest close, quick win to build momentum",
+    "Priority 2: Riggs Companies - Fast growth, clear estimating pain, accessible decision-maker",
+    "Priority 3: The Mint Cannabis - Innovation angle, multi-state complexity, highest long-term value but longer sales cycle",
+    "Priority 4: City Property Management - Massive scale opportunity but requires navigating gatekeepers and longer sales cycle"
+  ]
+}

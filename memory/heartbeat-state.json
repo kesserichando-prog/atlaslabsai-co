@@ -2,12 +2,12 @@
   "lastChecks": {
     "pipeline": 1708783800,
     "scout": 1740457500,
-    "skills": 1708786800,
+    "skills": 1740459000,
     "pipeline_check": 1708789800,
     "demos": 1708795200,
     "demo_build": 1738127700,
-    "git": null,
-    "memory": null
+    "git": 1740458400,
+    "memory": 1740459900
   },
   "lastAlert": {
     "type": null,
@@ -20,13 +20,13 @@
   },
   "metrics": {
     "heartbeatsToday": 6,
-    "tasksCompleted": 7,
+    "tasksCompleted": 10,
     "alertCount": 0,
-    "scoutRuns": 3,
-    "prospectsFound": 2,
+    "scoutRuns": 4,
+    "prospectsFound": 6,
     "demosBuilt": 3,
     "contentCreated": 2,
-    "skillsDiscovered": 4,
+    "skillsDiscovered": 9,
     "verificationsCompleted": 1,
     "demosInProgress": 1
   },
@@ -34,14 +34,60 @@
     "lastRun": "2026-02-25T04:05:00Z",
     "runId": "scout-2026-02-25-001",
     "subagentSession": "agent:atlas:subagent:d7602036-da37-4bd6-b258-a29211c7e490",
-    "status": "in_progress",
-    "prospects": []
+    "status": "completed",
+    "runtime": "8m43s",
+    "prospects": [
+      {
+        "company": "Riggs Companies",
+        "industry": "Commercial Construction",
+        "employees": "~57",
+        "trustScore": 72,
+        "opportunityScore": 80,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "City Property Management",
+        "industry": "HOA Management",
+        "employees": "150+",
+        "trustScore": 64,
+        "opportunityScore": 75,
+        "priority": "medium",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "BASC Expertise",
+        "industry": "Accounting/Tax",
+        "employees": 8,
+        "trustScore": 68,
+        "opportunityScore": 72,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      },
+      {
+        "company": "The Mint Cannabis",
+        "industry": "Cannabis Dispensary",
+        "employees": "201-500",
+        "trustScore": 78,
+        "opportunityScore": 85,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": true
+      }
+    ]
   },
   "skillsDiscovery": {
-    "lastRun": "2026-02-24T04:40:00Z",
-    "skillsFound": 4,
-    "highPriorityForInstall": 2,
+    "lastRun": "2026-02-25T04:10:00Z",
+    "skillsFound": 5,
+    "highPriorityForInstall": 1,
     "candidates": [
+      "abm-outbound",
+      "n8n-workflow-automation",
+      "weekly-report-generator",
+      "sales-pipeline-tracker",
       "lead-enrichment",
       "lead-hunter",
       "lead-generation",

@@ -1,0 +1,59 @@
+{
+  "company": "City Property Management",
+  "trustScore": 64,
+  "components": {
+    "websiteQuality": {
+      "score": 9,
+      "max": 10,
+      "evidence": "Modern, professional website with detailed service pages, client testimonials, technology showcase (CITYCYNC®, CITYLINK), and comprehensive content. Strong branding and clear value proposition.",
+      "url": "https://cityproperty.com"
+    },
+    "reviews": {
+      "score": 3,
+      "max": 10,
+      "evidence": "Yelp has 211 reviews with poor rating (1.5-3.3 stars). Birdeye shows 706 reviews at 3.3 stars. BBB has some complaints (1.5 star rating mentioned on Reddit). However, Glassdoor and Indeed employee reviews are positive. Mixed reputation: homeowners frustrated with HOA management (common industry issue), but employees report good culture.",
+      "sources": [
+        "https://www.yelp.com/biz/city-property-management-phoenix-2",
+        "https://reviews.birdeye.com/city-property-management-156986896385623",
+        "https://www.reddit.com/r/phoenix/comments/skq9t1/problems_with_my_hoacity_property_management_what/"
+      ]
+    },
+    "socialPresence": {
+      "score": 7,
+      "max": 10,
+      "evidence": "Active LinkedIn presence with careers and company updates. Professional social media accounts. Phoenix Business Journal 'Best Places to Work' recognition for 12+ years indicates strong internal brand.",
+      "notes": "Strong employee brand, mixed customer reviews (typical for HOA industry)"
+    },
+    "industryConversionRate": {
+      "score": 18,
+      "max": 25,
+      "evidence": "Property management, especially HOA management, has medium-high automation adoption. Large firms like City Property likely have some tech but often have gaps in vendor coordination, work order routing, and homeowner communication. Arizona's growth creates demand.",
+      "notes": "Property management adopting tech, but HOA specifically has complex compliance requirements that create automation opportunities"
+    },
+    "competitorSaturation": {
+      "score": 10,
+      "max": 15,
+      "evidence": "Moderate saturation in property management automation space. National competitors (AppFolio, Buildium) serve the market. Local advantage possible with Arizona-specific compliance knowledge. Many smaller competitors less automated.",
+      "notes": "Opportunity in Arizona-specific HOA compliance and vendor portal integration"
+    },
+    "clearPositioning": {
+      "score": 14,
+      "max": 20,
+      "evidence": "Clearly positions as 'Arizona's largest, family-owned HOA management partner.' Strong value proposition: technology CITYCYNC®, dedicated teams, 40+ years expertise, integrity-driven results. Clear differentiation from competitors.",
+      "website": "https://cityproperty.com"
+    },
+    "effortScore": {
+      "score": 3,
+      "max": 10,
+      "evidence": "No public email listed (typical for larger companies). Must navigate gatekeepers. Multiple departments. Phone is primary contact. LinkedIn search needed for decision-makers. More complex outreach than smaller firms.",
+      "contact": "(602) 437-4777 (phone only publicly listed)"
+    }
+  },
+  "calculation": {
+    "sum": 64,
+    "maxPossible": 100,
+    "percentage": 64,
+    "notes": "Above-minimum trust score. Company is well-established (45+ years), substantial operation (90,000 doors), and invested in technology. Lower review score is typical for HOA industry due to inherent homeowner frustration, not business quality. Employee reviews validate operational excellence. Gatekeepers increase outreach difficulty but scale justifies effort."
+  },
+  "recommendation": "Qualify for outreach but prepare for longer sales cycle. Large scale ($8.5M revenue, 150+ employees) supports significant automation investment. Existing proprietary tech platform (CITYCYNC®) means they're tech-forward but may have integration gaps. High-value opportunity: work order routing, vendor portal, compliance automation, homeowner communication improvements."
+}

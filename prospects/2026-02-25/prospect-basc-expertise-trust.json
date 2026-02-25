@@ -1,0 +1,58 @@
+{
+  "company": "BASC Expertise",
+  "trustScore": 68,
+  "components": {
+    "websiteQuality": {
+      "score": 7,
+      "max": 10,
+      "evidence": "Professional but relatively simple website. Clear service offerings. Team page available. Contact information easily accessible. Not overly sophisticated but functional and builds credibility.",
+      "url": "https://bascexpertise.com"
+    },
+    "reviews": {
+      "score": 7,
+      "max": 10,
+      "evidence": "Yelp shows 87 photos and 16 reviews. Average rating appears good (not exact rating noted, but photos suggest active presence). 20+ years in business indicates satisfied clients. 'Award-winning' mentioned on website.",
+      "sources": [
+        "https://www.yelp.com/biz/basc-expertise-gilbert-2",
+        "https://bascexpertise.com/about/"
+      ]
+    },
+    "socialPresence": {
+      "score": 5,
+      "max": 10,
+      "evidence": "LinkedIn presence exists but limited followers. Not highly active on social platforms. Professional but not a strong social brand. Typical for small accounting firms where referrals drive business.",
+      "notes": "Small local firm; reputation likely word-of-mouth driven"
+    },
+    "industryConversionRate": {
+      "score": 18,
+      "max": 25,
+      "evidence": "Accounting/bookkeeping has relatively high automation adoption. Cloud accounting (QuickBooks, Xero) is standard. Many firms still manual on document processing, tax workflows, and client communications. Good market for tools that save time.",
+      "notes": "Accounting ripe for automation in document processing, client portals, and workflow automation"
+    },
+    "competitorSaturation": {
+      "score": 8,
+      "max": 15,
+      "evidence": "Many accounting automation tools nationwide but local advantage for Phoenix area. National competitors (JetPack, Botkeeper, Pliance) serve market. Small firms likely underserved by complex enterprise solutions.",
+      "notes": "Opportunity for boutique accounting firm automation that's not overly complex"
+    },
+    "clearPositioning": {
+      "score": 16,
+      "max": 20,
+      "evidence": "Clear positioning as 'tax and business accounting firm in Gilbert' serving small business owners and self-employed individuals. Emphasizes QuickBooks training. 'Award-winning' mention. Clear value proposition: 'With our accurate bookkeeping and strategic tax plans, we assist small business owners in growing their businesses.'",
+      "website": "https://bascexpertise.com"
+    },
+    "effortScore": {
+      "score": 7,
+      "max": 10,
+      "evidence": "Public email (info@bascexpertise.com) and phone (480) 355-1398. Physical office location. Team page with staff. Likely small firm with accessible decision-maker (owner/principal). Low friction for outreach.",
+      "contact": "info@bascexpertise.com, (480) 355-1398"
+    }
+  },
+  "calculation": {
+    "sum": 68,
+    "maxPossible": 100,
+    "percentage": 68,
+    "notes": "Above-average trust score for a small firm. 20+ years in business, award-winning status, and public contact information indicate legitimacy. Small size (8 employees) makes them ideal for quick sales cycle and immediate impact. Limited social presence is typical for local accounting firms—referrals drive business. Strong opportunity for accounting workflow automation."
+  },
+  "recommendation": "Qualify for outreach. Small firm with established reputation (20+ years) means they have stable client base and potential to invest. Clear accounting automation opportunities (client portals, document processing, tax workflows). Low outreach friction makes this a high-probability-close if price point matches their capacity. Quick wins possible: automate document collection, streamline tax preparation, improve client communication."
+}

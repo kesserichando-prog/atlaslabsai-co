@@ -1,0 +1,57 @@
+{
+  "company": "City Property Management",
+  "slug": "city-property-management",
+  "website": "https://cityproperty.com",
+  "industry": "HOA & Property Management",
+  "employees": "150+",
+  "revenue": "$8.5M",
+  "founded": "1979",
+  "location": "Phoenix, Arizona",
+  "address": "4645 E Cotton Gin Loop, Phoenix, AZ 85040",
+  "contact": {
+    "phone": "(602) 437-4777",
+    "email": "Not publicly listed"
+  },
+  "portfolio": {
+    "doorsManaged": "90,000+",
+    "established": "1979 (45+ years)",
+    "serviceArea": "Statewide Arizona"
+  },
+  "technology": {
+    "proprietaryPlatform": "CITYCYNC®",
+    "mobileApp": "CITYLINK",
+    "votingApp": "CityVote"
+  },
+  "awards": [
+    "Best Places to Work - Phoenix Business Journal (2013-present)",
+    "Largest HOA management company in Arizona (family-owned)"
+  ],
+  "painPoints": [
+    "Work order management and routing for 90,000+ units",
+    "Homeowner communication and complaint resolution bottlenecks",
+    "Financial reconciliation across thousands of accounts",
+    "Vendor coordination and performance tracking",
+    "Compliance reporting (CC&Rs, violations, collections)",
+    "Board meeting preparation and document management",
+    "Growth: Adding new communities and scaling operations"
+  ],
+  "automationAngle": "Despite proprietary CITYCYNC® technology,City Property Management's scale (90,000+ doors,150+ employees) likely has gaps in vendor portal automation, intelligent work order routing, homeowner self-service escalation, automated compliance monitoring, and financial reconciliation across multiple communities—creating substantial efficiency opportunities.",
+  "growthSignals": [
+    "Managing 90,000 doors (major scale)",
+    "Multiple 'Best Places to Work' awards for 12+ years",
+    "Continuous hiring (careers page active)",
+    "Serving all of Arizona",
+    "Recent website and technology platform investment (CITYCYNC®)"
+  ],
+  "trustScore": 64,
+  "opportunityScore": 75,
+  "automationReadiness": "High - Already invested in proprietary platform, indicating tech-forward mindset",
+  "decisionMakerLikely": "COO, VP of Operations, or Director of Technology",
+  "outreachDifficulty": "Medium-High (large company, likely more gatekeepers)",
+  "sources": [
+    "https://cityproperty.com",
+    "https://www.yelp.com/biz/city-property-management-phoenix-2",
+    "https://rocketreach.co/city-property-management-profile_b5da29b1f42e5697",
+    "https://www.zippia.com/city-property-management-careers-343833/"
+  ]
+}

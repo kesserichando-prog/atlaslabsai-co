@@ -1,0 +1,54 @@
+{
+  "company": "Riggs Companies",
+  "slug": "riggs-companies",
+  "website": "https://riggscompanies.com",
+  "industry": "Commercial Construction - Concrete",
+  "employees": "~57",
+  "revenue": "$19.5M",
+  "founded": "1993",
+  "location": "Phoenix, Arizona",
+  "address": "950 E Lone Cactus Dr, Phoenix, AZ 85024",
+  "contact": {
+    "phone": "(623) 565-5796",
+    "email": "estimating@riggscompanies.com"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/riggs-companies",
+    "linkedinFollowers": 1137,
+    "facebook": "https://www.facebook.com/riggscompanies/",
+    "facebookReviews": 0
+  },
+  "awards": [
+    "Top Workplace 2022 & 2024 by AZ Central",
+    "Inc. 5000: Fastest Growing Companies in the Nation",
+    "Tilt-up Achievement Award Winner (Mercy Gilbert Medical Center)",
+    "Record: Heaviest tilt-up panels in US (418,900lb)"
+  ],
+  "painPoints": [
+    "Project management across multiple job sites and phases",
+    "Estimating and bid preparation processes",
+    "Material ordering and tracking across projects",
+    "Scheduling and resource allocation for crews",
+    "Employee time tracking (ESOP calculations)",
+    "Safety compliance and reporting",
+    "Client communications and updates"
+  ],
+  "automationAngle": "As the fastest-growing commercial concrete contractor in the Southwest managing complex tilt-up and cast-in-place projects across multiple industries, Riggs Companies would benefit significantly from construction-specific automation for project management, resource scheduling, and ESOP time tracking to support their rapid scaling while maintaining their on-time, on-budget delivery reputation.",
+  "growthSignals": [
+    "Inc. 5000 recognition as fastest-growing company",
+    "Nation's heaviest tilt panel record project",
+    "100% employee-owned (ESOP) - indicates growth and employee investment",
+    "Multi-industry expansion (data centers, medical, industrial, retail)"
+  ],
+  "trustScore": 72,
+  "opportunityScore": 80,
+  "automationReadiness": "Medium - Industry traditionally manual, but awards and growth show openness to innovation",
+  "decisionMakerLikely": "Project Director or Operations Manager",
+  "outreachDifficulty": "Medium",
+  "sources": [
+    "https://riggscompanies.com",
+    "https://rocketreach.co/riggs-companies-profile_b44de0f9fd1d6749",
+    "https://www.linkedin.com/company/riggs-companies",
+    "https://www.glassdoor.com/Reviews/Riggs-Companies-Reviews-E8845499.htm"
+  ]
+}

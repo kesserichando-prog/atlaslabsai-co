@@ -1,0 +1,70 @@
+{
+  "company": "The Mint Cannabis",
+  "slug": "the-mint-cannabis",
+  "website": "https://themintcannabis.com",
+  "industry": "Cannabis Dispensary - Multi-State Operator",
+  "employees": "201-500",
+  "revenue": "Not publicly disclosed (private, major operation)",
+  "founded": "2016",
+  "location": "Guadalupe, Arizona (Phoenix metro)",
+  "headquarters": "5210 S Priest Dr, Guadalupe, Arizona",
+  "contact": {
+    "phone": "(480) 749-6468",
+    "email": "Info@themintdispensary.com"
+  },
+  "parentCompany": {
+    "name": "Brightroot Inc.",
+    "founded": 2016
+  },
+  "operations": {
+    "scale": "3rd largest dispensary in US",
+    "flagshipSize": "12,000 sq ft (largest in Arizona)",
+    "locations": "Phoenix area (Tempe, Phoenix, Mesa, expanding to Northern & I17, 75th Ave & I10)",
+    "multiState": "Arizona, Michigan, Massachusetts, Missouri, more planned",
+    "facilities": "Retail locations, manufacturing and extraction labs, cultivation centers"
+  },
+  "innovations": [
+    "First cannabis kitchen in US (2018)",
+    "High-tech grow (2019)",
+    "Drive-thru (2020)",
+    "Online service launch (2021)",
+    "Shuttle service (2022)",
+    "24/7 operation capability (2023)"
+  ],
+  "awards": [
+    "Most Innovative Medical Cannabis Dispensary - Commercial Cannabis Awards",
+    "Most Innovative Medical Cannabis Dispensary 2025/2026"
+  ],
+  "painPoints": [
+    "Seed-to-sale compliance tracking across multiple states with different regulations",
+    "Inventory management across 5+ locations and cultivation/manufacturing",
+    "Loyalty program management and redemption",
+    "Customer verification (medical cards, IDs) for thousands of customers",
+    "Order management: pickup, delivery, drive-thru coordination",
+    "Workforce scheduling and management across 24-hour operation",
+    "Financial reconciliation and reporting across states and locations",
+    "Compliance reporting to Arizona ADHS and other state regulators"
+  ],
+  "automationAngle": "As a rapidly expanding multi-state cannabis operator with demonstrated innovation history (first cannabis kitchen, drive-thru, 24/7 operation) and complex multi-location operations, The Mint Cannabis would benefit significantly from: automated compliance reporting across states, intelligent inventory optimization, loyalty program automation, workforce scheduling for 24/7 operations, and AI-powered customer experience enhancements.",
+  "growthSignals": [
+    "Expansion from Arizona to Michigan, Massachusetts, Missouri with more states planned",
+    "24/7 operation capability (first in state)",
+    "Continuous innovation track record (new features/concepts launched annually 2018-2023)",
+    "3rd largest dispensary in US",
+    "12,000 sq ft flagship - largest in Arizona",
+    "Multi-state cultivation, manufacturing, and extraction operations"
+  ],
+  "trustScore": 78,
+  "opportunityScore": 85,
+  "automationReadiness": "Very High - Proven innovation history with firsts in industry; clearly tech-forward",
+  "decisionMakerLikely": "VP of Operations, COO, or Director of Technology",
+  "outreachDifficulty": "Medium-High (larger company with gatekeepers, but innovation angle opens doors)",
+  "sources": [
+    "https://themintcannabis.com",
+    "https://themintcannabis.com/locations/",
+    "https://www.linkedin.com/company/mintcannabis",
+    "https://www.facebook.com/TheMintArizona/",
+    "https://www.leafly.com/dispensary-info/the-mint-cannabis-75th-ave",
+    "https://weedmaps.com/dispensaries/the-mint-cannabis-northern-ave"
+  ]
+}
