@@ -19,16 +19,16 @@
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 9,
-    "tasksCompleted": 17,
+    "heartbeatsToday": 10,
+    "tasksCompleted": 18,
     "alertCount": 0,
     "scoutRuns": 8,
     "prospectsFound": 13,
-    "demosBuilt": 3,
+    "demosBuilt": 4,
     "contentCreated": 2,
     "skillsDiscovered": 13,
     "verificationsCompleted": 1,
-    "demosInProgress": 1
+    "demosInProgress": 0
   },
   "scoutActivity": {
     "lastRun": "2026-02-25T06:33:00Z",
@@ -195,12 +195,12 @@
     ]
   },
   "demoBuild": {
-    "lastBuild": "2026-02-24T21:55:00Z",
+    "lastBuild": "2026-02-25T09:00:00Z",
     "subagentSession": "agent:atlas:subagent:4a25b4f5-0ae3-4f7f-ae36-5f1477bcf133",
     "runId": "d41737ff-f3ac-44ff-9d13-9655d1819b07",
     "prospect": "Phoenix Family Medical Clinic",
     "trustScore": 88,
     "file": "/Users/atlas/.openclaw/workspace/demos/phoenix-family-medical-demo.md",
-    "status": "in_progress"
+    "status": "completed"
   }
 }
