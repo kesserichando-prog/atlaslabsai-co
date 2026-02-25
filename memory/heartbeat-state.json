@@ -1,18 +1,22 @@
 {
   "lastChecks": {
-    "pipeline": 1708783800,
+    "pipeline": 1740513720,
     "scout": 1740471000,
     "skills": 1740474000,
     "pipeline_check": 1708789800,
-    "demos": 1708795200,
-    "demo_build": 1738127700,
+    "demos": 1740513600,
+    "demo_build": 1740513600,
     "git": 1740477000,
     "memory": 1740478200
   },
   "lastAlert": {
-    "type": null,
-    "timestamp": null,
-    "resolved": true
+    "type": "demo_ready_approaching_24h",
+    "timestamp": 1740513720,
+    "lead": "Dental on Central",
+    "status": "Ready",
+    "hoursReady": "19.5",
+    "threshold": "24h",
+    "resolved": false
   },
   "quietMode": {
     "active": false,
