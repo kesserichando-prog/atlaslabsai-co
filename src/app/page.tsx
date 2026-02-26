@@ -1,103 +1,15 @@
 "use client";
 
-import Link from "next/link";
 import { CaseStudies } from "./CaseStudies";
 import { Results } from "./Results";
-import { useEffect, useState } from "react";
-import "@/lib/patterns.js";
+import { ScrollProgressBar } from "@/components/ScrollProgressBar";
+import { Navigation } from "@/components/Navigation";
 
 export default function Home() {
-  const [scrolled, setScrolled] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <main className="min-h-screen bg-neutral-950">
-      {/* Scroll Progress Bar */}
-      <div data-scroll-progress className="fixed top-0 left-0 h-1 bg-gradient-to-r from-orange-500 to-amber-500 z-[51] transition-all duration-100 ease-out" style={{ width: "0%" }} />
-
-      {/* Navigation */}
-      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-neutral-950/95 backdrop-blur-xl border-b border-neutral-800" : "bg-transparent"
-      }`}>
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative">
-              <div className="w-12 h-12 flex items-center justify-center rounded-full overflow-hidden shadow-lg shadow-orange-500/20 group-hover:shadow-orange-500/40 transition-shadow">
-                <img src="/images/logo.svg" alt="Atlas Logo" className="w-full h-full" />
-              </div>
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-emerald-500 rounded-full animate-pulse" />
-            </div>
-            <div>
-              <span className="font-bold text-xl text-neutral-100">Atlas</span>
-              <span className="text-orange-500 font-bold text-xl">Labs</span>
-              <span className="text-neutral-500 ml-1 text-sm font-medium">AI</span>
-            </div>
-          </Link>
-
-          {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8">
-            <Link href="#services" className="text-sm text-neutral-400 hover:text-orange-400 transition-colors">
-              Services
-            </Link>
-            <Link href="#case-studies" className="text-sm text-neutral-400 hover:text-orange-400 transition-colors">
-              Case Studies
-            </Link>
-            <Link href="#results" className="text-sm text-neutral-400 hover:text-orange-400 transition-colors">
-              Results
-            </Link>
-            <Link
-              href="#contact"
-              className="text-sm bg-gradient-to-r from-orange-500 to-amber-500 text-white px-5 py-2.5 rounded-full font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all"
-            >
-              Get Started
-            </Link>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            data-nav-burger
-            aria-expanded={mobileMenuOpen}
-            aria-controls="mobile-menu"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden w-10 h-10 flex items-center justify-center text-neutral-400 hover:text-orange-400 transition-colors"
-          >
-            {mobileMenuOpen ? (
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <line x1="6" y1="6" x2="18" y2="18" />
-                <line x1="6" y1="18" x2="18" y2="6" />
-              </svg>
-            ) : (
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <line x1="3" y1="6" x2="21" y2="6" />
-                <line x1="3" y1="12" x2="21" y2="12" />
-                <line x1="3" y1="18" x2="21" y2="18" />
-              </svg>
-            )}
-          </button>
-        </div>
-
-        {/* Mobile Menu */}
-        <div
-          data-mobile-menu
-          hidden={!mobileMenuOpen}
-          className="md:hidden bg-neutral-950/98 backdrop-blur-xl border-t border-neutral-800"
-        >
-          <div className="max-w-7xl mx-auto px-6 py-4 space-y-4">
-            <Link
-              href="#services"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block text-base text-neutral-300 hover:text-orange-400 transition-colors"
-            >
-              Services
-            </Link>
-            <Link
-              href="#case-studies"
+      <ScrollProgressBar />
+      <Navigation />
               onClick={() => setMobileMenuOpen(false)}
               className="block text-base text-neutral-300 hover:text-orange-400 transition-colors"
             >
