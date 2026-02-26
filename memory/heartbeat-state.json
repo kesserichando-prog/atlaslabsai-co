@@ -1,14 +1,15 @@
 {
   "lastChecks": {
-    "pipeline": 1740590600,
+    "pipeline": 1740599000,
     "scout": 1740576600,
     "skills": 1740474000,
     "pipeline_check": 1740557260,
     "demos": 1740557260,
     "demo_build": 1740530800,
-    "git": 1740590600,
-    "memory": 1740590600,
-    "morningBrief": 1740564800
+    "git": 1740599000,
+    "memory": 1740599000,
+    "morningBrief": 1740564800,
+    "cronStatus": 1740599000
   },
   "lastAlert": {
     "type": "cron_delivery_failure",
@@ -21,7 +22,7 @@
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 31,
+    "heartbeatsToday": 32,
     "tasksCompleted": 30,
     "alertCount": 1,
     "scoutRuns": 11,
