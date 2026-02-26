@@ -1,13 +1,14 @@
 {
   "lastChecks": {
-    "pipeline": 1740564420,
-    "scout": 1740556200,
+    "pipeline": 1740577800,
+    "scout": 1740576600,
     "skills": 1740474000,
     "pipeline_check": 1740557260,
     "demos": 1740557260,
     "demo_build": 1740530800,
-    "git": 1740564420,
-    "memory": 1740564420
+    "git": 1740566380,
+    "memory": 1740577800,
+    "morningBrief": 1740564800
   },
   "lastAlert": {
     "type": "catalyst_integration_gap",
@@ -20,24 +21,67 @@
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 17,
-    "tasksCompleted": 25,
+    "heartbeatsToday": 24,
+    "tasksCompleted": 28,
     "alertCount": 1,
-    "scoutRuns": 10,
-    "prospectsFound": 20,
+    "scoutRuns": 11,
+    "prospectsFound": 26,
     "demosBuilt": 5,
-    "contentCreated": 2,
+    "contentCreated": 3,
     "skillsDiscovered": 18,
     "verificationsCompleted": 1,
-    "demosInProgress": 2
+    "demosInProgress": 2,
+    "briefsGenerated": 1
   },
   "scoutActivity": {
-    "lastRun": "2026-02-25T06:33:00Z",
-    "runId": "scout-2026-02-25-003",
-    "subagentSession": "agent:atlas:subagent:1edda921-11ca-466d-99f3-1571726a9332",
+    "lastRun": "2026-02-26T17:08:00Z",
+    "runId": "scout-phx-healthcare-2026-02-26",
+    "subagentSession": "56e914d8-bf31-431c-8295-13abd567890d",
     "status": "completed",
-    "runtime": "8m6s",
+    "runtime": "4m12s",
     "prospects": [
+      {
+        "company": "Desert Valley Urgent Care",
+        "industry": "Healthcare - Urgent Care",
+        "employees": "~15-30",
+        "trustScore": 68,
+        "opportunityScore": 88,
+        "priority": "medium",
+        "artifacts": 4,
+        "uploaded": false
+      },
+      {
+        "company": "Paradise Valley Dental Group",
+        "industry": "Healthcare - Dental",
+        "employees": "~10-20",
+        "trustScore": 78,
+        "opportunityScore": 82,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": false
+      },
+      {
+        "company": "South Mountain Internal Medicine",
+        "industry": "Healthcare - Primary Care",
+        "employees": "~8-15",
+        "trustScore": 72,
+        "opportunityScore": 78,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": false
+      },
+      {
+        "company": "Valley Heart Specialists",
+        "industry": "Healthcare - Cardiology",
+        "employees": "~12-25",
+        "trustScore": 74,
+        "opportunityScore": 80,
+        "priority": "high",
+        "artifacts": 4,
+        "uploaded": false
+      }
+    ],
+    "historicalRuns": [
       {
         "company": "Riggs Companies",
         "industry": "Commercial Construction",
@@ -168,7 +212,8 @@
         "artifacts": 4,
         "uploaded": true
       }
-    ]
+    ],
+    "totalProspectsFound": 26
   },
   "skillsDiscovery": {
     "lastRun": "2026-02-26T12:31:00Z",
