@@ -1,28 +1,28 @@
 {
   "lastChecks": {
-    "pipeline": 1740588600,
+    "pipeline": 1740590600,
     "scout": 1740576600,
     "skills": 1740474000,
     "pipeline_check": 1740557260,
     "demos": 1740557260,
     "demo_build": 1740530800,
-    "git": 1740588600,
-    "memory": 1740588600,
+    "git": 1740590600,
+    "memory": 1740590600,
     "morningBrief": 1740564800
   },
   "lastAlert": {
-    "type": "catalyst_integration_gap",
-    "timestamp": 1740557260,
+    "type": "cron_delivery_failure",
+    "timestamp": 1740588600,
     "resolved": false,
-    "details": "Scout returned 3 prospects with Trust ≥70 but Catalyst didn't auto-spawn. Missing Scout → Lead DB → Catalyst trigger integration."
+    "details": "Morning brief, night-scout, and afternoon-progress cron jobs failing to deliver to Telegram. 2-4 consecutive errors. Last error: 'cron announce delivery failed'. Twin not receiving automated reports."
   },
   "quietMode": {
     "active": false,
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 29,
-    "tasksCompleted": 29,
+    "heartbeatsToday": 31,
+    "tasksCompleted": 30,
     "alertCount": 1,
     "scoutRuns": 11,
     "prospectsFound": 26,
