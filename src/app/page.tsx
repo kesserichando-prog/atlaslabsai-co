@@ -4,9 +4,11 @@ import Link from "next/link";
 import { CaseStudies } from "./CaseStudies";
 import { Results } from "./Results";
 import { useEffect, useState } from "react";
+import "@/lib/patterns.js";
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -16,6 +18,9 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-neutral-950">
+      {/* Scroll Progress Bar */}
+      <div data-scroll-progress className="fixed top-0 left-0 h-1 bg-gradient-to-r from-orange-500 to-amber-500 z-50 transition-all duration-100 ease-out" style={{ width: "0%" }} />
+
       {/* Navigation */}
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled ? "bg-neutral-950/95 backdrop-blur-xl border-b border-neutral-800" : "bg-transparent"
@@ -34,6 +39,8 @@ export default function Home() {
               <span className="text-neutral-500 ml-1 text-sm font-medium">AI</span>
             </div>
           </Link>
+
+          {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">
             <Link href="#services" className="text-sm text-neutral-400 hover:text-orange-400 transition-colors">
               Services
@@ -51,11 +58,71 @@ export default function Home() {
               Get Started
             </Link>
           </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            data-nav-burger
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-menu"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden w-10 h-10 flex items-center justify-center text-neutral-400 hover:text-orange-400 transition-colors"
+          >
+            {mobileMenuOpen ? (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="6" y1="6" x2="18" y2="18" />
+                <line x1="6" y1="18" x2="18" y2="6" />
+              </svg>
+            ) : (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            )}
+          </button>
+        </div>
+
+        {/* Mobile Menu */}
+        <div
+          data-mobile-menu
+          hidden={!mobileMenuOpen}
+          className="md:hidden bg-neutral-950/98 backdrop-blur-xl border-t border-neutral-800"
+        >
+          <div className="max-w-7xl mx-auto px-6 py-4 space-y-4">
+            <Link
+              href="#services"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-base text-neutral-300 hover:text-orange-400 transition-colors"
+            >
+              Services
+            </Link>
+            <Link
+              href="#case-studies"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-base text-neutral-300 hover:text-orange-400 transition-colors"
+            >
+              Case Studies
+            </Link>
+            <Link
+              href="#results"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-base text-neutral-300 hover:text-orange-400 transition-colors"
+            >
+              Results
+            </Link>
+            <Link
+              href="#contact"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-base bg-gradient-to-r from-orange-500 to-amber-500 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all text-center"
+            >
+              Get Started
+            </Link>
+          </div>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 pt-20 overflow-hidden">
+      <section className="reveal-on-scroll relative min-h-screen flex items-center justify-center px-6 pt-20 overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[url('/images/hero-bg.svg')] bg-cover bg-center" />
@@ -180,7 +247,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-32 px-6 relative">
+      <section id="services" className="reveal-on-scroll py-32 px-6 relative">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.02] to-transparent pointer-events-none" />
 
         <div className="max-w-7xl mx-auto relative">
@@ -235,7 +302,7 @@ export default function Home() {
       </section>
 
       {/* Case Studies Section */}
-      <section id="case-studies" className="py-32 px-6 bg-gradient-to-b from-neutral-900/50 to-neutral-950">
+      <section id="case-studies" className="reveal-on-scroll py-32 px-6 bg-gradient-to-b from-neutral-900/50 to-neutral-950">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-20">
@@ -256,7 +323,7 @@ export default function Home() {
       </section>
 
       {/* Results Dashboard */}
-      <section id="results" className="py-32 px-6">
+      <section id="results" className="reveal-on-scroll py-32 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
             <div className="inline-flex items-center gap-2 text-orange-400 text-sm font-medium mb-4">
@@ -276,7 +343,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-32 px-6 bg-gradient-to-br from-neutral-900 to-neutral-950 relative overflow-hidden">
+      <section id="contact" className="reveal-on-scroll py-32 px-6 bg-gradient-to-br from-neutral-900 to-neutral-950 relative overflow-hidden">
         {/* Background Gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-orange-500/5 via-transparent to-neutral-950" />
 
