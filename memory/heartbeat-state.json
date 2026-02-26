@@ -12,26 +12,26 @@
     "cronStatus": 1740599000
   },
   "lastAlert": {
-    "type": "cron_delivery_failure",
-    "timestamp": 1740588600,
+    "type": "database_empty",
+    "timestamp": 1740604800,
     "resolved": false,
-    "details": "Morning brief, night-scout, and afternoon-progress cron jobs failing to deliver to Telegram. 2-4 consecutive errors. Last error: 'cron announce delivery failed'. Twin not receiving automated reports."
+    "details": "Mission Control database files are 0 bytes (completely empty). Schema exists with 21 tables, but no data migration/seeding. Cannot track leads, demos, opportunities. Scout artifacts exist but cannot sync. Twin has zero pipeline visibility. Afternoon progress built 2 new demos (Paradise Valley Dental, Valley Heart Specialists) but cannot sync to database."
   },
   "quietMode": {
     "active": false,
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 34,
-    "tasksCompleted": 31,
+    "heartbeatsToday": 35,
+    "tasksCompleted": 33,
     "alertCount": 1,
     "scoutRuns": 11,
     "prospectsFound": 26,
-    "demosBuilt": 5,
-    "contentCreated": 3,
+    "demosBuilt": 7,
+    "contentCreated": 4,
     "skillsDiscovered": 18,
     "verificationsCompleted": 1,
-    "demosInProgress": 2,
+    "demosInProgress": 0,
     "briefsGenerated": 1
   },
   "scoutActivity": {
@@ -247,18 +247,20 @@
     ]
   },
   "demoBuild": {
-    "lastBuild": "2026-02-25T09:00:00Z",
-    "subagentSession": "agent:atlas:subagent:4a25b4f5-0ae3-4f7f-ae36-5f1477bcf133",
-    "runId": "d41737ff-f3ac-44ff-9d13-9655d1819b07",
-    "prospect": "Phoenix Family Medical Clinic",
-    "trustScore": 88,
-    "file": "/Users/atlas/.openclaw/workspace/demos/phoenix-family-medical-demo.md",
-    "status": "completed"
+    "lastBuild": "2026-02-26T23:07:00Z",
+    "subagentSession": "afternoon-progress-2",
+    "runId": "27d78542-bfda-4477-908d-d721663a32c1",
+    "prospect": "Valley Heart Specialists",
+    "trustScore": 74,
+    "file": "/Users/atlas/.openclaw/workspace/demos/valley-heart-specialists-demo.md",
+    "status": "completed",
+    "demosBuilt": 7,
+    "newDemosToday": 2
   },
   "gitActivity": {
-    "lastCommit": "2026-02-26T17:35:00Z",
-    "committedFiles": 2,
-    "uncommittedFiles": 68,
+    "lastCommit": "2026-02-26T21:33:00Z",
+    "committedFiles": 1,
+    "uncommittedFiles": 88,
     "status": "committed"
   }
 }
