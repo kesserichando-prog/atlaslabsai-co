@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div>
               <span className="font-bold text-xl text-neutral-100">Atlas</span>
-              <span className="text-orange-500 font-bold text-xl">Lab</span>
+              <span className="text-orange-500 font-bold text-xl">Labs</span>
               <span className="text-neutral-500 ml-1 text-sm font-medium">AI</span>
             </div>
           </Link>
@@ -309,12 +309,12 @@ export default function Home() {
               </div>
               <div>
                 <span className="font-bold text-lg text-neutral-100">Atlas</span>
-                <span className="text-orange-500 font-bold text-lg">Lab</span>
+                <span className="text-orange-500 font-bold text-lg">Labs</span>
                 <span className="text-neutral-500 ml-1 text-sm">AI</span>
               </div>
             </div>
             <div className="text-sm text-neutral-500">
-              © {new Date().getFullYear()} Atlas Lab AI. Built to scale → Never stop automating.
+              © {new Date().getFullYear()} AtlasLabs AI. Built to scale → Never stop automating.
             </div>
             <div className="flex items-center gap-4">
               <a href="#" className="text-neutral-500 hover:text-orange-400 transition-colors">

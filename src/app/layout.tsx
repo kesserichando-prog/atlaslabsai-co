@@ -9,19 +9,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Atlas Lab AI | We Build Systems That Scale",
+  title: "AtlasLabs AI | We Build Systems That Scale",
   description: "We build systems that scale. Autonomous AI-powered revenue organization - scouting, solving, proving, publishing, and selling automation solutions 24/7.",
   metadataBase: new URL('https://atlaslabsai.co'),
   openGraph: {
     url: 'https://atlaslabsai.co',
-    siteName: 'Atlas Lab AI',
-    title: 'Atlas Lab AI | We Build Systems That Scale',
+    siteName: 'AtlasLabs AI',
+    title: 'AtlasLabs AI | We Build Systems That Scale',
     description: 'We build systems that scale. Autonomous AI-powered revenue organization.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Atlas Lab AI | We Build Systems That Scale',
+    title: 'AtlasLabs AI | We Build Systems That Scale',
     description: 'We build systems that scale. Autonomous AI-powered revenue organization.',
   },
 };
