@@ -1,38 +1,35 @@
 {
   "lastChecks": {
-    "pipeline": 1740513720,
-    "scout": 1740471000,
+    "pipeline": 1740562320,
+    "scout": 1740556200,
     "skills": 1740474000,
-    "pipeline_check": 1708789800,
-    "demos": 1740513600,
-    "demo_build": 1740513600,
-    "git": 1740477000,
-    "memory": 1740478200
+    "pipeline_check": 1740557260,
+    "demos": 1740557260,
+    "demo_build": 1740530800,
+    "git": 1740562320,
+    "memory": 1740562320
   },
   "lastAlert": {
-    "type": "demo_ready_approaching_24h",
-    "timestamp": 1740513720,
-    "lead": "Dental on Central",
-    "status": "Ready",
-    "hoursReady": "19.5",
-    "threshold": "24h",
-    "resolved": false
+    "type": "catalyst_integration_gap",
+    "timestamp": 1740557260,
+    "resolved": false,
+    "details": "Scout returned 3 prospects with Trust ≥70 but Catalyst didn't auto-spawn. Missing Scout → Lead DB → Catalyst trigger integration."
   },
   "quietMode": {
     "active": false,
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 10,
-    "tasksCompleted": 18,
-    "alertCount": 0,
-    "scoutRuns": 8,
-    "prospectsFound": 13,
-    "demosBuilt": 4,
+    "heartbeatsToday": 16,
+    "tasksCompleted": 24,
+    "alertCount": 1,
+    "scoutRuns": 10,
+    "prospectsFound": 20,
+    "demosBuilt": 5,
     "contentCreated": 2,
-    "skillsDiscovered": 13,
+    "skillsDiscovered": 18,
     "verificationsCompleted": 1,
-    "demosInProgress": 0
+    "demosInProgress": 2
   },
   "scoutActivity": {
     "lastRun": "2026-02-25T06:33:00Z",
@@ -174,14 +171,19 @@
     ]
   },
   "skillsDiscovery": {
-    "lastRun": "2026-02-25T07:00:00Z",
-    "skillsFound": 3,
+    "lastRun": "2026-02-26T12:31:00Z",
+    "skillsFound": 10,
     "newCandidates": [
-      "task-decomposer",
-      "lead-scorer",
-      "daily-report"
+      "automation-workflows",
+      "ai-web-automation",
+      "data-automation-service"
     ],
     "candidates": [
+      "automation-workflows",
+      "ai-web-automation",
+      "data-automation-service",
+      "x-post-automation",
+      "activecampaign-automation",
       "abm-outbound",
       "n8n-workflow-automation",
       "weekly-report-generator",

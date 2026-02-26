@@ -2,7 +2,7 @@
 
 This file tracks what skills we're discovering, creating, and installing to make the team more efficient.
 
-**Last updated:** 2026-02-25
+**Last updated:** 2026-02-26
 
 ---
 
@@ -27,6 +27,12 @@ This file tracks what skills we're discovering, creating, and installing to make
 | **notion-api-integration** | ClawHub | Notion API integration and workflow automation | 🔍 Discovered (2026-02-25) | Medium: Document management + knowledge base |
 | **pdf-to-structured** | ClawHub | Convert PDF to structured data | 🔍 Discovered (2026-02-25) | High: Automate document processing and data extraction |
 | **paperless** | ClawHub | Document management and OCR automation | 🔍 Discovered (2026-02-25) | Medium: Document archive + search automation |
+| **automation-workflows** | ClawHub | General automation workflow templates | 🔍 Discovered (2026-02-26) | Medium: Could accelerate demo builds |
+| **ai-web-automation** | ClawHub | AI-powered web automation tasks | 🔍 Discovered (2026-02-26) | Medium: Scraping, form fill, data extraction |
+| **data-automation-service** | ClawHub | Data processing and ETL workflows | 🔍 Discovered (2026-02-26) | Medium: Data pipelines, transformation |
+| **x-post-automation** | ClawHub | X(Twitter) post automation | 🔍 Discovered (2026-02-26) | Low: Marketing automation |
+| **windows-ui-automation** | ClawHub | Windows UI automation | 🔍 Discovered (2026-02-26) | Low: Desktop automation |
+| **activecampaign-automation** | ClawHub | ActiveCampaign workflow automation | 🔍 Discovered (2026-02-26) | Low: Email marketing integration |
 | trust-score-calculator | Local | Automates Trust Score calculation | ✅ Built | Active |
 | prospect-enrichment | Local | Auto-enrich company research | ✅ Ready | Active |
 
@@ -343,5 +349,93 @@ Prospect pain point identified → n8n-workflow-automation → Client demo JSON 
 1. Verify Apollo access/costs
 2. Check Skip Trace availability
 3. Confirm integration complexity with existing outreach flow
+
+---
+
+## Latest Scout Discovery: 2026-02-26 06:31 AM
+
+### 🎯 Five New Skills for Automation
+
+**1. automation-workflows (MEDIUM PRIORITY)**
+- **Owner:** Unknown
+- **Rating:** 3.632
+- **What it does:**
+  - General automation workflow templates
+  - Pre-built patterns for common tasks
+
+**Impact on Current Work:**
+- Could accelerate demo builds with reusable workflow patterns
+- Reduces design time for client automation proposals
+- **Use case:** Quick template for common automation scenarios
+- **Recommendation:** Test for demo building efficiency
+
+**2. ai-web-automation (MEDIUM PRIORITY)**
+- **Owner:** Unknown
+- **Rating:** 3.393
+- **What it does:**
+  - AI-powered web automation tasks
+  - Scraping, form fill, data extraction
+
+**Impact on Current Work:**
+- Could automate: Web research, form submissions, data extraction
+- We already have document-processing skill - may overlap
+- **Use case:** Automate prospect data collection from websites
+- **Recommendation:** Evaluate overlap with existing skills
+
+**3. data-automation-service (MEDIUM PRIORITY)**
+- **Owner:** Unknown
+- **Rating:** 3.283
+- **What it does:**
+  - Data processing and ETL workflows
+  - Transform and load data pipelines
+
+**Impact on Current Work:**
+- We have etl-pipelines skill - may duplicate
+- Could complement with: Additional connectors, templates
+- **Use case:** Client data migration projects
+- **Recommendation:** Check against etl-pipelines skill first
+
+**4. x-post-automation (LOW PRIORITY)**
+- **Owner:** Unknown
+- **Rating:** 3.473
+- **What it does:**
+  - X(Twitter) post automation
+
+**Impact on Current Work:**
+- Marketing automation
+- **Use case:** Automated social posting
+- **Recommendation:** Low priority - not core to mission
+
+**5. windows-ui-automation (LOW PRIORITY)**
+- **Owner:** Unknown
+- **Rating:** 3.465
+- **What it does:**
+  - Windows UI automation
+
+**Impact on Current Work:**
+- Desktop automation
+- **Use case:** Legacy system integration
+- **Recommendation:** Low priority - macOS environment
+
+### 💡 Integration Opportunities
+
+**Demo Builder Acceleration:**
+```
+automation-workflows + ai-web-automation → Faster client demos
+```
+
+### ⚠️ Dependencies to Check
+
+**automation-workflows:**
+- Template library quality?
+- Customization flexibility?
+
+**ai-web-automation:**
+- Browser control method (Playwright/Selenium)?
+- Anti-bot handling?
+
+**data-automation-service:**
+- Connector ecosystem?
+- Performance on large datasets?
 
 ---
