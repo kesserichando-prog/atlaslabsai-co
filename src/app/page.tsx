@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950">
       {/* Scroll Progress Bar */}
-      <div data-scroll-progress className="fixed top-0 left-0 h-1 bg-gradient-to-r from-orange-500 to-amber-500 z-50 transition-all duration-100 ease-out" style={{ width: "0%" }} />
+      <div data-scroll-progress className="fixed top-0 left-0 h-1 bg-gradient-to-r from-orange-500 to-amber-500 z-[51] transition-all duration-100 ease-out" style={{ width: "0%" }} />
 
       {/* Navigation */}
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
