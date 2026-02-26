@@ -4,6 +4,7 @@ import { CaseStudies } from "./CaseStudies";
 import { Results } from "./Results";
 import { ScrollProgressBar } from "@/components/ScrollProgressBar";
 import { Navigation } from "@/components/Navigation";
+import "@/lib/patterns.js"; // Fallback for browsers without animation-timeline support
 
 export default function Home() {
   return (
