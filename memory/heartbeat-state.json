@@ -1,13 +1,13 @@
 {
   "lastChecks": {
-    "pipeline": 1740562320,
+    "pipeline": 1740564420,
     "scout": 1740556200,
     "skills": 1740474000,
     "pipeline_check": 1740557260,
     "demos": 1740557260,
     "demo_build": 1740530800,
-    "git": 1740562320,
-    "memory": 1740562320
+    "git": 1740564420,
+    "memory": 1740564420
   },
   "lastAlert": {
     "type": "catalyst_integration_gap",
@@ -20,8 +20,8 @@
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 16,
-    "tasksCompleted": 24,
+    "heartbeatsToday": 17,
+    "tasksCompleted": 25,
     "alertCount": 1,
     "scoutRuns": 10,
     "prospectsFound": 20,
@@ -208,5 +208,11 @@
     "trustScore": 88,
     "file": "/Users/atlas/.openclaw/workspace/demos/phoenix-family-medical-demo.md",
     "status": "completed"
+  },
+  "gitActivity": {
+    "lastCommit": "2026-02-26T14:03:00Z",
+    "committedFiles": 3,
+    "uncommittedFiles": 68,
+    "status": "committed"
   }
 }
