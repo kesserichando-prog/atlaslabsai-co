@@ -1,13 +1,13 @@
 {
   "lastChecks": {
-    "pipeline": 1740617400,
+    "pipeline": 1740626400,
     "scout": 1740576600,
     "skills": 1740474000,
     "pipeline_check": 1740557260,
     "demos": 1740604800,
     "demo_build": 1740604800,
-    "git": 1740617400,
-    "memory": 1740617400,
+    "git": 1740626400,
+    "memory": 1740626400,
     "morningBrief": 1740564800,
     "cronStatus": 1740604800,
     "database": 1740617400
@@ -16,14 +16,14 @@
     "type": "database_empty",
     "timestamp": 1740604800,
     "resolved": false,
-    "details": "Mission Control database files are 0 bytes (completely empty). Schema exists with 21 tables, but no data migration/seeding. Cannot track leads, demos, opportunities. Scout artifacts exist but cannot sync. Twin has zero pipeline visibility. Afternoon progress built 2 new demos (Paradise Valley Dental, Valley Heart Specialists) but cannot sync to database."
+    "details": "Mission Control database reset and verified (21 tables, 0 leads). Schema properly deployed via prisma db push. Scout artifacts exist in workspace but cannot sync to database without ingest script. Twin has zero pipeline visibility. Afternoon progress built 2 new demos (Paradise Valley Dental, Valley Heart Specialists) but cannot sync to database."
   },
   "quietMode": {
     "active": false,
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 39,
+    "heartbeatsToday": 40,
     "tasksCompleted": 35,
     "alertCount": 1,
     "scoutRuns": 11,
