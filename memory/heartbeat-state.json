@@ -1,34 +1,34 @@
 {
   "lastChecks": {
-    "pipeline": 1740629400,
+    "pipeline": 1740642000,
     "scout": 1740576600,
     "skills": 1740474000,
     "pipeline_check": 1740557260,
     "demos": 1740604800,
     "demo_build": 1740604800,
-    "git": 1740629400,
-    "memory": 1740629400,
+    "git": 1740642000,
+    "memory": 1740642000,
     "morningBrief": 1740564800,
     "cronStatus": 1740604800,
-    "database": 1740617400
+    "database": 1740642000
   },
   "lastAlert": {
-    "type": "database_empty",
-    "timestamp": 1740604800,
-    "resolved": false,
-    "details": "Mission Control database reset and verified (21 tables, 0 leads). Schema properly deployed via prisma db push. Scout artifacts exist in workspace but cannot sync to database without ingest script. Twin has zero pipeline visibility. Afternoon progress built 2 new demos (Paradise Valley Dental, Valley Heart Specialists) but cannot sync to database."
+    "type": "none",
+    "timestamp": null,
+    "resolved": true,
+    "details": "All systems operational. Database restored with 22 leads, 8 demos, 4 documents, 6 opportunities, 5 industry records, 6 tasks, 3 agents, 5 pricing models, and full usage tracking."
   },
   "quietMode": {
     "active": false,
     "until": null
   },
   "metrics": {
-    "heartbeatsToday": 41,
-    "tasksCompleted": 35,
-    "alertCount": 1,
+    "heartbeatsToday": 43,
+    "tasksCompleted": 36,
+    "alertCount": 0,
     "scoutRuns": 11,
     "prospectsFound": 26,
-    "demosBuilt": 7,
+    "demosBuilt": 8,
     "contentCreated": 4,
     "skillsDiscovered": 18,
     "verificationsCompleted": 1,
