@@ -11,15 +11,15 @@ interface DemoPageProps {
 export default async function DemoPage({ params }: DemoPageProps) {
   const { slug } = await params;
 
-  // Path to Mission Control demos folder
-  const missionControlDemosDir = '/Users/atlas/.openclaw/workspace-main/demos';
+  // Path to public demos folder
+  const publicDemosDir = path.join(process.cwd(), 'public', 'demos');
 
   try {
     // Try markdown with demo- prefix (Catalyst format)
     const mdPaths = [
-      path.join(missionControlDemosDir, `demo-${slug}.md`),
-      path.join(missionControlDemosDir, `${slug}.md`),
-      path.join(missionControlDemosDir, `${slug}-demo.md`),
+      path.join(publicDemosDir, `demo-${slug}.md`),
+      path.join(publicDemosDir, `${slug}.md`),
+      path.join(publicDemosDir, `${slug}-demo.md`),
     ];
 
     let mdContent: string | null = null;
@@ -101,7 +101,7 @@ export default async function DemoPage({ params }: DemoPageProps) {
                 <div className="text-center">
                   <p className="text-neutral-400 mb-6">Ready to see this in action?</p>
                   <Link
-                    href="#contact"
+                    href="/#contact"
                     className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500 to-amber-500 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:shadow-orange-500/30 transition-all hover:-translate-y-0.5"
                   >
                     <span>Schedule a Demo</span>
