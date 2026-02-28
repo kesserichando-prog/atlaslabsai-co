@@ -11,28 +11,6 @@ export default function Home() {
     <main className="min-h-screen bg-neutral-950">
       <ScrollProgressBar />
       <Navigation />
-              onClick={() => setMobileMenuOpen(false)}
-              className="block text-base text-neutral-300 hover:text-orange-400 transition-colors"
-            >
-              Case Studies
-            </Link>
-            <Link
-              href="#results"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block text-base text-neutral-300 hover:text-orange-400 transition-colors"
-            >
-              Results
-            </Link>
-            <Link
-              href="#contact"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block text-base bg-gradient-to-r from-orange-500 to-amber-500 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all text-center"
-            >
-              Get Started
-            </Link>
-          </div>
-        </div>
-      </nav>
 
       {/* Hero Section */}
       <section className="reveal-on-scroll relative min-h-screen flex items-center justify-center px-6 pt-20 overflow-hidden">
