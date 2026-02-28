@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trulieve - Demo Flow Map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-primary: #0a0a0a;
+      --bg-secondary: #171717;
+      --bg-card: #1c1c1c;
+      --text-primary: #f5f5f4;
+      --text-secondary: #a3a3a3;
+      --text-muted: #737373;
+      --accent-orange: #f97316;
+      --accent-green: #10b981;
+      --accent-blue: #3b82f6;
+      --accent-purple: #8b5cf6;
+      --border: #262626;
+      --border-hover: #404040;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      padding: 40px 24px;
+      background-image: 
+        radial-gradient(ellipse at 20% 20%, rgba(249, 115, 22, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(139, 92, 246, 0.06) 0%, transparent 50%);
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(249, 115, 22, 0.15);
+      border: 1px solid rgba(249, 115, 22, 0.3);
+      color: var(--accent-orange);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #f5f5f4 0%, #a3a3a3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .trust-score {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: var(--accent-green);
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 8px;
+    }
+
+    .section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s ease;
+    }
+
+    .section:hover {
+      border-color: var(--border-hover);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .section-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+
+    .section-icon.pas { background: rgba(239, 68, 68, 0.15); }
+    .section-icon.progress { background: rgba(16, 185, 129, 0.15); }
+    .section-icon.jobs { background: rgba(59, 130, 246, 0.15); }
+    .section-icon.platinum { background: rgba(249, 115, 22, 0.15); }
+    .section-icon.roi { background: rgba(139, 92, 246, 0.15); }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .card h3 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: var(--text-primary);
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .job-story {
+      background: var(--bg-secondary);
+      border-left: 3px solid var(--accent-blue);
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .job-story:last-child {
+      margin-bottom: 0;
+    }
+
+    .job-story .when {
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-bottom: 6px;
+    }
+
+    .job-story .i-want {
+      color: var(--accent-blue);
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .job-story .so-i-can {
+      color: var(--accent-green);
+      font-weight: 500;
+    }
+
+    .platinum-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .platinum-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 16px;
+      background: var(--bg-secondary);
+      border-radius: 10px;
+    }
+
+    .step-number {
+      width: 32px;
+      height: 32px;
+      background: var(--accent-orange);
+      color: #000;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .step-content h4 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .step-content p {
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 32px;
+      background: linear-gradient(135deg, rgba(249, 115, 22, 0.15) 0%, rgba(139, 92, 246, 0.15) 100%);
+      border: 1px solid rgba(249, 115, 22, 0.3);
+      border-radius: 16px;
+      margin-top: 32px;
+    }
+
+    .cta h3 {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .cta p {
+      color: var(--text-secondary);
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent-orange);
+      color: #000;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 14px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(249, 115, 22, 0.3);
+    }
+
+    .roi-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .roi-table th,
+    .roi-table td {
+      padding: 14px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .roi-table th {
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .roi-table td {
+      font-size: 15px;
+    }
+
+    .roi-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .roi-current {
+      color: #ef4444;
+    }
+
+    .roi-projected {
+      color: var(--accent-green);
+    }
+
+    .arrow {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 24px 16px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .section {
+        padding: 20px;
+      }
+
+      .roi-table {
+        font-size: 14px;
+      }
+    }
+  
+@keyframes atlaspulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.6;transform:scale(.85)}}
+</style>
+</head>
+<body>
+<nav style="position:sticky;top:0;z-index:100;background:rgba(10,10,10,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid #262626;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <a href="https://atlaslabsai.co" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+    <div style="position:relative;">
+      <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;box-shadow:0 0 16px rgba(249,115,22,0.35);">
+        <img src="https://atlaslabsai.co/images/logo-atlas-512.png" style="width:100%;height:100%;display:block;" alt="AtlasLabs AI" />
+      </div>
+      <div style="position:absolute;top:-2px;right:-2px;width:10px;height:10px;background:#10b981;border-radius:50%;border:2px solid #0a0a0a;animation:atlaspulse 2s infinite;"></div>
+    </div>
+    <div style="line-height:1.2;">
+      <span style="font-weight:700;color:#f5f5f4;font-size:15px;">Atlas</span><span style="font-weight:700;color:#f97316;font-size:15px;">Labs</span><span style="color:#737373;font-size:13px;margin-left:3px;">AI</span>
+    </div>
+  </a>
+  <span style="font-size:12px;color:#525252;letter-spacing:0.02em;">Personalized Automation Demo</span>
+</nav>
+
+  <div class="container">
+    <header>
+      <div class="badge">🔥 Demo Flow Map</div>
+      <h1>Trulieve</h1>
+      <p class="subtitle">Cannabis Dispensary Automation Demo</p>
+      <div class="trust-score">
+        <span>✓</span>
+        <span>Trust Score: 95</span>
+        <span>•</span>
+        <span>$5K-8K/mo</span>
+      </div>
+    </header>
+
+    <!-- PAS Framework -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon pas">⚡</div>
+        <h2>PAS Framework</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>Problem</h3>
+          <p>Multi-state cannabis operations require real-time inventory sync, automated compliance tracking, and unified customer data—currently managed through 15+ hours/week of manual reconciliation.</p>
+        </div>
+        <div class="card">
+          <h3>Agitation</h3>
+          <p>Without automation: compliance violations risk license shutdowns, stockouts cause customer churn, and data fragmentation prevents leveraging customer lifetime value across states.</p>
+        </div>
+        <div class="card">
+          <h3>Solution</h3>
+          <p>Automated platform syncing inventory in real-time, automating Metrc/BioTrack compliance, unifying customer profiles, and programmatic pricing/deal management.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Endowed Progress -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon progress">✓</div>
+        <h2>Endowed Progress (Phase 0)</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>Completed ✓</h3>
+          <p>Trust Score verified at 95, pain points identified, deal size confirmed at $5K-8K/mo, multi-state expansion validated.</p>
+        </div>
+        <div class="card">
+          <h3>Ready to Demo</h3>
+          <p>This prospect has been pre-qualified. Focus the demo on solution depth and implementation timeline, not qualification.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Job Stories -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon jobs">📋</div>
+        <h2>Job Stories</h2>
+      </div>
+      <div class="job-story">
+        <div class="when">WHEN inventory managers need to track products across multiple states</div>
+        <div class="i-want">I WANT real-time synchronized inventory with automated reorder alerts</div>
+        <div class="so-i-can">SO I CAN prevent stockouts and reduce shrinkage from discrepancies</div>
+      </div>
+      <div class="job-story">
+        <div class="when">WHEN compliance officers need to submit state-mandated reports</div>
+        <div class="i-want">I WANT automated regulatory tracking with pre-built report templates</div>
+        <div class="so-i-can">SO I CAN avoid compliance violations and license risk</div>
+      </div>
+      <div class="job-story">
+        <div class="when">WHEN marketing teams need unified customer profiles</div>
+        <div class="i-want">I WANT a single customer view across all locations</div>
+        <div class="so-i-can">SO I CAN personalize outreach and maximize lifetime value</div>
+      </div>
+      <div class="job-story">
+        <div class="when">WHEN operations teams need to manage bulk pricing and promotions</div>
+        <div class="i-want">I WANT automated pricing rules and deal calendars</div>
+        <div class="so-i-can">SO I CAN quickly respond to market conditions without manual updates</div>
+      </div>
+    </section>
+
+    <!-- Platinum Minute -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon platinum">⏱️</div>
+        <h2>Platinum Minute (45 seconds)</h2>
+      </div>
+      <div class="platinum-steps">
+        <div class="platinum-step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h4>Dashboard Overview</h4>
+            <p>All 12 locations on one screen, real-time inventory counts</p>
+          </div>
+        </div>
+        <div class="platinum-step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h4>Compliance Status</h4>
+            <p>Green checkmarks for all state reports due this week</p>
+          </div>
+        </div>
+        <div class="platinum-step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h4>Customer Spotlight</h4>
+            <p>Unified profile showing purchase history across FL, CA, AZ</p>
+          </div>
+        </div>
+        <div class="platinum-step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h4>Action Alert</h4>
+            <p>"3 locations need reorder" — one-click fulfillment</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROI -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon roi">💰</div>
+        <h2>ROI Projection</h2>
+      </div>
+      <table class="roi-table">
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Current</th>
+            <th>Projected</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Inventory reconcile time</td>
+            <td class="roi-current">15 hrs/week</td>
+            <td class="roi-projected">2 hrs/week</td>
+          </tr>
+          <tr>
+            <td>Compliance errors</td>
+            <td class="roi-current">3/month</td>
+            <td class="roi-projected">0/month</td>
+          </tr>
+          <tr>
+            <td>Customer data visibility</td>
+            <td class="roi-current">Per-location</td>
+            <td class="roi-projected">Unified</td>
+          </tr>
+          <tr>
+            <td>Pricing update speed</td>
+            <td class="roi-current">2-3 days</td>
+            <td class="roi-projected">Real-time</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top: 16px; color: var(--accent-purple); font-weight: 600;">Payback Period: 6-8 weeks</p>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta">
+      <h3>Ready to Transform Operations?</h3>
+      <p>See how Trulieve can reduce operational overhead by 80% in 30 days.</p>
+      <a href="https://cal.com/atlaslabsai/30min?slug=trulieve&utm_source=demo&utm_medium=personalized" class="cta-button">
+        <span>📅</span>
+        Book Your Demo
+      </a>
+    </div>
+  </div>
+</body>
+</html>
