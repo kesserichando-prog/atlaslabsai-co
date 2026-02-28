@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elliott 247: Your Journey to Automated Growth</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+
+        .roi-banner {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .flow-container {
+            padding: 40px;
+        }
+
+        .flow-title {
+            text-align: center;
+            font-size: 2em;
+            color: #667eea;
+            margin-bottom: 40px;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .step-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .step-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .step-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            border-color: #667eea;
+        }
+
+        .step-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .step-card.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: scale(1.02);
+            border-color: #f5576c;
+        }
+
+        .step-card.active::before {
+            transform: scaleX(1);
+            background: #f5576c;
+        }
+
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        .step-card.active .step-number {
+            background: white;
+            color: #667eea;
+        }
+
+        .step-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .step-description {
+            font-size: 0.95em;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .step-duration {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 2px solid rgba(0,0,0,0.1);
+            font-size: 0.9em;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        .step-card.active .step-duration {
+            border-top-color: rgba(255,255,255,0.3);
+        }
+
+        .roi-milestone {
+            display: inline-block;
+            background: #f5576c;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-top: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .detail-panel {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 30px;
+            border-left: 5px solid #667eea;
+            display: none;
+        }
+
+        .detail-panel.active {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .detail-title {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .detail-content {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .progress-bar {
+            background: #e0e0e0;
+            height: 10px;
+            border-radius: 5px;
+            margin: 30px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            height: 100%;
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+
+        .phase-indicator {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.1em;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #f5576c;
+            padding: 18px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background: #f8f9fa;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 1em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Elliott 247: Your Journey to Automated Growth</h1>
+            <p>Turn Your Shopify Store Into A Revenue-Generating Machine</p>
+        </div>
+
+        <div class="roi-banner">
+            💰 Payback Period: Just 13 Days | Monthly Net Gain: +$10,253
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">13</div>
+                <div class="stat-label">Steps to Full Automation</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">$11K+</div>
+                <div class="stat-label">Monthly Revenue Gain</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">70%</div>
+                <div class="stat-label">Cart Recovery Rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3x</div>
+                <div class="stat-label">Customer Lifetime Value</div>
+            </div>
+        </div>
+
+        <div class="flow-container">
+            <h2 class="flow-title">🗺️ Your 13-Step Journey</h2>
+            
+            <div class="phase-indicator">Click any step to learn more</div>
+            
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card" data-step="1">
+                    <div class="step-number">1</div>
+                    <div class="step-title">Initial Discovery & Mapping</div>
+                    <div class="step-description">We analyze your current inventory tracking, cart abandonment patterns, email flows, and ad spend to create a baseline roadmap.</div>
+                    <div class="step-duration">⏱️ 2-3 days</div>
+                </div>
+
+                <div class="step-card" data-step="2">
+                    <div class="step-number">2</div>
+                    <div class="step-title">Integration Setup</div>
+                    <div class="step-description">Connect Shopify to our automation platform, configure webhook triggers for cart events, and establish secure data pipelines.</div>
+                    <div class="step-duration">⏱️ 2 days</div>
+                </div>
+
+                <div class="step-card" data-step="3">
+                    <div class="step-number">3</div>
+                    <div class="step-title">Inventory Automation Build</div>
+                    <div class="step-description">Create real-time inventory sync across all collections with low-stock alerts and automated restocking triggers for seamless operations.</div>
+                    <div class="step-duration">⏱️ 3-4 days</div>
+                </div>
+
+                <div class="step-card" data-step="4">
+                    <div class="step-number">4</div>
+                    <div class="step-title">Abandoned Cart Recovery Engine</div>
+                    <div class="step-description">Build intelligent cart recovery sequences with personalized timing, dynamic product recommendations, and urgency incentives.</div>
+                    <div class="step-duration">⏱️ 3-4 days</div>
+                </div>
+
+                <div class="step-card" data-step="5">
+                    <div class="step-number">5</div>
+                    <div class="step-title">Post-Purchase Flow Architecture</div>
+                    <div class="step-description">Design nurture sequences that activate after delivery: review requests, styling tips, cross-sell opportunities, and loyalty invitations.</div>
+                    <div class="step-duration">⏱️ 3-4 days</div>
+                </div>
+
+                <div class="step-card" data-step="6">
+                    <div class="step-number">6</div>
+                    <div class="step-title">ROAS Tracking Implementation</div>
+                    <div class="step-description">Configure pixel-level ad performance tracking per product line, set up automated reports, and create optimization alerts for data-driven decisions.</div>
+                    <div class="step-duration">⏱️ 2-3 days</div>
+                </div>
+
+                <div class="step-card" data-step="7">
+                    <div class="step-number">7</div>
+                    <div class="step-title">Testing & Validation</div>
+                    <div class="step-description">Run sandbox tests of all automation flows, validate data accuracy, and measure baseline performance metrics before go-live.</div>
+                    <div class="step-duration">⏱️ 2-3 days</div>
+                </div>
+
+                <div class="step-card" data-step="8">
+                    <div class="step-number">8</div>
+                    <div class="step-title">Go-Live & Monitor</div>
+                    <div class="step-description">Activate live automation with real-time monitoring, capture initial results, and fine-tune timing and messaging for optimal performance.</div>
+                    <div class="step-duration">⏱️ 1-2 days</div>
+                    <div class="roi-milestone">🎯 ROI Positive</div>
+                </div>
+
+                <div class="step-card" data-step="9">
+                    <div class="step-number">9</div>
+                    <div class="step-title">Performance Optimization</div>
+                    <div class="step-description">Analyze first-week metrics, optimize email open/click rates, adjust recovery sequences, and refine ad spend allocation continuously.</div>
+                    <div class="step-duration">⏱️ Ongoing, first 2 weeks</div>
+                </div>
+
+                <div class="step-card" data-step="10">
+                    <div class="step-number">10</div>
+                    <div class="step-title">Scale Phase One</div>
+                    <div class="step-description">Double down on winning flows, expand automation to seasonal campaigns, and integrate SMS for high-value customer segments.</div>
+                    <div class="step-duration">⏱️ 2-3 weeks</div>
+                </div>
+
+                <div class="step-card" data-step="11">
+                    <div class="step-number">11</div>
+                    <div class="step-title">Repeat Purchase Engine</div>
+                    <div class="step-description">Build automated win-back sequences, loyalty program triggers, and personalized recommendations based on purchase history patterns.</div>
+                    <div class="step-duration">⏱️ 2-3 weeks</div>
+                </div>
+
+                <div class="step-card" data-step="12">
+                    <div class="step-number">12</div>
+                    <div class="step-title">Predictive Analytics</div>
+                    <div class="step-description">Implement inventory demand forecasting, churn prediction models, and customer lifetime value projections for strategic growth planning.</div>
+                    <div class="step-duration">⏱️ 3-4 weeks</div>
+                </div>
+
+                <div class="step-card" data-step="13">
+                    <div class="step-number">13</div>
+                    <div class="step-title">Continuous Growth</div>
+                    <div class="step-description">Quarterly optimization reviews, new feature integration, and scaling to additional sales channels as your business grows and evolves.</div>
+                    <div class="step-duration">⏱️ Ongoing</div>
+                </div>
+            </div>
+
+            <div class="detail-panel" id="detailPanel">
+                <h3 class="detail-title" id="detailTitle"></h3>
+                <div class="detail-content" id="detailContent"></div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>🎯 Ready to Turn Your Shopify Store Into an Automated Revenue Engine?</h2>
+            <p style="margin: 20px 0; font-size: 1.1em;">Book your personalized 30-minute strategy session today</p>
+            <a href="https://cal.com/atlaslabsai/30min?slug=elliott-247&utm_source=demo" class="cta-button">Book Your Strategy Session →</a>
+        </div>
+    </div>
+
+    <script>
+        const stepDetails = {
+            1: {
+                title: "Step 1: Initial Discovery & Mapping",
+                content: "We begin with a deep dive into your current operations. Our team analyzes your inventory tracking processes, cart abandonment patterns, existing email flows, and ad spend allocation. This comprehensive audit helps us understand your unique business needs, identify quick wins, and create a customized implementation roadmap. We'll document current pain points, establish baseline metrics, and set clear KPIs for measuring success throughout the journey."
+            },
+            2: {
+                title: "Step 2: Integration Setup",
+                content: "We connect your Shopify store to our automation platform through secure API integrations. This includes configuring webhook triggers for all cart events (add to cart, checkout started, abandoned), setting up data pipelines for real-time inventory synchronization, and establishing authentication protocols for data security. We'll map your product catalog, customer data, and order history to ensure seamless data flow between systems."
+            },
+            3: {
+                title: "Step 3: Inventory Automation Build",
+                content: "We build a real-time inventory management system that syncs across all your product collections. This includes automated low-stock alerts sent to your team, smart restocking triggers based on sales velocity, and inventory forecasting to prevent stockouts. You'll get a centralized dashboard showing stock levels across all channels, automated reorder recommendations, and insights into which products are moving fastest."
+            },
+            4: {
+                title: "Step 4: Abandoned Cart Recovery Engine",
+                content: "We create intelligent, multi-touch cart recovery sequences. These include personalized email timing based on customer behavior, dynamic product recommendations complementing abandoned items, urgency incentives (limited-time discounts, free shipping), and automated A/B testing to optimize conversion rates. Typical sequences include 3-5 touchpoints over 7-14 days, with each message tailored to the specific products left behind."
+            },
+            5: {
+                title: "Step 5: Post-Purchase Flow Architecture",
+                content: "We design automated nurture sequences that activate after delivery. Key touchpoints include: order confirmation with tracking, delivery confirmation, product review request (7-10 days post-delivery), styling tips and care instructions, cross-sell recommendations for complementary items, loyalty program invitation, and personalized re-engagement messages. These flows build customer relationships and drive repeat purchases."
+            },
+            6: {
+                title: "Step 6: ROAS Tracking Implementation",
+                content: "We configure pixel-level ad performance tracking for each product line. This includes setting up Facebook Ads, Google Ads, and other platform integrations, creating automated dashboards showing ROAS by product, campaign, and channel, and building optimization alerts that flag underperforming ads. You'll get weekly reports highlighting top performers and actionable insights for improving ad spend efficiency."
+            },
+            7: {
+                title: "Step 7: Testing & Validation",
+                content: "Before going live, we run comprehensive tests on all automation flows. This includes sandbox testing of cart recovery sequences, validating inventory sync accuracy, testing email deliverability and formatting, verifying ROAS tracking data, and measuring baseline performance metrics. We'll do a soft launch with a small customer segment to catch any issues before full rollout."
+            },
+            8: {
+                title: "Step 8: Go-Live & Monitor (🎯 ROI Positive)",
+                content: "We activate all automation systems and monitor them in real-time. This includes live tracking of cart recovery rates, inventory sync accuracy, email open/click rates, and ad performance metrics. We'll fine-tune timing, messaging, and segmentation based on initial results. Most clients see positive ROI within the first week of go-live, with recovered cart revenue exceeding the setup cost within 13 days."
+            },
+            9: {
+                title: "Step 9: Performance Optimization",
+                content: "We continuously optimize your automation flows based on performance data. This includes A/B testing email subject lines, timing, and content; adjusting cart recovery sequences for higher conversion; refining ad spend allocation toward top-performing products; and personalizing recommendations based on customer behavior. We'll provide weekly insights and monthly deep-dive reports on what's working and opportunities for improvement."
+            },
+            10: {
+                title: "Step 10: Scale Phase One",
+                content: "We expand automation to drive additional growth. This includes scaling successful cart recovery flows to seasonal campaigns, integrating SMS messaging for high-value customer segments, building automated product launch sequences, and creating personalized discount offers based on purchase history. We'll also optimize your email capture strategy to grow your subscriber list organically."
+            },
+            11: {
+                title: "Step 11: Repeat Purchase Engine",
+                content: "We build sophisticated systems to drive customer loyalty. This includes automated win-back sequences for dormant customers, loyalty program integration with automated point balances and rewards, personalized product recommendations based on purchase history, birthday/anniversary automated offers, and tiered VIP programs for your most valuable customers. These flows typically increase repeat purchase rates by 30%+."
+            },
+            12: {
+                title: "Step 12: Predictive Analytics",
+                content: "We implement advanced analytics to anticipate future needs. This includes inventory demand forecasting based on seasonal trends and historical data, churn prediction models identifying at-risk customers, customer lifetime value projections for segmentation, and predictive product recommendations. These insights help you make data-driven decisions about inventory, marketing spend, and customer engagement strategies."
+            },
+            13: {
+                title: "Step 13: Continuous Growth",
+                content: "We provide ongoing optimization and support to ensure sustained growth. This includes quarterly performance reviews and strategy sessions, integration of new automation features as they become available, scaling to additional sales channels (marketplaces, social commerce), and continuous A/B testing to improve conversion rates. You'll have a dedicated success manager to help you maximize the value of your automation investment."
+            }
+        };
+
+        const stepCards = document.querySelectorAll('.step-card');
+        const detailPanel = document.getElementById('detailPanel');
+        const detailTitle = document.getElementById('detailTitle');
+        const detailContent = document.getElementById('detailContent');
+        const progressFill = document.getElementById('progressFill');
+
+        let activeStep = null;
+
+        stepCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const step = card.dataset.step;
+                
+                // Remove active class from all cards
+                stepCards.forEach(c => c.classList.remove('active'));
+                
+                // Add active class to clicked card
+                card.classList.add('active');
+                
+                // Update detail panel
+                const details = stepDetails[step];
+                detailTitle.textContent = details.title;
+                detailContent.textContent = details.content;
+                detailPanel.classList.add('active');
+                
+                // Update progress bar
+                const progress = (step / 13) * 100;
+                progressFill.style.width = progress + '%';
+                
+                // Scroll to detail panel
+                detailPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                
+                activeStep = step;
+            });
+        });
+
+        // Auto-activate first step on load
+        document.querySelector('.step-card[data-step="1"]').click();
+    </script>
+</body>
+</html>
