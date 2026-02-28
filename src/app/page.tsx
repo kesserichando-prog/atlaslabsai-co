@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { CaseStudies } from "./CaseStudies";
 import { Results } from "./Results";
 import { ScrollProgressBar } from "@/components/ScrollProgressBar";
