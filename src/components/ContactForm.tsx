@@ -1,36 +1,101 @@
 /**
  * Contact Form Component
- * Uses useForm custom hook for proper state management
- * Following react-patterns skill
+ * Asks whether the visitor is a client or team member first,
+ * then routes accordingly.
  */
 
 'use client';
 
+import { useState } from 'react';
 import { useForm } from '@/hooks';
 
+const LEADFORGE_URL = 'https://app.atlaslabsai.co';
+
+type Role = 'client' | 'team' | null;
+
 function ContactForm() {
-  const { values, handleChange, handleSubmit, isSubmitting, error } = useForm(
-    {
-      name: '',
-      email: '',
-      message: '',
-    },
+  const [role, setRole] = useState<Role>(null);
+
+  const { values, handleChange, handleSubmit, isSubmitting, error, isSuccess } = useForm(
+    { name: '', email: '', message: '' },
     async (formData) => {
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       });
-
       const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to submit');
-      }
-
+      if (!response.ok) throw new Error(data.error || 'Failed to submit');
       return data;
     }
   );
+
+  // Step 1: Role selector
+  if (role === null) {
+    return (
+      <div className="space-y-6">
+        <p className="text-center text-neutral-300 font-medium">Who are you?</p>
+        <div className="grid grid-cols-2 gap-4">
+          <button
+            onClick={() => setRole('client')}
+            className="group flex flex-col items-center gap-3 p-6 bg-neutral-800/50 hover:bg-orange-500/10 border border-neutral-700 hover:border-orange-500/50 rounded-2xl transition-all duration-200"
+          >
+            <span className="text-4xl">🏢</span>
+            <div className="text-center">
+              <p className="font-semibold text-neutral-100">I'm a Client</p>
+              <p className="text-xs text-neutral-500 mt-1">Looking to automate my business</p>
+            </div>
+          </button>
+          <button
+            onClick={() => setRole('team')}
+            className="group flex flex-col items-center gap-3 p-6 bg-neutral-800/50 hover:bg-orange-500/10 border border-neutral-700 hover:border-orange-500/50 rounded-2xl transition-all duration-200"
+          >
+            <span className="text-4xl">🧭</span>
+            <div className="text-center">
+              <p className="font-semibold text-neutral-100">I'm a Sales Rep</p>
+              <p className="text-xs text-neutral-500 mt-1">Atlas Labs AI team member</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Step 2a: Team member → redirect to LeadForge
+  if (role === 'team') {
+    return (
+      <div className="text-center space-y-6 py-4">
+        <div className="text-5xl">🧭</div>
+        <div>
+          <h3 className="text-xl font-bold text-neutral-100 mb-2">Welcome back, rep.</h3>
+          <p className="text-neutral-400 text-sm">Head to LeadForge to access your pipeline, leads, and contracts.</p>
+        </div>
+        <a
+          href={LEADFORGE_URL}
+          className="inline-block w-full bg-gradient-to-r from-orange-500 to-amber-500 text-white py-4 rounded-xl font-semibold text-lg hover:shadow-2xl hover:shadow-orange-500/30 transition-all duration-200 hover:-translate-y-0.5"
+        >
+          Go to LeadForge →
+        </a>
+        <button
+          onClick={() => setRole(null)}
+          className="text-sm text-neutral-600 hover:text-neutral-400 transition-colors"
+        >
+          ← Go back
+        </button>
+      </div>
+    );
+  }
+
+  // Step 2b: Client → contact form
+  if (isSuccess) {
+    return (
+      <div className="text-center py-8 space-y-4">
+        <div className="text-5xl">🎉</div>
+        <h3 className="text-xl font-bold text-neutral-100">We'll be in touch!</h3>
+        <p className="text-neutral-400">Atlas will analyze your processes and reach out within 24 hours.</p>
+      </div>
+    );
+  }
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
@@ -41,12 +106,8 @@ function ContactForm() {
         </div>
       )}
 
-      {/* Success message is handled by parent component via useForm's reset */}
-
       <div>
-        <label htmlFor="name" className="block text-sm font-medium text-neutral-300 mb-2">
-          Your Name
-        </label>
+        <label htmlFor="name" className="block text-sm font-medium text-neutral-300 mb-2">Your Name</label>
         <input
           id="name"
           type="text"
@@ -60,9 +121,7 @@ function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="email" className="block text-sm font-medium text-neutral-300 mb-2">
-          Email Address
-        </label>
+        <label htmlFor="email" className="block text-sm font-medium text-neutral-300 mb-2">Email Address</label>
         <input
           id="email"
           type="email"
@@ -76,9 +135,7 @@ function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-neutral-300 mb-2">
-          What's slowing you down?
-        </label>
+        <label htmlFor="message" className="block text-sm font-medium text-neutral-300 mb-2">What's slowing you down?</label>
         <textarea
           id="message"
           value={values.message}
@@ -93,9 +150,17 @@ function ContactForm() {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-gradient-to-r from-orange-500 to-amber-500 text-white py-4 rounded-xl font-semibold text-lg hover:shadow-2xl hover:shadow-orange-500/30 transition-all duration-200 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:shadow-none"
+        className="w-full bg-gradient-to-r from-orange-500 to-amber-500 text-white py-4 rounded-xl font-semibold text-lg hover:shadow-2xl hover:shadow-orange-500/30 transition-all duration-200 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {isSubmitting ? 'Sending...' : 'Find My Automation Gaps'}
+      </button>
+
+      <button
+        type="button"
+        onClick={() => setRole(null)}
+        className="w-full text-sm text-neutral-600 hover:text-neutral-400 transition-colors"
+      >
+        ← Go back
       </button>
     </form>
   );
