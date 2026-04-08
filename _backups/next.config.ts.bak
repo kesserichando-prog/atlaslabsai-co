@@ -5,17 +5,17 @@ const nextConfig = {
     return [
       {
         source: '/leadforge',
-        destination: 'https://app.atlaslabsai.co',
+        destination: 'https://leadforge-kappa.vercel.app',
         permanent: false,
       },
       {
         source: '/leadforge/:path*',
-        destination: 'https://app.atlaslabsai.co/:path*',
+        destination: 'https://leadforge-kappa.vercel.app/:path*',
         permanent: false,
       },
       {
         source: '/login',
-        destination: 'https://app.atlaslabsai.co/login',
+        destination: 'https://leadforge-kappa.vercel.app/login',
         permanent: false,
       },
     ];

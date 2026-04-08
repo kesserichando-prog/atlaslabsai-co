@@ -9,7 +9,7 @@
 import { useState } from 'react';
 import { useForm } from '@/hooks';
 
-const LEADFORGE_URL = 'https://app.atlaslabsai.co';
+const LEADFORGE_URL = 'https://leadforge-kappa.vercel.app';
 
 type Role = 'client' | 'team' | null;
 

@@ -15,11 +15,14 @@ export function Navigation() {
   const { isOpen: mobileMenuOpen, toggle: toggleMobileMenu, close: closeMobileMenu } = useMobileMenu();
 
   const navLinks = [
-    { href: '#services', label: 'Services' },
-    { href: '#case-studies', label: 'Case Studies' },
-    { href: '#results', label: 'Results' },
-    { href: '#contact', label: 'Get Started', isCTA: true },
+    { href: '/#services', label: 'Services' },
+    { href: '/#case-studies', label: 'Case Studies' },
+    { href: '/#results', label: 'Results' },
+    { href: '/products', label: 'Products' },
+    { href: '/#contact', label: 'Get Started', isCTA: true },
   ];
+
+  const CLIENT_PORTAL_URL = '/login';
 
   return (
     <nav
@@ -63,6 +66,12 @@ export function Navigation() {
               </Link>
             )
           )}
+          <a
+            href={CLIENT_PORTAL_URL}
+            className="text-sm font-semibold text-white bg-orange-500 hover:bg-orange-400 px-5 py-2.5 rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-orange-500/30 hover:-translate-y-0.5"
+          >
+            Login
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -110,6 +119,13 @@ export function Navigation() {
               {link.label}
             </Link>
           ))}
+          <a
+            href={CLIENT_PORTAL_URL}
+            onClick={closeMobileMenu}
+            className="block text-base font-semibold text-white bg-orange-500 hover:bg-orange-400 px-4 py-3 rounded-xl text-center transition-colors duration-200"
+          >
+            Login
+          </a>
         </div>
       </div>
     </nav>

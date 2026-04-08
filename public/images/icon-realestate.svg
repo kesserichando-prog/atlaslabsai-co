@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- House outline -->
+  <path d="M14 28 L32 12 L50 28 V50 H14 V28Z" stroke="white" stroke-width="2.5" stroke-linejoin="round" fill="white" fill-opacity="0.1"/>
+  <!-- Door -->
+  <rect x="27" y="34" width="10" height="16" rx="1" fill="white"/>
+  <!-- Window left -->
+  <rect x="18" y="32" width="8" height="8" rx="1" stroke="white" stroke-width="2" fill="white" fill-opacity="0.2"/>
+  <!-- Window right -->
+  <rect x="38" y="32" width="8" height="8" rx="1" stroke="white" stroke-width="2" fill="white" fill-opacity="0.2"/>
+</svg>

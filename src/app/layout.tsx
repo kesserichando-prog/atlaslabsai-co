@@ -8,10 +8,25 @@ const inter = Inter({
   display: "swap",
 });
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: 'cover' as const,
+}
+
 export const metadata: Metadata = {
   title: "AtlasLabs AI | We Build Systems That Scale",
   description: "We build systems that scale. Autonomous AI-powered revenue organization - scouting, solving, proving, publishing, and selling automation solutions 24/7.",
   metadataBase: new URL('https://atlaslabsai.co'),
+  icons: {
+    apple: '/apple-touch-icon.png',
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'black-translucent',
+    title: 'Atlas Labs AI',
+  },
   openGraph: {
     url: 'https://atlaslabsai.co',
     siteName: 'AtlasLabs AI',

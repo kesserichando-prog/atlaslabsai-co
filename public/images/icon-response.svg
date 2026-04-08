@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lightning bolt - universally recognized for speed/response -->
+  <path d="M28 12 L20 28 L32 28 L28 48 L48 26 L34 26 L38 12 L28 12Z" stroke="white" stroke-width="2.5" stroke-linejoin="round" fill="white"/>
+  <!-- Speed lines indicating fast response -->
+  <g stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="14" y1="20" x2="18" y2="20"/>
+    <line x1="10" y1="28" x2="16" y2="28"/>
+    <line x1="12" y1="36" x2="18" y2="36"/>
+  </g>
+</svg>

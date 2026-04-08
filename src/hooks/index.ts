@@ -117,6 +117,7 @@ export function useForm<T extends Record<string, any>>(
   const [values, setValues] = useState<T>(initialValues);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleChange = useCallback((name: keyof T, value: any) => {
     setValues(prev => ({ ...prev, [name]: value }));
@@ -130,6 +131,7 @@ export function useForm<T extends Record<string, any>>(
     try {
       await onSubmit(values);
       setValues(initialValues);
+      setIsSuccess(true);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
     } finally {
@@ -137,5 +139,5 @@ export function useForm<T extends Record<string, any>>(
     }
   }, [values, initialValues, onSubmit]);
 
-  return { values, handleChange, handleSubmit, isSubmitting, error };
+  return { values, handleChange, handleSubmit, isSubmitting, error, isSuccess };
 }
