@@ -47,6 +47,11 @@ https://atlaslabsai.co/demos/demo-{company-name}-flow.html
    - URL: `/demos/demo-elliott-247-flow.html`
    - Trust Score: 82
 
+10. **Stone Bridge Insurance** (life insurance lead funnel, interactive)
+   - URL: `/demos/demo-stone-bridge-insurance-flow.html`
+   - 5 numbered journey steps: Social Ad → Pre-Qualify Quiz → Lead Form → Confirmation → Agent View
+   - Placeholders to replace before launch live in the `CONFIG` block at the top of the script (phone, domain, licensed states, booking/privacy links)
+
 ## For Prospects
 
 Send the direct link to prospects - it's a standalone HTML file with all styling embedded, no Next.js rendering needed.
